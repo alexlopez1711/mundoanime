@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Alexander Lopez">
+    <meta name="description" content="Mundo Anime es una pagina donde conocer lo basico de tus series y personajes favoritos es muy facil al igual que ver sus canciones y jugar para divertirte">
+    <meta name="keywors" content="anime, juegos de anime, videos, trivias,juego de memoria">
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/onePiece.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Mundo Anime</title>
+</head>
+<body>
+    <body class="main-content">
+
+        <div class="navbar">
+            <button class="volver1"><a href="../../../index.html"><img  class="volver" src="../img/hogar2.png" alt=""></a></button>
+            <button class="recargar" onclick="location.reload();"><img class="recargar1" src="../img/reactu.png" alt="Recargar Página"></button>
+            <img src="../img/modalimg/avatares/AvataronePiece/mobil0.gif" class="aniMacion" alt="">
+        </div>
+        
+    
+    
+        <div class="row">
+            <div id="overlay"></div>
+                 <div id="modal">
+                
+                 <div  id="modal-content">
+                  <h1 class="titulo animate__animated animate__backInRight">One Piece</h1>
+                  <h3 class="titulo animate__animated animate__backInRight">Juegos</h3>
+                  <h2 class="titulo animate__animated animate__backInRight">Trivia & Memoria</h2>
+                  
+                    <input type="text"  maxlength="14" placeholder="Elige tu Name" id="name-input" class="animate__animated animate__rotateInUpLeft">
+                    <!-- <input type="file" id="image-input" class="file-select animate__animated animate__rotateInUpRight"> -->
+                    <button id="show-images" class="buttom1 animate__animated animate__rotateInUpRight">Elige Tu Avatar</button>
+                    <!-- <button id="submit-button" class="close-button animate__animated animate__rotateInUpLeft" type="submit">Iniciar</button> -->
+                   
+          
+                 
+                 </div>
+                 <div id="container">
+                    <div class="row">
+                      <img class="hidden img1" src="../img/modalimg/avatares/AvataronePiece/1.png" alt="image3" width="100" height="100">
+                      <img class="hidden img1" src="../img/modalimg/avatares/AvataronePiece/2.webp" alt="image4" width="100" height="100">
+                      <img class="hidden img1" src="../img/modalimg/avatares/AvataronePiece/3.webp" alt="image6" width="100" height="100">
+                    </div>
+                      <div class="row">
+                      <img class="hidden img1" src="../img/modalimg/avatares/AvataronePiece/4.webp" alt="image6" width="100" height="100">
+                      <img class="hidden img1" src="../img/modalimg/avatares/AvataronePiece/5.png" alt="image11" width="100" height="100">
+                      <img class="hidden img1" src="../img/modalimg/avatares/AvataronePiece/6.png" alt="image12" width="100" height="100">
+                    </div>
+                      <div class="row">
+                      <img class="hidden img1" src="../img/modalimg/avatares/AvataronePiece/7.webp" alt="image13" width="100" height="100">
+                      <img class="hidden img1" src="../img/modalimg/avatares/AvataronePiece/8.webp" alt="image14" width="100" height="100">
+                      <img class="hidden img1" src="../img/modalimg/avatares/AvataronePiece/9.webp" alt="image15" width="100" height="100">                  
+                    </div>
+                    <button id="submit-button" class="hidden close-button" type="submit">Iniciar</button>
+                  </div> 
+                  
+              </div>
+              
+              
+              
+    
+    
+            <div id="card">
+                <img id="card-image" src="" width="200px" height="170px">
+                <div id="card-info">
+                  <h1 id="card-name"></h1>
+                </div>
+            </div>
+            <button class="botonElegir" id="botonMemoria" onclick="elegirDificultad()">Memoria</button>
+            <button class="botonElegir">Trivia</button>
+              </div>
+
+        <!-- HTML -->
+
+<div class="MemoriaGames">
+  <div class="dificultad">
+    <button class="dificultadesMemorama">Capitán</button>
+    <button class="dificultadesMemorama">Shichibukai</button>
+    <button class="dificultadesMemorama">Almirante</button>
+    <button class="dificultadesMemorama">Yonko</button>
+    
+  </div>
+  <h1 class="hh1">Memoria</h1>
+  <div class="tablero"></div>
+</div>
+
+              <script src="../../controladores/onePiece.js"></script>
+</body>
+</html>

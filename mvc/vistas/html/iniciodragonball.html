@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Alexander Lopez">
+    <meta name="description" content="Mundo Anime es una pagina donde conocer lo basico de tus series y personajes favoritos es muy facil al igual que ver sus canciones y jugar para divertirte">
+    <meta name="keywors" content="anime, juegos de anime, videos, trivias,juego de memoria">
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/dragonBall.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Mundo Anime</title>
+</head>
+<body class="main-content">
+
+    <div class="navbar">
+        <button class="volver1"><a href="../../../index.html"><img  class="volver" src="../img/casa.png" alt=""></a></button>
+        <button class="recargar" onclick="location.reload();"><img class="recargar1" src="../img/recargar.png" alt="Recargar Página"></button>
+        <img src="../img/modalimg/avatares/Avatargoku/5.png" class="aniMacion" alt="">
+    </div>
+    
+
+
+    <div class="row">
+        <div id="overlay"></div>
+             <div id="modal">
+            
+             <div  id="modal-content">
+              <h1 class="titulo animate__animated animate__backInRight">Dragon Ball</h1>
+              <h2 class="titulo animate__animated animate__backInRight">Trivias & Memoria</h2>
+              
+                <input type="text"  maxlength="14" placeholder="Elige tu Name" id="name-input" class="animate__animated animate__rotateInUpLeft">
+                <!-- <input type="file" id="image-input" class="file-select animate__animated animate__rotateInUpRight"> -->
+                <button id="show-images" class="buttom1 animate__animated animate__rotateInUpRight">Elige Tu Avatar</button>
+                <!-- <button id="submit-button" class="close-button animate__animated animate__rotateInUpLeft" type="submit">Iniciar</button> -->
+               
+      
+             
+             </div>
+             <div id="container">
+                <div class="row">
+                  <img class="hidden img1" src="../img/modalimg/avatares/Avatargoku/1.png" alt="image3" width="100" height="100">
+                  <img class="hidden img1" src="../img/modalimg/avatares/Avatargoku/2.png" alt="image4" width="100" height="100">
+                  <img class="hidden img1" src="../img/modalimg/avatares/Avatargoku/3.png" alt="image6" width="100" height="100">
+                </div>
+                  <div class="row">
+                  <img class="hidden img1" src="../img/modalimg/avatares/Avatargoku/4.png" alt="image6" width="100" height="100">
+                  <img class="hidden img1" src="../img/modalimg/avatares/Avatargoku/5.png" alt="image11" width="100" height="100">
+                  <img class="hidden img1" src="../img/modalimg/avatares/Avatargoku/6.png" alt="image12" width="100" height="100">
+                </div>
+                  <div class="row">
+                  <img class="hidden img1" src="../img/modalimg/avatares/Avatargoku/7.png" alt="image13" width="100" height="100">
+                  <img class="hidden img1" src="../img/modalimg/avatares/Avatargoku/8.png" alt="image14" width="100" height="100">
+                  <img class="hidden img1" src="../img/modalimg/avatares/Avatargoku/9.png" alt="image15" width="100" height="100">                  
+                </div>
+                <button id="submit-button" class="hidden close-button" type="submit">Iniciar</button>
+              </div> 
+              
+          </div>
+          
+          
+          
+
+
+        <div id="card">
+            <img id="card-image" src="" width="200px" height="170px">
+            <div id="card-info">
+              <h1 id="card-name"></h1>
+            </div>
+        </div>
+        
+          
+        </div>
+    
+          <script src="../../controladores/dragonBall.js"></script>
+    </body>
+</html>
+

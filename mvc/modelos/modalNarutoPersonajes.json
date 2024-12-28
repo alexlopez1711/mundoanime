@@ -1,0 +1,906 @@
+{
+  "personajes": [
+    {
+
+      "nombre": "Naruto Uzumaki",
+      "apellido": "うずまきナルト",
+      "imagen": "mvc/vistas/img/modalimg/naruto/1.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Septimo Hokage / Sennin",
+      "Afiliaciones":"Fuerza Aliada shinobi / Monte Myōboku",
+      "Tipo de chacra": "Fuego Tierra Agua Viento Rayo Yin Yang Yin-Yagn ",
+      "Habilidades":  "Jinchūriki del 9 colas Kurama/ Jutsus Diversos"
+    },
+    {
+      "nombre": "Sasuke Uchiha",
+      "apellido": "うちはサスケ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/2.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Ninja Renegado / Sennin / Guardian de konohacure ",
+      "Afiliaciones":"Akatsuki / Aldea del Sonido / Cueva Ryūchi / Clan  Uchiha",
+      "Tipo de chacra": "Fuego Viento Tierra Agua Rayo Yin",
+      "Habilidades":  "Sello maldito / Mangekyō Sharingan Eterno / Rinnegan"
+    },
+    {
+      "nombre": "Sakura Haruno",
+      "apellido": "春野サクラ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/3.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Jōnin / Medico",
+      "Afiliaciones":"Bosque Shikkotsu / Fuerzas Aliadas Shinobi",
+      "Tipo de chacra": "Tierra Agua Yin Yan",
+      "Habilidades":  "Arte Ninja Creación de Renacimiento — Jutsu Fuerza de un Centenar"
+    },
+    {
+      "nombre": "Kakashi Hatake",
+      "apellido": "はたけカカシ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/4.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Sexto Hokage ",
+      "Afiliaciones":"ANBU / Comandante de la Tercera División",
+      "Tipo de chacra": "Fuego Viento  Tierra Agua Rayo Yin Yan",
+      "Habilidades":  "Sharingan (Implantado) / Mangekyō Sharingan "
+    },
+    {
+      "nombre": "Gaara de la Arena",
+      "apellido": "我愛羅",
+      "imagen": "mvc/vistas/img/modalimg/naruto/5.jpg",
+      "Aldea": "Sunagakure (Aldea oculta de la Arena)",
+      "Clasificación": "Quinto Kazekage / Comandante General de la Gran Alianza Shinobi",
+      "Afiliaciones":"Gokage / Hermanos de la Arena Cuarta División",
+      "Tipo de chacra": "Viento Tierra Rayo Iman",
+      "Habilidades":  "Jinchūriki del 1 cola Shukaku / Dominio de la arena Viva"
+    },
+    {
+      "nombre": "Kankurō",
+      "apellido": "カンクロウ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/6.jpg",
+      "Aldea": "Sunagakure (Aldea oculta de la Arena)",
+      "Clasificación": "Marionetista / Jōnin",
+      "Afiliaciones":"Fuerzas Aliadas Shinobi",
+      "Tipo de chacra": "Viento Tierra Agua Rayo",
+      "Habilidades":  " Jutsu: Reemplazo de Cuerpo  /  Técnica Negra Secreta"
+    },
+    {
+      "nombre": "Temari",
+      "apellido": "テマリ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/7.jpg",
+      "Aldea": "Sunagakure (Aldea oculta de la Arena)",
+      "Clasificación": "Jōnin",
+      "Afiliaciones":" Fuerzas Aliadas Shinobi / Hermanos de la Arena Cuarta División",
+      "Tipo de chacra": "Viento",
+      "Habilidades":  "Tessenjutsu y Transformación de la Naturaleza"
+    },
+    {
+      "nombre": "Baki",
+      "apellido": "バキ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/8.png",
+      "Aldea": "Sunagakure (Aldea oculta de la Arena)",
+      "Clasificación": "Jōni / Consejero",
+      "Afiliaciones":"Hermanos de la Arena / Consejo de Suna",
+      "Tipo de chacra": "Viento",
+      "Habilidades":  "Jutsu de Tormenta de Polvo / Espada de Viento"
+    },
+    {
+      "nombre": "Rock Lee",
+      "apellido": "ロック・リ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/9.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Jōnin ",
+      "Afiliaciones":"Fuerzas Aliadas Shinobi /  Policía Militar de Konoha",
+      "Tipo de chacra": "No posee naturaleza de chakra",
+      "Habilidades":  "Loto escondido / Liberación de 6 Puertas / Puño Borracho"
+    },
+    {
+      "nombre": "Neji Hyūga",
+      "apellido": "日向ネジ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/10.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Jōnin",
+      "Afiliaciones":"Fuerzas Aliadas Shinobi / Segunda División / Clan Hyūga ",
+      "Tipo de chacra": "Fuego Viento Tierra Agua",
+      "Habilidades":  " Byakugan / Estilo Trescientos Sesenta y Uno de los Ocho Trigramas"
+    },
+    {
+      "nombre": "Tenten",
+      "apellido": "テンテン",
+      "imagen": "mvc/vistas/img/modalimg/naruto/11.webp",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Chūnin",
+      "Afiliaciones":"Fuerzas Aliadas Shinobi / Primera División",
+      "Tipo de chacra": "Fuego Viento Tierra Agua Rayo",
+      "Habilidades":  "Arma sagrada Bashōsen le permite usar todas las naturalezas de chakra para atacar"
+    },
+    {
+      "nombre": "Might Guy ",
+      "apellido": "マイト・ガイ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/12.webp",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Jōnin",
+      "Afiliaciones":"Fuerzas Aliadas Shinobi / Tercera División",
+      "Tipo de chacra": "Fuego Rayo",
+      "Habilidades":  "Liberación de las Ocho Puertas Hachimon Tonkō / Bukijutsu"
+    },
+    {
+      "nombre": "Hashirama Senju ",
+      "apellido": "千手柱間",
+      "imagen": "mvc/vistas/img/modalimg/naruto/13.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Primer Hokage / Sennin",
+      "Afiliaciones":"Líder del Clan Senju",
+      "Tipo de chacra": "Fuego Viento Tierra Agua Rayo Yin Yan Madera",
+      "Habilidades":  "Jutsu Secreto de Elemento Madera  Mokuton / Fūinjutsu"
+    },
+    {
+      "nombre": "Zabuza Momochi ",
+      "apellido": "桃地再不斬",
+      "imagen": "mvc/vistas/img/modalimg/naruto/14.webp",
+      "Aldea": " Kirigakure (Aldea oculta de la Niebla)",
+      "Clasificación": "Ninja Renegado / Mercenario / Jōnin",
+      "Afiliaciones":"7 Espadachines Ninja de la Niebla",
+      "Tipo de chacra": "Agua",
+      "Habilidades":  "Kenjutsu / Transformación de la Naturaleza / Portador de la espada Kubikiribocho"
+    },
+    {
+      "nombre": "A",
+      "apellido": "エー Ē",
+      "imagen": "mvc/vistas/img/modalimg/naruto/15.webp",
+      "Aldea": " Kumogakure (Aldea oculta de la Nube)",
+      "Clasificación": "Tercer Raikage",
+      "Afiliaciones":"Equipo de Captura del Ocho Colas",
+      "Tipo de chacra": "Fuego Tierra Rayo",
+      "Habilidades":  "Rayo Negro / Puñetazo a Máxima Velocidad / Puñalada del Infierno"
+    },
+    {
+      "nombre": "Kabuto Yakushi",
+      "apellido": "薬師カブト",
+      "imagen": "mvc/vistas/img/modalimg/naruto/16.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Ninja Renegado / Sennin / ",
+      "Afiliaciones":"Cueva Ryūchi / Mente Maestra del Ejército de Ninjas Revividos / Akatsuki",
+      "Tipo de chacra": "Viento Tierra Agua Yin Yang",
+      "Habilidades":  "Resurrección del Mundo Impuro / Modificaciones corporales"
+    },
+    {
+      "nombre": "Mū",
+      "apellido": "無",
+      "imagen": "mvc/vistas/img/modalimg/naruto/17.webp",
+      "Aldea": " Iwagakure (Aldea oculta de la Roca)",
+      "Clasificación": "Segundo Tsuchikage / Ninja Sensor",
+      "Afiliaciones":"Escuadrón Kage",
+      "Tipo de chacra": "Fuego Viento Tierra Agua Rayo Yang Polvo",
+      "Habilidades":  "Jutsu del Desprendimiento del Mundo Primitivo / Jutsu de Roca Ligera "
+    },
+    {
+      "nombre": "Guren",
+      "apellido": "紅蓮",
+      "imagen": "mvc/vistas/img/modalimg/naruto/18.jpg",
+      "Aldea": " Otogakure (Aldea oculta del Sonido)",
+      "Clasificación": "Lider de Escuadron",
+      "Afiliaciones":"Equipo Guren",
+      "Tipo de chacra": " Elemento Cristal",
+      "Habilidades":  "Pilares Hexagonales de Cristal de Jade / Transformación de la Naturaleza"
+    },
+    {
+        "nombre": "Jiraiya",
+        "apellido": "自来也",
+        "imagen": "mvc/vistas/img/modalimg/naruto/19.gif",
+        "Aldea": "konohacure (Aldea oculta de la Hoja)",
+        "Clasificación": "Sannin / Hermitaño",
+        "Afiliaciones":"Monte Myōboku / Huérfanos de la Lluvia",
+        "Tipo de chacra": "Fuego Viento Tierra Agua Yin Yang",
+        "Habilidades":  "Modo Sabio del Sapo / Fūinjutsu / Transformación de la Naturaleza"
+    },
+    {
+      "nombre": "Hinata Hyūga",
+      "apellido": "日向ヒナタ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/20.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Chūnin",
+      "Afiliaciones":"Fuerzas Aliadas Shinobi / Clan Hyūga",
+      "Tipo de chacra": "Fuego Rayo Yang",
+      "Habilidades":  "Byakugan / Arte del Puño Suave"
+    },
+    {
+      "nombre": "Kiba Inuzuka",
+      "apellido": "犬塚キバ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/21.webp",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Jōnin ",
+      "Afiliaciones":"Clan Inuzuka /  Fuerzas Aliadas Shinobi /  Policía Militar de Konoha",
+      "Tipo de chacra": "Yang Tierra",
+      "Habilidades":  "Habilidad con los Sentidos / Jutsu de Transformacion "
+    },
+    {
+      "nombre": "Shino Aburame",
+      "apellido": "油女 シノ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/22.png",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Jōnin",
+      "Afiliaciones":"Fuerzas Aliadas Shinobi / Clan Aburame",
+      "Tipo de chacra": "Fuego Tierra Yang",
+      "Habilidades":  "Jutsu de Insectos"
+    },
+    {
+      "nombre": "Kurenai Yūhi夕日紅",
+      "apellido": "夕日紅",
+      "imagen": "mvc/vistas/img/modalimg/naruto/23.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Jōnin / Ninja Sensor",
+      "Afiliaciones":"Clan Sarutobi",
+      "Tipo de chacra": "Yin",
+      "Habilidades":  "genjutsu "
+    },
+    {
+      "nombre": "Kidōmaru",
+      "apellido": "鬼童丸",
+      "imagen": "mvc/vistas/img/modalimg/naruto/24.jpg",
+      "Aldea": "Otogakure (Aldea oculta del Sonido)",
+      "Clasificación": "Chūnin",
+      "Afiliaciones":"Los Cuatro del Sonido",
+      "Tipo de chacra": "Fuego Yang",
+      "Habilidades":  "Sello maldito / Oro Pegajoso /  Formación de Asedio de las Cuatro Bestias"
+    },
+    {
+      "nombre": "Jirōbō",
+      "apellido": "次郎坊",
+      "imagen": "mvc/vistas/img/modalimg/naruto/25.webp",
+      "Aldea": "Otogakure (Aldea oculta del Sonido)",
+      "Clasificación": "Chūnin",
+      "Afiliaciones":"Los Cuatro del Sonido",
+      "Tipo de chacra": "Tierra",
+      "Habilidades":  "Sello maldito / Absorción de Chakra / Transformación de la Naturaleza"
+    },
+    {
+      "nombre": "Tayuya",
+      "apellido": "多由也",
+      "imagen": "mvc/vistas/img/modalimg/naruto/26.png",
+      "Aldea": "Otogakure (Aldea oculta del Sonido)",
+      "Clasificación": "Chūnin",
+      "Afiliaciones":"Los Cuatro del Sonido",
+      "Tipo de chacra": "Yin",
+      "Habilidades":  "Sello maldito / Genjutsu"
+    },
+    {
+      "nombre": "Sakon & Ukon",
+      "apellido": "左近 右近",
+      "imagen": "mvc/vistas/img/modalimg/naruto/27.png",
+      "Aldea": "Otogakure (Aldea oculta del Sonido)",
+      "Clasificación": "Chūnin",
+      "Afiliaciones":"Los Cuatro del Sonido",
+      "Tipo de chacra": "Yang",
+      "Habilidades":  "Sello maldito / Ataque de los Demonios Gemelos"
+    },
+    {
+      "nombre": "Kimimaro",
+      "apellido": "君麻呂",
+      "imagen": "mvc/vistas/img/modalimg/naruto/28.webp",
+      "Aldea": "Otogakure (Aldea oculta del Sonido) / Clan Kaguya",
+      "Clasificación": "Chūnin",
+      "Afiliaciones":"Capitan / Los Cuatro del Sonido",
+      "Tipo de chacra": "Yang",
+      "Habilidades":  "Sello maldito / Shikotsumyaku"
+    },
+    {
+      "nombre": "Ino Yamanaka",
+      "apellido": "山中いの",
+      "imagen": "mvc/vistas/img/modalimg/naruto/29.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Jōnin / Ninja Sensor / Medico",
+      "Afiliaciones":"Fuerzas Aliadas Shinobi / Clan Yamanaka",
+      "Tipo de chacra": "Tierra Agua Yin Yang",
+      "Habilidades":  "Jutsu Cambio de Cuerpo y Mente"
+    },
+    {
+      "nombre": "Chōji Akimichi",
+      "apellido": "秋道チョウジ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/30.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Jōnin",
+      "Afiliaciones":"Fuerzas Aliadas Shinobi / Clan Akimichi ",
+      "Tipo de chacra": "Fuego Tierra Yang",
+      "Habilidades":  " Jutsu: Multi Tamaño / Píldoras Especiales"
+    },
+    {
+      "nombre": "Shikamaru Nara",
+      "apellido": "奈良シカマル",
+      "imagen": "mvc/vistas/img/modalimg/naruto/31.jpg",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Consejero",
+      "Afiliaciones":"Fuerzas Aliadas Shinobi / Clan Nara",
+      "Tipo de chacra": "Fuego Tierra Yin",
+      "Habilidades":  "Jutsu de Sombra"
+    },
+    {
+      "nombre": "Asuma Sarutobi",
+      "apellido": "猿飛アスマ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/32.webp",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "jōnin",
+      "Afiliaciones":"Clan Sarutobi / Doce Guardianes Ninja",
+      "Tipo de chacra": "Fuego Viento Agua",
+      "Habilidades":  " Templo del Fuego, Entrada a la Iluminación: Mil Brazos de la Muerte"
+    },{
+      "nombre": "Ibiki Morino",
+      "apellido": "森乃イビキ",
+      "imagen": "mvc/vistas/img/modalimg/naruto/33.png",
+      "Aldea": "konohacure (Aldea oculta de la Hoja)",
+      "Clasificación": "Tokubetsu Jōnin / Líder de Interrogación y Tortura de Konoha",
+      "Afiliaciones":"Equipo 40",
+      "Tipo de chacra": "Desconocido",
+      "Habilidades":  "Kuchiyose: Aian Meiden / Kuchiyose: Gōmon Heya"
+    },
+    
+    {
+     "nombre": "Raiga Kurosuki",
+     "apellido": "黒鋤雷牙",
+     "imagen": "mvc/vistas/img/modalimg/naruto/34.webp",
+     "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+     "Clasificación": "Jōnin / ANBU / Ninja Renegado",
+     "Afiliaciones":"7 Espadachines Ninja de la niebla /  Familia Kurosuki  ",
+     "Tipo de chacra": "Agua Rayo",
+     "Habilidades":  "Kenjutsu / Transformación de la Naturaleza / Portador de la espada Kiba"
+   },
+   {
+    "nombre": "Jinin Akebino",
+    "apellido": "通草野餌人",
+    "imagen": "mvc/vistas/img/modalimg/naruto/35.png",
+    "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+    "Clasificación": "Jōnin",
+    "Afiliaciones":"7 Espadachines Ninja de la niebla",
+    "Tipo de chacra": "Desconocido",
+    "Habilidades":  "Asesinato Silencioso / Kenjutsu / Portador de la espada Kabutowari"
+  },
+  {
+   "nombre": "Jinpachi Munashi",
+   "apellido": "無梨甚八",
+   "imagen": "mvc/vistas/img/modalimg/naruto/36.webp",
+   "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+   "Clasificación": "Jōnin",
+   "Afiliaciones":"7 Espadachines Ninja de la niebla",
+   "Tipo de chacra": "Desconocido / ",
+   "Habilidades":  "Asesinato Silencioso / Kenjutsu / Portador de la espada Shibuki"
+ },
+ {
+  "nombre": "Kushimaru Kuriarare",
+  "apellido": "栗霰串丸",
+  "imagen": "mvc/vistas/img/modalimg/naruto/37.png",
+  "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+  "Clasificación": "Jōnin / ANBU",
+  "Afiliaciones":"7 Espadachines Ninja de la niebla",
+  "Tipo de chacra": "Desconocido",
+  "Habilidades":  "Kenjutsu / Portador de la espada Nuibari"
+},
+{
+ "nombre": "Fuguki Suikazan",
+ "apellido": "西瓜山河豚鬼",
+ "imagen": "mvc/vistas/img/modalimg/naruto/38.png",
+ "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+ "Clasificación": "Jōnin",
+ "Afiliaciones":"7 Espadachines Ninja de la niebla",
+ "Tipo de chacra": "Desconocido",
+ "Habilidades":  "Kenjutsu / Portador de la espada Samehada"
+},
+{
+ "nombre": "Mangetsu Hōzuki",
+ "apellido": "鬼灯満月",
+ "imagen": "mvc/vistas/img/modalimg/naruto/39.png",
+ "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+ "Clasificación": "Jōnin",
+ "Afiliaciones":"7 Espadachines Ninja de la niebla / Clan Hōzuki",
+ "Tipo de chacra": "agua",
+ "Habilidades":  "Suika no Jutsu / Kenjutsu Supremo pudo usar las 7 espadas principalmente la Hiramekarei"
+},
+{
+ "nombre": "Ameyuri Ringo",
+ "apellido": "林檎雨由利",
+ "imagen": "mvc/vistas/img/modalimg/naruto/40.png",
+ "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+ "Clasificación": "Jōnin",
+ "Afiliaciones":"7 Espadachines Ninja de la niebla",
+ "Tipo de chacra": "Rayo",
+ "Habilidades":  "Kenjutsu / Portador de la espada Kiba"
+},
+{
+ "nombre": "Haku",
+ "apellido": "白",
+ "imagen": "mvc/vistas/img/modalimg/naruto/41.png",
+ "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+ "Clasificación": "Ninja Mercenario",
+ "Afiliaciones":" Clan Yuki / Grupo de Zabusa",
+ "Tipo de chacra": "Viento Agua Hielo",
+ "Habilidades":  "Transformación de la Naturaleza /  Mil Agujas de Agua Voladoras de la Muerte"
+},
+{
+ "nombre": "Sai",
+ "apellido": "サイ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/42.jpg",
+ "Aldea": "konohacure (Aldea oculta de la Hoja)",
+ "Clasificación": "Ambu",
+ "Afiliaciones":"Ambu Raíz / Fuerzas Aliadas Shinobi / Policía Militar de Konoha",
+ "Tipo de chacra": "Fuego Tierra Agua Yang",
+ "Habilidades":  "Ninjutsu Técnicas de tinta"
+},
+{
+ "nombre": "Yamato",
+ "apellido": "ヤマト",
+ "imagen": "mvc/vistas/img/modalimg/naruto/43.jpg",
+ "Aldea": "konohacure (Aldea oculta de la Hoja)",
+ "Clasificación": "Ambu",
+ "Afiliaciones":"Ambu Raíz / Fuerzas Aliadas Shinobi",
+ "Tipo de chacra": "Tierra Agua Madera Yang",
+ "Habilidades":  "Jutsu Secreto de Elemento Madera  Mokuton"
+},
+{
+ "nombre": "Bunpuku",
+ "apellido": "分福",
+ "imagen": "mvc/vistas/img/modalimg/naruto/44.webp",
+ "Aldea": "Sunagakure (Aldea oculta de la arena)",
+ "Clasificación": "Sacerdote",
+ "Afiliaciones":"Aldea de la arena",
+ "Tipo de chacra": "Tierra",
+ "Habilidades":  "Jinchūriki del 1 cola Shukaku / Jutsu de Sellado de Poder Dharma: Sen no Rikyu ."
+},
+{
+ "nombre": "Yugito Nii",
+ "apellido": "二位ユギト",
+ "imagen": "mvc/vistas/img/modalimg/naruto/45.webp",
+ "Aldea": "Kumogakure (Aldea oculta de la Nube)",
+ "Clasificación": "jōnin",
+ "Afiliaciones":"Aldea de la Nube",
+ "Tipo de chacra": "Iman",
+ "Habilidades":  "Jinchūriki del 2 colas Matatabi"
+},
+{
+    "nombre": "Yagura Karatachi",
+    "apellido": "枸橘やぐら",
+    "imagen": "mvc/vistas/img/modalimg/naruto/46.jpg",
+    "Aldea": " Kirigakure (Aldea oculta de la Niebla)",
+    "Clasificación": "Cuarto Mizukage",
+    "Afiliaciones":"Bajo el control de Obito",
+    "Tipo de chacra": "Viento Agua",
+    "Habilidades":  "Jinchūriki del 3 colas  Isobu / Bōjutsu"
+  },
+  {
+   "nombre": "Rōshi",
+   "apellido": "老紫",
+   "imagen": "mvc/vistas/img/modalimg/naruto/47.jpg",
+   "Aldea": "Iwagakure (Aldea oculta de la Roca)",
+   "Clasificación": "Desconocida",
+   "Afiliaciones":"Aldea de la Roca",
+   "Tipo de chacra": "Fuego Tierra Fusion",
+   "Habilidades":  "Jinchūriki del 4 colas Son Gokū"
+ },
+ {
+  "nombre": "Han",
+  "apellido": "ハン",
+  "imagen": "mvc/vistas/img/modalimg/naruto/48.jpg",
+  "Aldea": "Iwagakure (Aldea oculta de la Roca)",
+  "Clasificación": "Desconocida",
+  "Afiliaciones":"Aldea de la Roca",
+  "Tipo de chacra": "Fuego Agua Ebullicion",
+  "Habilidades":  "Jinchūriki del 5 colas Kokuō "
+},
+{
+ "nombre": "Utakata",
+ "apellido": "ウタカタ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/49.webp",
+ "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+ "Clasificación": "Ninja Renegado",
+ "Afiliaciones":"Seis Caminos del Dolor de Tobi",
+ "Tipo de chacra": "Agua",
+ "Habilidades":  "Jinchūriki del 6 colas Saiken"
+},
+{
+ "nombre": "Fū",
+ "apellido": "フウ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/50.webp",
+ "Aldea": "Takigakure (Aldea oculta de la Cascada)",
+ "Clasificación": "Genin",
+ "Afiliaciones":"Equipo Fū /  Seis Caminos del Dolor de Tobi",
+ "Tipo de chacra": "Viento",
+ "Habilidades":  "Jinchūriki del 7 colas Chōmei"
+},
+{
+ "nombre": "Blue B",
+ "apellido": "ブルービ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/51.webp",
+ "Aldea": "Kumogakure (Aldea oculta de la Nube)",
+ "Clasificación": "Tipo Sensor",
+ "Afiliaciones":"Aldea de la Nube",
+ "Tipo de chacra": "Rayo",
+ "Habilidades":  "Jinchūriki del 8 colas Gyūki"
+},
+{
+ "nombre": "Killer B",
+ "apellido": "キラービ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/52.jpg",
+ "Aldea": "Kumogakure (Aldea oculta de la Nube)",
+ "Clasificación": "Jönin",
+ "Afiliaciones":"Fuerzas Aliadas Shinobi",
+ "Tipo de chacra": "Fuego Agua Rayo Yang",
+ "Habilidades":  "Jinchūriki del 8 colas Gyūki / Kenjutsu portador de la espada Samehada "
+},{
+  "nombre": "Mito Uzumaki",
+  "apellido": "うずまき水戸",
+  "imagen": "mvc/vistas/img/modalimg/naruto/53.webp",
+  "Aldea": "Uzushiogakure (Aldea oculta del Remolino)",
+  "Clasificación": "Tipo Sensor",
+  "Afiliaciones":"Clan Uzumaki / Clan senju / Aldea de la Hoja",
+  "Tipo de chacra": "Desconocido",
+  "Habilidades":  "Jinchūriki del 9 colas Kurama / Fūinjutsu"
+ },
+ {
+  "nombre": "Kushina Uzumaki",
+  "apellido": "うずまきクシナ",
+  "imagen": "mvc/vistas/img/modalimg/naruto/54.jpg",
+  "Aldea": "Uzushiogakure (Aldea oculta del Remolino)",
+  "Clasificación": "Genin",
+  "Afiliaciones":"Clan Uzumaki / Aldea de la Hoja",
+  "Tipo de chacra": "Viento Agua Yin",
+  "Habilidades":  "Jinchūriki del 9 colas Kurama / Fūinjutsu"
+ },
+ {
+  "nombre": "Minato Namikaze",
+  "apellido": "波風ミナト",
+  "imagen": "mvc/vistas/img/modalimg/naruto/55.gif",
+  "Aldea": "konohacure (Aldea oculta de la Hoja)",
+  "Clasificación": "Cuarto Hokage / El Destello Amarillo de Konoha",
+  "Afiliaciones":"Monte Myōboku / Fuerzas Aliadas Shinobi",
+  "Tipo de chacra": "Fuego Viento Rayo Yin Yang",
+  "Habilidades":  "Jinchūriki Parcial del 9 colas Kurama / Jutsu Dios del Trueno Volador / Rasengan / Fūinjutsu"
+},
+{
+ "nombre": "A",
+ "apellido": "エーĒ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/56.jpg",
+ "Aldea": "Kumogakure (Aldea oculta de la Nube)",
+ "Clasificación": "Cuarto Raikage",
+ "Afiliaciones":"Fuerzas Aliadas Shinobi / Gokage",
+ "Tipo de chacra": "Tierra Agua Rayo",
+ "Habilidades":  "Armadura de rayo / Transformación de la Naturaleza"
+},
+{
+ "nombre": "Mei Terumī",
+ "apellido": "照美メイ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/57.png",
+ "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+ "Clasificación": "Quinta Mizukage",
+ "Afiliaciones":"Gokage / Fuerzas Aliadas Shinobi",
+ "Tipo de chacra": "Fuego Tierra Agua Rayo Disolución Ebullición",
+ "Habilidades":  "Yuton / Futton"
+},
+{
+ "nombre": "Ōnoki",
+ "apellido": "オオノキ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/58.webp",
+ "Aldea": "Iwagakure (Aldea oculta de la Roca)",
+ "Clasificación": "Tercer Tsuchikage",
+ "Afiliaciones":"Gokage / Fuerzas Aliadas Shinobi / Clan Kamizuru",
+ "Tipo de chacra": "Fuego Viento Tierra Rayo Yang Polvo Fusion",
+ "Habilidades":  "Yuton / Jinton / Jutsu del Desprendimiento del Mundo Primitivo"
+},
+{
+  "nombre": "Tsunade Senju",
+  "apellido": "綱手",
+  "imagen": "mvc/vistas/img/modalimg/naruto/59.png",
+  "Aldea": "konohacure (Aldea oculta de la Hoja)",
+  "Clasificación": "Sannin / Quinta Hokage",
+  "Afiliaciones":"Clan Senju / Bosque Shikkotsu / Gokage",
+  "Tipo de chacra": "Fuego Tierra Agua Rayo Yin Yang",
+  "Habilidades":  "Arte Ninja: Creación de Renacimiento / Jutsu Fuerza de un Centenar"
+ },
+{
+ "nombre": "Chōjūrō",
+ "apellido": "長十郎",
+ "imagen": "mvc/vistas/img/modalimg/naruto/60.jpg",
+ "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+ "Clasificación": "Sexto Mizukage",
+ "Afiliaciones":"Siete Espadachines Ninja de la Niebla / Fuerzas Aliadas Shinobi",
+ "Tipo de chacra": "Agua",
+ "Habilidades":  "Kenjutsu / Portador de la espada  Hiramekarei"
+},
+{
+ "nombre": "Darui",
+ "apellido": "ダルイ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/61.jpg",
+ "Aldea": " Kumogakure (Aldea oculta de la Nube)",
+ "Clasificación": "Quinto Raikage",
+ "Afiliaciones":"Gran Alianza Shinobi",
+ "Tipo de chacra": "Viento Agua Rayo Tormenta",
+ "Habilidades":  "Ranton / Kenjutsu / Portador de una espada  Zanbato"
+},
+{
+ "nombre": "Iruka Umino",
+ "apellido": "うみのイルカ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/62.png",
+ "Aldea": "konohacure (Aldea oculta de la Hoja)",
+ "Clasificación": "Chūnin",
+ "Afiliaciones":"Fuerzas Aliadas Shinobi",
+ "Tipo de chacra": "Fuego Agua Yin",
+ "Habilidades":  "Jutsu de Escuadrón de Sellos Bomba "
+},
+{
+ "nombre": "Tobirama Senju",
+ "apellido": "千手扉間",
+ "imagen": "mvc/vistas/img/modalimg/naruto/63.jpg",
+ "Aldea": "konohacure (Aldea oculta de la Hoja)",
+ "Clasificación": "Segundo Hokage / Ninja Sensor",
+ "Afiliaciones":"Clan Senju / Fuerzas Aliadas Shinobi(Revivido)",
+ "Tipo de chacra": "Fuego Viento Tierra Agua Rayo Yin Yang",
+ "Habilidades":  "Jutsu del Dios Trueno Volador / Invocación: Reencarnación del Mundo Impuro / Maximo dominio del elemento Agua"
+},
+{
+ "nombre": "Hiruzen Sarutobi",
+ "apellido": "猿飛ヒルゼン",
+ "imagen": "mvc/vistas/img/modalimg/naruto/64.png",
+ "Aldea": "konohacure (Aldea oculta de la Hoja)",
+ "Clasificación": "Tercer Hokage",
+ "Afiliaciones":"Clan Sarutobi / Fuerzas Aliadas Shinobi(Revivido)",
+ "Tipo de chacra": "Fuego Viento Tierra Agua Rayo Yin Yang",
+ "Habilidades":  "Transformación de la naturaleza / Kuchiyose no Jutsu"
+},
+{
+ "nombre": "Gengetsu Hōzuki",
+ "apellido": "鬼灯幻月",
+ "imagen": "mvc/vistas/img/modalimg/naruto/65.png",
+ "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+ "Clasificación": "Segundo Mizukage",
+ "Afiliaciones":"Clan Hōzuki",
+ "Tipo de chacra": "Fuego Tierra Agua Rayo Yin Yang",
+ "Habilidades":  "Almeja Gigante / Magen: Kijō no Rōkaku"
+},
+{
+ "nombre": "Rasa",
+ "apellido": "羅砂",
+ "imagen": "mvc/vistas/img/modalimg/naruto/66.webp",
+ "Aldea": "Sunagakure (Aldea oculta de la Arena)",
+ "Clasificación": "Cuarto Kazekage",
+ "Afiliaciones":"Aldea de la arena",
+ "Tipo de chacra": "Viento Tierra Agua Yin Iman",
+ "Habilidades":  "akin, lit. Arena de Oro / Jiton "
+},
+{
+ "nombre": "Orochimaru ",
+ "apellido": "大蛇丸",
+ "imagen": "mvc/vistas/img/modalimg/naruto/67.jpg",
+ "Aldea": "konohacure (Aldea oculta de la Hoja)",
+ "Clasificación": "Ninja Renegado / Sennin",
+ "Afiliaciones":"Ambu Raíz /  Akatsuki / Kage de Otogakure / Cueva Ryūchi",
+ "Tipo de chacra": "Fuego Viento Tierra Agua Rayo Yin Yang",
+ "Habilidades":  "Reencarnación del Cadáver Vivo /  Invocación: Reencarnación del Mundo Impuro / Muchas mas"
+},
+{
+ "nombre": "Danzō Shimura",
+ "apellido": "志村ダンゾウ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/68.png",
+ "Aldea": "konohacure (Aldea oculta de la Hoja)",
+ "Clasificación": "Consejo de Konoha / Lider de Raiz",
+ "Afiliaciones":"Clan Shimura / ANBU Raíz",
+ "Tipo de chacra": "Fuego Viento Tierra Agua Yin Yang",
+ "Habilidades":  "Mangekyō Sharingan / Modificaciones corporales/  Kotoamatsukami"
+},
+{
+ "nombre": "Shisui Uchiha",
+ "apellido": "うちはシスイ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/69.webp",
+ "Aldea": "konohacure (Aldea oculta de la Hoja)",
+ "Clasificación": "Ambu",
+ "Afiliaciones":"Policía Militar de Konoha / Clan Uchiha",
+ "Tipo de chacra": "Fuego Viento Rayo Yin",
+ "Habilidades":  "Mangekyō Sharingan / Kotoamatsukami /  Jutsu de Cuerpo Parpadeante"
+},
+{
+ "nombre": "Jūgo",
+ "apellido": "重吾",
+ "imagen": "mvc/vistas/img/modalimg/naruto/70.png",
+ "Aldea": "Otogakure (Aldea oculta del Sonido)",
+ "Clasificación": "Experimento",
+ "Afiliaciones":"Akatsuki / Taka / Clan de Jūgo / ",
+ "Tipo de chacra": "Viento Tierra Agua Yang",
+ "Habilidades":  "Sello maldito /  transformaciones / Juinjutsu"
+},
+{
+ "nombre": "Karin Uzumaki",
+ "apellido": "香燐",
+ "imagen": "mvc/vistas/img/modalimg/naruto/71.png",
+ "Aldea": " Kusagakure (Aldea oculta de la Hierba)",
+ "Clasificación": "Genin / Ninja Sensor",
+ "Afiliaciones":"Clan Uzumaki / Akatsuki / Taka",
+ "Tipo de chacra": "Tierra Agua Yin Yang",
+ "Habilidades":  "Kagura Shingan"
+},
+{
+ "nombre": "Suigetsu Hōzuki",
+ "apellido": "鬼灯水月",
+ "imagen": "mvc/vistas/img/modalimg/naruto/72.png",
+ "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+ "Clasificación": "Segunda Llegada del Demonio",
+ "Afiliaciones":"Akatsuki / Taka / Clan Hōzuki",
+ "Tipo de chacra": "Agua Viento",
+ "Habilidades":  "Suika no Jutsu / Kenjutsu / Portador de la espada  Kubikiribōchō"
+},
+{
+ "nombre": "Yahiko",
+ "apellido": "弥彦",
+ "imagen": "mvc/vistas/img/modalimg/naruto/73.jpg",
+ "Aldea": "Amegakure (Aldea Oculta entre la Lluvia)",
+ "Clasificación": "Ninja Renegado",
+ "Afiliaciones":"Fundador de  Akatsuki",
+ "Tipo de chacra": "Fuego Viento Agua",
+ "Habilidades":  "Kenjutsu / Transformación de la Naturaleza"
+},
+{
+ "nombre": "Jūzō Biwa",
+ "apellido": "枇杷十蔵",
+ "imagen": "mvc/vistas/img/modalimg/naruto/74.jpg",
+ "Aldea": " Kirigakure (Aldea oculta de la Niebla)",
+ "Clasificación": "Jōnin / Ninja Renegado",
+ "Afiliaciones":"7 Espadachines ninjas / Akatsuki",
+ "Tipo de chacra": "Agua",
+ "Habilidades":  "Kenjutsu / Portador de la espada  Kubikiribōchō"
+},
+{
+ "nombre": "Sasori",
+ "apellido": "サソリ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/75.png",
+ "Aldea": "Sunagakure (Aldea oculta de la Arena)",
+ "Clasificación": "Marionetista",
+ "Afiliaciones":"Brigada de Marionetas / Akatsuki (Llevaba el anillo Gyoku)",
+ "Tipo de chacra": "Viento Tierra",
+ "Habilidades":  "Hitokugutsu / Cuerpo de Marioneta"
+},
+{
+ "nombre": "Deidara",
+ "apellido": "デイダラ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/76.png",
+ "Aldea": "Iwagakure (Aldea oculta de la Roca)",
+ "Clasificación": "Jōnin / Ninja Renegado",
+ "Afiliaciones":"Cuerpo de Explosivos / Akatsuki (Llevaba el anillo Ao)",
+ "Tipo de chacra": "Tierra / Explosion",
+ "Habilidades":  "Bakuton / Transformación de la Naturaleza"
+},
+{
+ "nombre": "Kakuzu",
+ "apellido": "角都",
+ "imagen": "mvc/vistas/img/modalimg/naruto/77.jpg",
+ "Aldea": "Takigakure (Aldea oculta de la Cascada)",
+ "Clasificación": "Ninja Renegado",
+ "Afiliaciones":"Akatsuki (Llevaba el anillo Hoku)",
+ "Tipo de chacra": "Fuego Viento Tierra Agua Rayo",
+ "Habilidades":  "Cuerpo Estructurado  Jiongu / Transformación de la Naturaleza / Taijutsu"
+},
+{
+ "nombre": "Hidan",
+ "apellido": "飛段",
+ "imagen": "mvc/vistas/img/modalimg/naruto/78.webp",
+ "Aldea": " Yugakure (Aldea de las Aguas Termales)",
+ "Clasificación": "Ninja Renegado",
+ "Afiliaciones":"Akatsuki (Llevaba el anillo San)",
+ "Tipo de chacra": "Desconocidas",
+ "Habilidades":  "Culto a Jashin "
+},
+{
+ "nombre": "Kisame Hoshigaki",
+ "apellido": "干柿鬼鮫",
+ "imagen": "mvc/vistas/img/modalimg/naruto/79.png",
+ "Aldea": "Kirigakure (Aldea oculta de la Niebla)",
+ "Clasificación": "Bijū sin cola / Ninja Renegado",
+ "Afiliaciones":"Siete Espadachines Ninja de la Niebla / Akatsuki (Llevaba el anillo Nan)",
+ "Tipo de chacra": "Fuego Viento Tierra Agua",
+ "Habilidades":  "Taijutsu / Kenjutsu / Portador de la espada Samehada /  Suirō Sameodori no Jutsu"
+},
+{
+ "nombre": "Itachi Uchiha",
+ "apellido": "うちはイタチ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/80.gif",
+ "Aldea": "konohacure (Aldea oculta de la Hoja)",
+ "Clasificación": "Ninja Renegado / Guardian desde las Sombras",
+ "Afiliaciones":"Clan Uchiha / Ambu Raíz / Akatsuki (Llevaba el anillo Shu)",
+ "Tipo de chacra": "Fuego Viento Agua Yin Yang",
+ "Habilidades":"Mangekyō Sharingan / Taijutsu / Bukijutsu /  genjutsu / Susanoo / Tsukuyomi"
+},
+{
+ "nombre": "Zetsu",
+ "apellido": "白ゼ",
+ "imagen": "mvc/vistas/img/modalimg/naruto/81.webp",
+ "Aldea": "Desconocida",
+ "Clasificación": "Desconocida",
+ "Afiliaciones":"Akatsuki (Llevaba el anillo  Gai)",
+ "Tipo de chacra": "Fuego Viento Tierra Agua Rayo Yin Yang Madera",
+ "Habilidades":  "Transformación de la Naturaleza / Mokuton /  Efimera"
+},
+{
+ "nombre": "Konan",
+ "apellido": "小南",
+ "imagen": "mvc/vistas/img/modalimg/naruto/82.webp",
+ "Aldea": "Amegakure (Aldea Oculta entre la Lluvia)",
+ "Clasificación": "Ninja Renegado",
+ "Afiliaciones":"Akatsuki (Llevaba el anillo Bya)",
+ "Tipo de chacra": "Viento Tierra Agua Yang",
+ "Habilidades":  "Ninjutsu de Papel / Kami no Shisha no Jutsu"
+},
+{
+ "nombre": "Camino Animal",
+ "apellido": "畜生道",
+ "imagen": "mvc/vistas/img/modalimg/naruto/83.jpg",
+ "Aldea": "Amegakure (Aldea Oculta entre la Lluvia)",
+ "Clasificación": "Seis Caminos del Dolor / Pein Rikudō",
+ "Afiliaciones":"Akatsuki",
+ "Tipo de chacra": "Desconocido",
+ "Habilidades":  "Jutsu: Seis Caminos Invocación Rinnegan Kuchiyose Rinnegan"
+},
+{
+ "nombre": "Camino Preta",
+ "apellido": "Gakidō",
+ "imagen": "mvc/vistas/img/modalimg/naruto/84.jpg",
+ "Aldea": "Amegakure (Aldea Oculta entre la Lluvia)",
+ "Clasificación": "Seis Caminos del Dolor / Pein Rikudō",
+ "Afiliaciones":"Akatsuki",
+ "Tipo de chacra": "Desconocido",
+ "Habilidades":  "Jutsu: Seis Caminos Bloqueo Sello de Absorción Fūjutsu Kyūin"
+},
+{
+ "nombre": "Camino Humano",
+ "apellido": "人間道,",
+ "imagen": "mvc/vistas/img/modalimg/naruto/85.jpg",
+ "Aldea": "Amegakure (Aldea Oculta entre la Lluvia)",
+ "Clasificación": "Seis Caminos del Dolor / Pein Rikudō",
+ "Afiliaciones":"Akatsuki",
+ "Tipo de chacra": "Desconocido",
+ "Habilidades":  "Jutsu: Seis Caminos habilidad de extraer el alma"
+},
+{
+ "nombre": "Camino Asura",
+ "apellido": "修羅道",
+ "imagen": "mvc/vistas/img/modalimg/naruto/86.jpg",
+ "Aldea": "Amegakure (Aldea Oculta entre la Lluvia)",
+ "Clasificación": "Seis Caminos del Dolor / Pein Rikudō",
+ "Afiliaciones":"Akatsuki",
+ "Tipo de chacra": "Desconocido",
+ "Habilidades":  "Jutsu: Seis Caminos Armadura mécanica"
+},
+{
+ "nombre": "Camino Naraka",
+ "apellido": "地獄道",
+ "imagen": "mvc/vistas/img/modalimg/naruto/87.png",
+ "Aldea": "Amegakure (Aldea Oculta entre la Lluvia)",
+ "Clasificación": "Seis Caminos del Dolor / Pein Rikudō",
+ "Afiliaciones":"Akatsuki",
+ "Tipo de chacra": "Desconocido",
+ "Habilidades":  "Jutsu: Seis Caminos Rey del Infierno Kuchiyose: Meifu no Ō"
+},
+{
+ "nombre": "Camino Deva",
+ "apellido": "天道",
+ "imagen": "mvc/vistas/img/modalimg/naruto/88.jpg",
+ "Aldea": "Amegakure (Aldea Oculta entre la Lluvia)",
+ "Clasificación": "Seis Caminos del Dolor / Pein Rikudō",
+ "Afiliaciones":"Akatsuki",
+ "Tipo de chacra": "Desconocido",
+ "Habilidades":  "Jutsu: Seis Caminos Banshō Ten'in & Shinra Tensei / Chibaku Tensei"
+},
+{
+ "nombre": "Nagato ",
+ "apellido": "長門",
+ "imagen": "mvc/vistas/img/modalimg/naruto/89.jpg",
+ "Aldea": "Amegakure (Aldea Oculta entre la Lluvia)",
+ "Clasificación": "Camino Exterior / Lider de Amegakure",
+ "Afiliaciones":"Clan Uzumaki / Lider de Akatsuki (Llevaba el anillo Rei)",
+ "Tipo de chacra": "Fuego Viento Tierra Agua Rayo Yang",
+ "Habilidades":  "Rinnegan / Jutsu de la Vida Celestial de Saṃsāra Rinne Tensei no Jutsu/ Habilidades de Rikudō Sennin "
+},
+{
+ "nombre": "Obito Uchiha",
+ "apellido": "うちはオビト",
+ "imagen": "mvc/vistas/img/modalimg/naruto/90.jpg",
+ "Aldea": "konohacure (Aldea oculta de la Hoja)",
+ "Clasificación": "Chūnin / Lider de Akatsuki / Fundador de Akatsuki desde las sombras",
+ "Afiliaciones":"Clan Uchiha / Akatsuki (Llevaba el anillo Gyoku)",
+ "Tipo de chacra": "Fuego Viento Tierra Agua Rayo Yin Yang Yin-Yang Madera",
+ "Habilidades":  "Mangekyō Sharingan / Rinnegan / Mokuton /  Jinchūriki del 10 colas"
+}
+
+  ]
+}
+

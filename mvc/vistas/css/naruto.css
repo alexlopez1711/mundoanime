@@ -1,0 +1,391 @@
+
+@font-face{
+  font-family: anav; src: url(../fuentes/anav.otf);
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #41396ec2;
+    z-index: 1;
+  }
+
+.main-content {
+    background-color: rgba(240, 217, 14, 0.856);
+    
+  }
+.titulo{
+    color: white;
+}
+#modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.836);
+    z-index: 2;
+    overflow-y: auto;
+    
+  }
+  
+  #modal-content {
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    
+    
+    
+  }
+
+
+  
+ .file-select {
+    position: relatives;
+    display: inline-block;
+  }
+
+ 
+  #card {
+    width: 200px;
+    height: 190px;
+    background-color: #f9ab04;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    border: solid 1px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    
+  }
+  
+  #card-image {
+    
+    object-fit: contain;
+  }
+  
+ 
+  
+  #card-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+    font-family: castellar;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+
+  /* input[type="file"], */
+  input[type="text"] {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttom1{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #5678EF;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  #submit-button {
+    
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    
+  }
+
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Establecer "space-around" en lugar de "space-between" */
+}
+
+.row {
+    display: flex;
+}
+
+.img1 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.selected-image {
+  border-radius: 10px;
+  background-color: aliceblue;
+  transform: scale(1.4);
+  
+}
+
+/* Navbar Layout */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Esto separa los botones en los extremos */
+  margin: 5px;
+  position: relative; /* Necesario para el posicionamiento de la animación */
+}
+
+/* Estilo de los botones */
+.volver, .recargar1 {
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.volver1, .recargar {
+  border-radius: 10px;
+  background-color: rgba(240, 217, 14, 0.856);
+}
+
+/* Animación de la imagen */
+.aniMacion {
+  position: absolute;  /* Posiciona la imagen en el mismo espacio que los botones */
+  left: 50%;  /* Comienza desde el centro de la pantalla */
+  transform: translateX(-50%); /* Centra la imagen en el medio */
+  width: 15px;  /* Ancho inicial */
+  height: 15px;  /* Alto inicial */
+  animation: mover 8s linear infinite, crecer 8s linear infinite; /* Animaciones */
+  animation-delay: 0s, 0s; /* Establece la sincronización */
+  opacity: 1; /* Inicia visible */
+}
+
+
+.botonElegir{
+  text-align: center;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  border-radius: 30%;
+  border: solid;
+  font-family: anav;
+  margin-top: 80px;
+  margin-left: 4px;
+  background-color: #f9ab04;
+}
+
+/* Animación para mover la imagen de recargar a casa */
+@keyframes mover {
+  0% {
+      left: 90%; /* Empieza en el centro del contenedor */
+      opacity: 1;
+  }
+  15% {
+    left: 85%; /* Regresa al centro */
+    opacity: 1;
+}
+  25% {
+      left: 80%; /* Se mueve a la izquierda (al botón de recargar) */
+      opacity: 1;
+  }
+  35% {
+    left: 70%; /* Se mueve a la derecha (al botón de casa) */
+    opacity: 1;
+}
+  45% {
+      left: 60%; /* Se mueve a la derecha (al botón de casa) */
+      opacity: 1;
+  }
+  55% {
+      left: 55%; /* Regresa al centro */
+      opacity: 1;
+  }
+  75% {
+    left: 45%; /* Regresa al centro */
+    opacity: 1;
+}
+85% {
+  left: 20%; /* Regresa al centro */
+  opacity: 1;
+}
+90% {
+  left: 10%; /* Regresa al centro */
+  opacity: 0;
+}
+95% {
+  left: 5%; /* Regresa al centro */
+  opacity: 0;
+}
+100% {
+  left: 1%; /* Regresa al centro */
+  opacity: 0;
+}
+}
+
+/* Animación para el aumento de tamaño de la imagen */
+@keyframes crecer {
+  0% {
+      width: 15px;
+      height: 15px;
+  }
+  15% {
+      width: 35px;
+      height: 35px;
+  }
+  25% {
+      width: 45px;
+      height: 45px;
+  }
+  45% {
+      width: 55px;
+      height: 55px;
+  }
+  55% {
+      width: 65px;
+      height: 65px;
+  }
+  85% {
+      width: 75px;
+      height: 75px;
+  }
+}
+
+
+
+.boddysegmen {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.juego {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;  /* Usamos 100vh para ocupar toda la altura de la pantalla */
+  width: 100%;  /* Aseguramos que ocupe todo el ancho */
+  background-color: #f9ab04;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Contadores (Intentos, Aciertos, Tiempo) */
+.contadores {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.contador {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* Botones de dificultad */
+.dificultad {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-dificultad {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-dificultad:hover {
+  background-color: #e68a00;
+}
+
+/* Tablero */
+.tablero {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+  background-color: #f9ab04;
+  width: 100%;
+  height: 100%;
+}
+
+/* Carta */
+.carta {
+  width: 80px;
+  height: 80px;
+  background-color: #ccc;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/contracaraNaruto.png');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  transform-style: preserve-3d; /* Necesario para los efectos 3D de rotación */
+  position: relative;
+}
+
+/* Carta volteada */
+.carta.flipped {
+  transform: rotateY(180deg);
+}
+
+/* Imagen dentro de la carta */
+.carta img {
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  backface-visibility: hidden; /* Para que la imagen no se vea cuando la carta está volteada */
+}
+
+/* Carta vuelta mostrando la imagen */
+.carta.flipped img {
+  display: block;
+  object-fit: fill;
+  backface-visibility: hidden; /* Para ocultar la parte trasera cuando está volteada */
+}

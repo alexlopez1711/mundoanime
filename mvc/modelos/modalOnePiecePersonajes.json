@@ -1,0 +1,851 @@
+{
+    "personajes" :[
+            {
+                "nombre": "Monkey D. Luffy",
+                "apellidos": "モンキ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/2f5690ee185f5345025b1a5b0bf2c8aa.gif",
+                "SobreNombre": "Sombrero de Paja",
+                "Raza": "Humano (East Blue)",
+                "Akuma no mi": "Hito Hito: modelo Nika",
+                "Habilidad": "Zoan mítica: Hombre de goma / Dios del sol",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Mugiwara",
+                "Recompensa": "3.000.000.000"
+
+            }, 
+            {
+                "nombre": "Roronoa Zoro",
+                "apellidos": "ロロノア",
+                "imagen": "mvc/vistas/img/modalimg/luffy/ed29741e2d0fb0ae214a333c69fd9b2e.gif",
+                "SobreNombre": "El Cazador de Piratas",
+                "Raza": "Humano (East Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Espadachín / Estilo de tres espadas / Portador de Wado Ichimonji y Enma, dos O Wazamono y Sandai Kitetsu, una Wazamono",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Mugiwara",
+                "Recompensa": "1.111.000.000"
+
+            }, 
+            {
+                "nombre": "Nami",
+                "apellidos": "ナミ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Nami_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "Gata Ladrona",
+                "Raza": "Humano (East Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Experta en navegacion y Cartografia / Control del clima mediante el Clima Tact",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Mugiwara",
+                "Recompensa": " 366.000.000"
+        
+            }, 
+            {
+                "nombre": "Usopp ",
+                "apellidos": "ウソップ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Usopp_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "Rey de los Tiradores / Sogekin",
+                "Raza": "Humano (East Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Francotirador / Estratega",
+                "Haki": "Observación",
+                "Tripulacion": "Mugiwara",
+                "Recompensa": " 500.000.000"
+        
+            }, 
+            {
+                "nombre": "Vinsmoke Sanji",
+                "apellidos": "サンジ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/descarga.gif",
+                "SobreNombre": "Pierna Negra",
+                "Raza": "Humano (North Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Cocinero / Raid suit /  rokushiki / Kuroashi no Waza",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Mugiwara",
+                "Recompensa": "1.032.000.000"
+        
+            }, 
+            {
+                "nombre": "Tony Tony Chopper",
+                "apellidos": "トニー・チョ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Tony_Tony_Chopper_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "Amante del Algodón de Azúcar",
+                "Raza": "Reno (Paradise)",
+                "Akuma no mi": "Hito Hito: Modelo Hito",
+                "Habilidad": "Médico / Zoan: Bestia Hombre",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Mugiwara",
+                "Recompensa": "1000"
+        
+            }, 
+            {
+                "nombre": "Niko Robin",
+                "apellidos": "ロビン ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Nico_Robin_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "Niña demonio / La Luz de la Revolución",
+                "Raza": "Humano (West Blue)",
+                "Akuma no mi": "Hana Hana",
+                "Habilidad": "Paramecia: Brotar partes de su cuerpo en cualquier lugar / Karate Gyojin / Arqueologa",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Mugiwara",
+                "Recompensa": "930.000.000"
+        
+            }, 
+            {
+                "nombre": "Franky",
+                "apellidos": "ンキ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Franky_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "El Cyborg",
+                "Raza": "Humano (South Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Carpintero naval / Combate fisico",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Mugiwara",
+                "Recompensa": "394.000.000"
+        
+            }, 
+            {
+                "nombre": "Brook",
+                "apellidos": "ブルッ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Brook_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "Soul King",
+                "Raza": "Humano (West Blue)",
+                "Akuma no mi": "Yomi Yomi",
+                "Habilidad": "Paramecia: Renacer / Musico / Destreza con la espada",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Mugiwara",
+                "Recompensa": "383.000.000"
+        
+            }, 
+            {
+                "nombre": "Jinbe",
+                "apellidos": "海侠",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Jinbe_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "Caballero del Mar",
+                "Raza": "Gyojin (Reino de Ryugu)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Karate Gyojin / Maestro estratega",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Mugiwara / ExSeñor de la guerra",
+                "Recompensa": "1.100.000.000"
+        
+            }, 
+            {
+                "nombre": "Nefertari Vivi ",
+                "apellidos": "ネフェルタリ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Nefertari_Vivi_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "Miss Wednesday",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "kujakki slasher",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Mugiwara",
+                "Recompensa": "Sin Recompensa"
+        
+            }, 
+            {
+                "nombre": "Buggy",
+                "apellidos": "千両",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Buggy_Anime_Dos_Años_Después_Infobox.webp",
+                "SobreNombre": "el Payaso",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Bara Bara",
+                "Habilidad": "Paramecia: permite separar sus partes del cuerpo y luchar con ellos independientes entre sí",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Cross Guild / ExSeñor de la guerra",
+                "Recompensa": "3.189.000.000"
+        
+            }, 
+            {
+                "nombre": "Crocodile",
+                "apellidos": "サー",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Crocodile_Anime_Debut_Infobox.webp",
+                "SobreNombre": "Rey del Desierto",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Suna Suna",
+                "Habilidad": "Logia: Permite generar y manipular la arena, así como convertirse en ella / Estratega",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Cross Guild / ExSeñor de la guerra",
+                "Recompensa": "1.965.000.000"
+        
+            }, 
+            {
+                "nombre": "Dracule Mihawk",
+                "apellidos": "ジュラキュール",
+                "imagen": "mvc/vistas/img/modalimg/luffy/73865dd32a26fc58e388973928d28fd0.gif",
+                "SobreNombre": "Ojos de Halcón / El Espadachín más Fuerte del Mundo",
+                "Raza": "Humano (Desconocido)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Espadachín más poderoso del mundo / Portador de Yoru, una saijo O Wazamono",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Cross Guild / ExSeñor de la guerra",
+                "Recompensa": "3.590.000.000"
+        
+            }, 
+            {
+                "nombre": "Daz Bonez",
+                "apellidos": "ダズ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Daz_Bonez_Anime_Infobox.webp",
+                "SobreNombre": "El Sicario",
+                "Raza": "Humano (West Blue)",
+                "Akuma no mi": "Supa Supa",
+                "Habilidad": "Paramecia: Capacidad de convertir cualquier parte de su cuerpo en afiladas cuchillas de acero ",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Cross Guild",
+                "Recompensa": "75.000.000"
+        
+            }, 
+            {
+                "nombre": "Alvida",
+                "apellidos": "アルビダ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Alvida_Anime_Infobox (1).webp",
+                "SobreNombre": " la Maza de Hierro",
+                "Raza":"Humano (East Blue)",
+                "Akuma no mi": "Sube Sube",
+                "Habilidad": "Paramecia: capacidad de deslizarse por cualquier superficie e incluso repeler casi todos los ataques hacia ella",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Cross Guild",
+                "Recompensa": "5.000.000"
+        
+            }, 
+            {
+                "nombre": "Mohji",
+                "apellidos": "猛獣",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Mohji_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "El Domador de Bestias",
+                "Raza": "Humano (East Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Domador de bestias",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Cross Guild",
+                "Recompensa": "Desconocida"
+        
+            }, 
+            {
+                "nombre": "Arlong",
+                "apellidos": "ノコギリのア",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Arlong_Anime_Infobox.webp",
+                "SobreNombre": "La Sierra",
+                "Raza": "Gyojin (Reino de Ryugu)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Poder Fisico / Espadachín portador de la espada Kiribachi,",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Piratas de Arlong",
+                "Recompensa": "20.000.000"
+        
+            }, 
+            {
+                "nombre": "Chū",
+                "apellidos": "チュウ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Chew_Anime_Infobox.webp",
+                "SobreNombre": "Ninguno",
+                "Raza": "Gyojin (Reino de Ryugu)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Poder Fisico",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Piratas de Arlong",
+                "Recompensa": "5.500.000"
+        
+            }, 
+            {
+                "nombre": "Kuroobi",
+                "apellidos": "クロオビ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Kuroobi_Anime_Infobox.webp",
+                "SobreNombre": "Ninguno",
+                "Raza": "Gyojin (Reino de Ryugu)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Poder Fisico / Karate Gyojin",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Piratas de Arlong",
+                "Recompensa": "9.000.000"
+        
+            }, 
+            {
+                "nombre": "Hachi",
+                "apellidos": "はっん",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Hatchan_Anime_Debut_Infobox.webp",
+                "SobreNombre": "El 6 espadas",
+                "Raza": "Gyojin (Reino de Ryugu)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Poder Fisico / Espadachín Estilo de seis espadas",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Piratas de Arlong",
+                "Recompensa": "8.000.000"
+        
+            }, 
+            {
+                "nombre": "Bon Clay ",
+                "apellidos": "クレ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Bentham_Anime_Infobox.webp",
+                "SobreNombre": "Mr. 2 ",
+                "Raza": "Humano (East Blue)",
+                "Akuma no mi": "Mane Mane",
+                "Habilidad": "Okama Kenpo / Paramecia: le permite al usuario adquirir la apariencia física de cualquier persona que haya tocado",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Baroque Works",
+                "Recompensa": "32.000.000"
+        
+            }, 
+            {
+                "nombre": "Galdino",
+                "apellidos": "ギャルディ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Galdino_Anime_Infobox.webp",
+                "SobreNombre": "Usurero",
+                "Raza": "Humano (South Blue)",
+                "Akuma no mi": "Doru Doru",
+                "Habilidad": "Paramecia: crear cantidades ilimitadas de cera y fabricar objetos con ella, convirtiéndole así en un humano vela",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Baroque Works",
+                "Recompensa": "24.000.000"
+        
+            }, 
+            {
+                "nombre": "Bartolomeo",
+                "apellidos": "人食いのバ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Bartolomeo_Anime_Infobox.webp",
+                "SobreNombre": "el Mordaz",
+                "Raza": "Humano (East Blue)",
+                "Akuma no mi": "Bari Bari",
+                "Habilidad": "Paramecia: formar barreras para defenderse o atacar",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Barto Club",
+                "Recompensa": "200.000.000"
+        
+            }, 
+            {
+                "nombre": "Capone",
+                "apellidos": "カポネギ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Capone_Bege_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "Gang",
+                "Raza": "Humano (West Blue)",
+                "Akuma no mi": "Shiro Shiro",
+                "Habilidad": "Paramecia: permite mantener una fortaleza dentro de su cuerpo / Maestro tirador",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Piratas Fire Tank",
+                "Recompensa": "350.000.000"
+        
+            }, 
+            {
+                "nombre": "Vito",
+                "apellidos": "ヴィト",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Vito_Anime_Infobox.webp",
+                "SobreNombre": "Pistola Misteriosa",
+                "Raza": "Humano (West Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Maestro del sigilo / Armas : dos enormes revólveres negros  flintlock recortada",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Piratas Fire Tank",
+                "Recompensa": "95.000.000"
+        
+            }, 
+            {
+                "nombre": "Sai",
+                "apellidos": "サイ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Sai_Anime_Infobox.webp",
+                "SobreNombre": "Don Sai",
+                "Raza": "Humano (West Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Artista marcial que usa una técnica que genera vibraciones",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Chinjao Family; Armada Happo",
+                "Recompensa": "210.000.000"
+        
+            }, 
+            {
+                "nombre": "Chinjao",
+                "apellidos": "チンジャオ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Chinjao_Anime_Infobox.webp",
+                "SobreNombre": "Don Chinjao",
+                "Raza": "Humano (West Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Artista marcial",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Chinjao Family; Armada Happo",
+                "Recompensa": "542.000.000"
+        
+            }, 
+            {
+                "nombre": "X Drake",
+                "apellidos": "Xディエス",
+                "imagen": "mvc/vistas/img/modalimg/luffy/X_Drake_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "Bandera Roja",
+                "Raza": "Humano (North Blue)",
+                "Akuma no mi": "Ryu Ryu: modelo allosaurus",
+                "Habilidad": "Zoan prehistórica: capacidad de transformarse parcial o totalmente en dinosaurio",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de Drake",
+                "Recompensa": "222.000.000"
+        
+            }, 
+            {
+                "nombre": "Trafalgar D. Water Law",
+                "apellidos": "トラファルガ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Trafalgar_D._Water_Law_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "Cirujano de la Muerte",
+                "Raza": "Humano (North Blue)",
+                "Akuma no mi": "Ope Ope",
+                "Habilidad": "Paramecia, que le otorga el poder para hacer modificaciones a voluntad dentro de una determinada área",
+                "Haki": "Observación",
+                "Tripulacion": "Piratas de Heart / ExSeñor de la guerra",
+                "Recompensa": "3.000.000.000"
+        
+            }, 
+            {
+                "nombre": "Bepo",
+                "apellidos": "ベポ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Bepo_Anime_Infobox.webp",
+                "SobreNombre": "oso polar",
+                "Raza": "Mink (ZOU: Ducado de Mokomo)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Artista marcial",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Piratas de Heart",
+                "Recompensa": "1.500"
+        
+            }, 
+            {
+                "nombre": "Caribou",
+                "apellidos": "濡れ髪の",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Caribou_Anime_Infobox.webp",
+                "SobreNombre": "el del Pelo Mojado",
+                "Raza": "Humano (North Blue)",
+                "Akuma no mi": "Numa Numa",
+                "Habilidad": "Logia: permite convertirse y controlar una sustancia como pantano",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Piratas de Caribou",
+                "Recompensa": "210.000.000"
+        
+            }, 
+            {
+                "nombre": "Coribou",
+                "apellidos": "コリブー",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Coribou_Anime_Infobox.webp",
+                "SobreNombre": "Salpicado de Sangre",
+                "Raza": "Humano (North Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Poder Fisico",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Piratas de Caribou",
+                "Recompensa": "190.000.000"
+        
+            }, 
+            {
+                "nombre": "Eustass",
+                "apellidos": "キャプテ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Eustass_Kid_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "Capitan Kid",
+                "Raza": "Humano (North Blue)",
+                "Akuma no mi": "Jiki Jiki",
+                "Habilidad": "Paramecia: da la capacidad de atraer y repeler objetos metálicos a gran velocidad",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de Kid",
+                "Recompensa": "3.000.000.000"
+        
+            } , 
+            {
+                "nombre": "Killer",
+                "apellidos": "キラ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Killer_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "El Destajador",
+                "Raza": "Humano (South Blue)",
+                "Akuma no mi": "SMILE",
+                "Habilidad": "Poder Fisico / Fruta sintetica defectuosa. Debido a ello, lo único que le ha hecho la fruta es arrebatarle la capacidad de nadar y de poder expresar emociones que no sean la risa",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de Kid",
+                "Recompensa": "200.000.000"
+        
+            }, 
+            {
+                "nombre": "Urouge",
+                "apellidos": "ウルージ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Urouge_Anime_Debut_Infobox.webp",
+                "SobreNombre": "Monje Loco",
+                "Raza": "Nativo del Cielo (Islas del Cielo)",
+                "Akuma no mi": "Desconocida",
+                "Habilidad": "Paramecia que le permite convertir el daño recibido en pura fuerza",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Piratas del Monje Caído",
+                "Recompensa": "108.000.000"
+        
+            }, 
+            {
+                "nombre": "Scratchmen Apoo",
+                "apellidos": "",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Scratchmen_Apoo_Anime_Post_Timeskip_Infobox.webp",
+                "SobreNombre": "Rugido del Mar",
+                "Raza": "Humano (Gran Line)",
+                "Akuma no mi": "Oto Oto",
+                "Habilidad": "Paramecia:  permite transformar partes de su cuerpo en varios instrumentos musicales y atacar con hondas sonoras",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas del Aire",
+                "Recompensa": "350,000,000"
+        
+            }, 
+            {
+                "nombre": "Shanks",
+                "apellidos": "赤髪",
+                "imagen": "mvc/vistas/img/modalimg/luffy/221261.gif",
+                "SobreNombre": "el Pelirrojo",
+                "Raza": "Humano (West Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Poder Fisico / Velocidad al niveles luminicos / Portador de la Espada: Gryphon de grado Saijo O Wazamono",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Piratas del Pelirrojo",
+                "Recompensa": "4.048.900.000"
+        
+            }, 
+            {
+                "nombre": "Benn Beckman",
+                "apellidos": "ベン·ベッ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Benn_Beckman_Anime_Infobox.webp",
+                "SobreNombre": "Desconocido",
+                "Raza": "Humano (North Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Super Inteligencia",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas del Pelirrojo",
+                "Recompensa": "Desconocida"
+        
+            }  , 
+            {
+                "nombre": "Lucky Roux",
+                "apellidos": "ラッキ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Lucky_Roux_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "Desconocido",
+                "Raza": "Humano (South Blue)",
+                "Akuma no mi": "Desconocida",
+                "Habilidad": "Sigilo / Super velocidad",
+                "Haki": "Armadura",
+                "Tripulacion": "Piratas del Pelirrojo",
+                "Recompensa": "Desconocida"
+        
+            }, 
+            {
+                "nombre": "Yasopp",
+                "apellidos": "ヤソップ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Yasopp_Anime_Infobox.webp",
+                "SobreNombre": "Chaser",
+                "Raza": "Humano (East Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Francotirador",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas del Pelirrojo",
+                "Recompensa": "Desconocida"
+        
+            }, 
+            {
+                "nombre": "Marshall D. Teach",
+                "apellidos": "シャル",
+                "imagen": "mvc/vistas/img/modalimg/luffy/f3514a4db3a14cfbcb4cf95ac963d826.gif",
+                "SobreNombre": "Kurohige",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Gura Gura & Yami Yami",
+                "Habilidad": "Paramecia que le permite al consumidor generar vibraciones y crear temblores y Logia que le permite crear y controlar oscuridad",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de Barbanegra / ExSeñor de la guerra",
+                "Recompensa": "3.996.000.000"
+        
+            }, 
+            {
+                "nombre": "Jesus Burgess",
+                "apellidos": "ジーザス",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Jesus_Burgess_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "El Campeón",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Riki Riki",
+                "Habilidad": "Paramecia: que le otorga una fuerza sobrehumana",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de Barbanegra",
+                "Recompensa": "Desconocida"
+        
+            }, 
+            {
+                "nombre": "Shiryu",
+                "apellidos": "雨のシリ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Shiryu_Anime_Infobox.webp",
+                "SobreNombre": "De la Lluvia",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Suke Suke",
+                "Habilidad": "Destreza con la espada / Paramecia: permite hacerse invisible a voluntad o hacer invisible cualquier cosa que toque",
+                "Haki": "Armadura",
+                "Tripulacion": "Piratas de Barbanegra",
+                "Recompensa": "Desconocida"
+        
+            }, 
+            {
+                "nombre": "Kuzan",
+                "apellidos": "クザン",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Kuzan_Anime_Dos_Años_Después_Infobox.webp",
+                "SobreNombre": "Aokiji",
+                "Raza": "Humano (South Blue)",
+                "Akuma no mi": "Hie Hie",
+                "Habilidad": "Logia: capacidad de transformar su cuerpo en hielo y manipularlo a voluntad",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de Barbanegra",
+                "Recompensa": "Desconocida"
+        
+            }, 
+            {
+                "nombre": "Edward Newgate",
+                "apellidos": "エドワ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Large.webp",
+                "SobreNombre": "Shirohige",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Gura Gura",
+                "Habilidad": "Paramecia que le permite al consumidor generar vibraciones y crear temblores",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Piratas de Barba blanca",
+                "Recompensa": "5.046.000.000"
+        
+            }, 
+            {
+                "nombre": "Marco",
+                "apellidos": "Marco ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Marco_Anime_Dos_A3Fs_Infobox.webp",
+                "SobreNombre": "El Fenix",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Tori Tori: modelo fénix",
+                "Habilidad": "Habilidades médicas / Zoan mítica: permite transformarse en un ave fénix, dándole la capacidad de volar y sanar sus heridas al instante",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de Barba blanca",
+                "Recompensa": "1.374.000.000"
+        
+            }, 
+            {
+                "nombre": "Portgas D. Ace",
+                "apellidos": "ポート",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Portgas_D._Ace_Anime_Infobox.webp",
+                "SobreNombre": "Puño de Fuego",
+                "Raza": "Humano (South Blue)",
+                "Akuma no mi": "Mera Mera",
+                "Habilidad": " logia que le permitía convertirse y generar el elemento del fuego",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Piratas de Barba blanca",
+                "Recompensa": "550.000.000"
+        
+            }, 
+            {
+                "nombre": "Kaido",
+                "apellidos": "百獣の",
+                "imagen": "mvc/vistas/img/modalimg/luffy/one-piece-kaido.gif",
+                "SobreNombre": "La Criatura más Poderosa",
+                "Raza": "Oni (Onigashima)",
+                "Akuma no mi": "Uo Uo: modelo seiryu",
+                "Habilidad": "Maximo poder Fisico / Zoan mítica: permite transformarse en un seiryu(Uno de los cuatro monstruos divinos)",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Piratas de las Bestias",
+                "Recompensa": "4.611.100.000"
+        
+            }, 
+            {
+                "nombre": "Jack",
+                "apellidos": "旱害",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Jack_Anime_Infobox.webp",
+                "SobreNombre": "la Sequía",
+                "Raza": "Gyojin (Reino de Ryugu)",
+                "Akuma no mi": "Zou Zou: modelo mamut",
+                "Habilidad": "Zoan prehistórica que lo convierte en un mamut",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de las Bestias",
+                "Recompensa": "1.000.000.000"
+        
+            }, 
+            {
+                "nombre": "Queen",
+                "apellidos": "疫災の",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Queen_a_cuerpo_completo.webp",
+                "SobreNombre": "La Plaga",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Ryu Ryu: modelo Brachiosaurus",
+                "Habilidad": "Zoan prehistórica: que le permite convertirse en un brachiosaurus",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de las Bestias",
+                "Recompensa": "1.320.000.000"
+        
+            }, 
+            {
+                "nombre": "King",
+                "apellidos": "火災の",
+                "imagen": "mvc/vistas/img/modalimg/luffy/King_Anime_Infobox.webp",
+                "SobreNombre": "La Conflagración",
+                "Raza": "Lunaria (Gran line)",
+                "Akuma no mi": "Ryu Ryu: modelo pteranodon",
+                "Habilidad": "Zoan prehistórica: que le permite transformarse total o parcialmente en un pteranodon",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de las Bestias",
+                "Recompensa": "1.390.000.000"
+        
+            }, 
+            {
+                "nombre": "Charlotte Linlin",
+                "apellidos": "シャー ロ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/aaf8e318554bca44baf13b8d2de766ae95f8a89ar1-400-225_hq.gif",
+                "SobreNombre": "Big Mom",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Soru Soru",
+                "Habilidad": "Paramecia: permite manifestar en una sustancia rosada etérea el alma de otra persona",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Piratas de Big Mom",
+                "Recompensa": "4.388.000.000"
+        
+            }, 
+            {
+                "nombre": "Charlotte Katakuri",
+                "apellidos": "シャーロット",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Charlotte_Katakuri_Anime_Infobox.webp",
+                "SobreNombre": "Ninguno",
+                "Raza": "Humano (Gran Line)",
+                "Akuma no mi": "Mochi Mochi",
+                "Habilidad": "Paramecia: que le permite convertir cualquier parte de su cuerpo en mochi: un pastel de arroz japonés caracterizado por su viscosidad",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Piratas de Big Mom",
+                "Recompensa": "1.057.000.000"
+        
+            }, 
+            {
+                "nombre": "Charlotte Smoothie",
+                "apellidos": "シャーロッ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Charlotte_Smoothie_Anime_Infobox.webp",
+                "SobreNombre": "Ninguno",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Shibo Shibo,",
+                "Habilidad": "Paramecia: otorga la habilidad de escurrir y exprimir zumo de los objetos (animados o inanimados)",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de Big Mom",
+                "Recompensa": "932.000.000"
+        
+            }, 
+            {
+                "nombre": "Charlotte Cracker",
+                "apellidos": "シャーロット",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Charlotte_Cracker_Anime_Infobox.webp",
+                "SobreNombre": "Caballero de Galleta",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Bisu Bisu",
+                "Habilidad": "Paramecia que le permite generar y manipular galletas a voluntad",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de Big Mom",
+                "Recompensa": "860.000.000"
+        
+            }, 
+            {
+                "nombre": "Boa Hancock",
+                "apellidos": "海賊女帝ボア",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Boa_Hancock_Anime_Infobox.webp",
+                "SobreNombre": "Emperatriz Pirata",
+                "Raza": "Humana ((Amazon Lily)",
+                "Akuma no mi": "Mero Mero",
+                "Habilidad": "Paramecia: que permite a su consumidor la capacidad de petrificar con un rayo proveniente de sus manos a cualquiera que esté enamorado de ella",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Piratas Kuja / ExSeñor de la guerra",
+                "Recompensa": "1.659.000.000"
+        
+            }, 
+            {
+                "nombre": "Bartholomew Kuma",
+                "apellidos": "バーソロミュー",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Bartholomew_Kuma_Anime_Debut_Infobox.webp",
+                "SobreNombre": "El Tirano",
+                "Raza": "Buccaneer (South Blue)",
+                "Akuma no mi": "Nikyu Nikyu",
+                "Habilidad": "Paramecia: permite repeler cualquier cosa, mediante unas almohadillas situadas en las palmas de sus manos  incluso repeler la atmósfera del aire formando ondas de choque",
+                "Haki": "Armadura",
+                "Tripulacion": "ExMiembro Ejército Revolucionario & ExSeñor de la guerra",
+                "Recompensa": "296.000.000"
+        
+            }, 
+            {
+                "nombre": "Donquixote Doflamingo",
+                "apellidos": "ドンキホーテ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Donquixote_Doflamingo_Anime_Infobox.webp",
+                "SobreNombre": "Joker",
+                "Raza": "Humano (Mary Geoise)",
+                "Akuma no mi": "Ito Ito",
+                "Habilidad": "Paramecia: otorga la habilidad de crear y manipular hilos como si de una telaraña se tratase",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Piratas Donquixote / ExSeñor de la guerra",
+                "Recompensa": "340.000.000"
+        
+            }, 
+            {
+                "nombre": "Monkey D. Dragon",
+                "apellidos": "モンキー",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Monkey_D._Dragon_Anime_Infobox.webp",
+                "SobreNombre": "Dragon el Revolucionario",
+                "Raza": "Humano (East Blue)",
+                "Akuma no mi": "Desconocida",
+                "Habilidad": "Artes Marciales estilo: Ryusoken / Desconocidas",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Ejército Revolucionario",
+                "Recompensa": "Desconocida"
+        
+            }, 
+            {
+                "nombre": "Sabo",
+                "apellidos": "サボ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/98962ca4ac3d1ee19efc0338afd4c3d1.gif",
+                "SobreNombre": "El Emperador de las Llamas",
+                "Raza": "Humano (East Blue)",
+                "Akuma no mi": "Mera Mera",
+                "Habilidad": "Artes Marciales estilo: Ryusoken / Logia: permite al consumidor producir el elemento fuego e incluso convertirse en él",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Ejército Revolucionario",
+                "Recompensa": "Desconocida"
+        
+            }, 
+            {
+                "nombre": "Emporio Ivankov",
+                "apellidos": "エンポリオ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Emporio_Ivankov_Anime_Infobox.webp",
+                "SobreNombre": "Rey Okama",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Horu Horu",
+                "Habilidad": "Artes Marciales: newkama kenpo / Paramecia: que le da los poderes de control sobre las hormonas humanas",
+                "Haki": "No es usuario de Haki",
+                "Tripulacion": "Ejército Revolucionario",
+                "Recompensa": "100.000.000 "
+        
+            }, 
+            {
+                "nombre": "Silvers Rayleigh",
+                "apellidos": "シルバーズ",
+                "imagen": "mvc/vistas/img/modalimg/luffy/Silvers_Rayleigh_Anime_Infobox.webp",
+                "SobreNombre": "Rey Oscuro",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Espadachín",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Piratas de Roger",
+                "Recompensa": "4.150.000.000"
+        
+            }, 
+            {
+                "nombre": "Kozuki Oden",
+                "apellidos": "光月おでん",
+                "imagen": "mvc/vistas/img/modalimg/luffy/odenoden.webp",
+                "SobreNombre": "Señor Estúpido",
+                "Raza": "Humana (Grand Line)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Espadachín / Portador de Ame no Habakiri & Enma ambas son O Wazamono",
+                "Haki": "Observación / Armadura",
+                "Tripulacion": "Piratas de Barba blanca & Piratas de Roger",
+                "Recompensa": "3.200.000.000"
+        
+            }, 
+            {
+                "nombre": "Gol D. Roger",
+                "apellidos": "ゴール",
+                "imagen": "mvc/vistas/img/modalimg/luffy/eYoW0W.gif",
+                "SobreNombre": "Rey Pirata",
+                "Raza": "Humano (East Blue)",
+                "Akuma no mi": "Ninguna",
+                "Habilidad": "Espadachín / Portador de  Ace una saijo O Wazamono",
+                "Haki": "Observación / Armadura / Conquistador",
+                "Tripulacion": "Piratas de Roger",
+                "Recompensa": "5.564.800.000"
+        
+            }
+              
+            
+    ]
+}       

@@ -1,0 +1,906 @@
+{
+  "personajes": [
+         {
+
+            "nombre":"Goku",
+            "apellidos": "孫悟空",
+            "imagen": "mvc/vistas/img/modalimg/goku/agl-ssj3-goku-goku.gif",
+            "Especie": "Saiyajin (Planeta Vegita)",
+            "Habilidad": "Recuperacion con aumento de Poder",
+            "Transformacion": "Ozaru / Súper saiyajin, SSJ1 - SSJ2 - SSJ3 / Vegito",
+            "Nivel de Poder": "40.000.000.000",
+            "Poderes": "Kamehameha / Teletransportación / kung-fu de la tortuga / Kaio-Ken"
+
+        },
+        {
+
+          "nombre":"Vegeta",
+          "apellidos": "タ四世",
+          "imagen": "mvc/vistas/img/modalimg/goku/4cb02888cb2494dd9ab209527813c6b1.gif",
+          "Especie": "Saiyajin (Planeta Vegita)",
+          "Habilidad": "Recuperacion con aumento de Poder",
+          "Transformacion": "Ozaru / Súper saiyajin, SSJ1 - SSJ2 / Vegito",
+          "Nivel de Poder": "23.500.000.000",
+          "Poderes": "Cañón Galick / Ataque del Big Bang / Luna falsa / Combate estilo saiyajin"
+
+      },
+      {
+      
+        "nombre":"Gohan",
+        "apellidos": "孫そん",
+        "imagen": "mvc/vistas/img/modalimg/goku/Gohan_Buu_Artwork.webp",
+        "Especie": "Hibrido (Planeta Tierra)",
+        "Habilidad": "Recuperacion con aumento de Poder",
+        "Transformacion": "Ozaru / Súper saiyajin, SSJ1 - SSJ2",
+        "Nivel de Poder": "70.000.000.000",
+        "Poderes": "Kamehameha Eléctrico / Masenko Definitivo / Genki-dama de Unión"
+      
+      },
+      {
+  
+        "nombre":"Piccolo",
+        "apellidos": "ピッコロ",
+        "imagen": "mvc/vistas/img/modalimg/goku/36a7f5d13c6f1735e55d03f28c5cdac1.webp",
+        "Especie": "Namekiano (Planeta Namekku-sei-jin)",
+        "Habilidad": "Creacion de objetos / Creacion de otros seres / Regeneracion de extremidades /Telekinesis / Telepatia",
+        "Transformacion": "Gran Namekiano",
+        "Nivel de Poder": "1.450.000.000",
+        "Poderes": "Makankosappo / Chou Makouhou / Combate Fisico"
+  
+    },
+    {
+
+      "nombre":"Krilin",
+      "apellidos": "クリリン",
+      "imagen": "mvc/vistas/img/modalimg/goku/a1cef69140cd3f0119c75a90412fc7b8.jpg",
+      "Especie": "Humano (Planeta Tierra)",
+      "Habilidad": "Control de kí / Morir para que goku sea mas fuerte",
+      "Transformacion": "Sin transformaciones",
+      "Nivel de Poder": "510.000",
+      "Poderes": "Kienzan / Kamehameha / kung-fu de la tortuga"
+
+  },
+  {
+
+    "nombre":"Ten Shinhan",
+    "apellidos": "天津飯",
+    "imagen": "mvc/vistas/img/modalimg/goku/TienSemiPerfectCellSagaNV.webp",
+    "Especie": "Tríclope (Planeta Tierra)",
+    "Habilidad": "Crear 2 brazos adicionales / Control de kí",
+    "Transformacion": "Sin transformaciones",
+    "Nivel de Poder": "5.500.000",
+    "Poderes": "Taiyōken / kung-fu de la Grulla"
+
+},
+{
+
+  "nombre":"Chaoz",
+  "apellidos": "餃子",
+  "imagen": "mvc/vistas/img/modalimg/goku/Chaoz_Artwork_2.webp",
+  "Especie": "Humana (Planeta Tierra)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "23.000",
+  "Poderes": "Adivinación / Ataque Taladro / Ataque Psíquico"
+
+},
+{
+
+  "nombre":"Maestro Roshi",
+  "apellidos": "武む天てん老ろう師",
+  "imagen": "mvc/vistas/img/modalimg/goku/Roshi_Pafu_Pafu_Render.webp",
+  "Especie": "Humana (Planeta Tierra)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "5.000",
+  "Poderes": "kung-fu de la tortuga / Kamehameha"
+
+},
+{
+
+  "nombre":"Yamcha",
+  "apellidos": "ヤムチャ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Final_Yamcha.webp",
+  "Especie": "Humana (Planeta Tierra)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "230.000",
+  "Poderes": "Golpe Colmillo de Lobo / Kamehameha"
+
+},
+{
+
+  "nombre":"Yajirobei",
+  "apellidos": "ヤジロベ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Yajirobe_Artwork.webp",
+  "Especie": "Humana (Planeta Tierra)",
+  "Habilidad": "Samurai / Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "970",
+  "Poderes": "Fuerza superior a la humana / Kenjutsu"
+
+},
+{
+
+  "nombre":"Goten",
+  "apellidos": "孫そん悟ご天てん",
+  "imagen": "mvc/vistas/img/modalimg/goku/Goten_Artwork.webp",
+  "Especie": "Hibrido (Planeta Tierra)",
+  "Habilidad": "Recuperacion con aumento de Poder",
+  "Transformacion": "Súper saiyajin / Gotenks",
+  "Nivel de Poder": "270.000.000",
+  "Poderes": "Kamehameha / Asalto "
+
+},
+{
+
+  "nombre":"Trunks ",
+  "apellidos": "トランクス",
+  "imagen": "mvc/vistas/img/modalimg/goku/Trunks_Buu_Artwork.webp",
+  "Especie": "Hibrido (Planeta Tierra)",
+  "Habilidad": "Recuperacion con aumento de Poder",
+  "Transformacion": "Súper saiyajin / Gotenks",
+  "Nivel de Poder": "280.000.000",
+  "Poderes": "Kamehameha / Cañón de la Victoria"
+
+},
+{
+
+  "nombre":"Gotenks",
+  "apellidos": "ゴテンクス",
+  "imagen": "mvc/vistas/img/modalimg/goku/dgfu5ni-225bdd4f-6c27-460f-84c7-00b78f035e27.png",
+  "Especie": "Fusión  danza metamorana de Goten y Trunks",
+  "Habilidad": "Recuperacion con aumento de Poder",
+  "Transformacion": "Súper saiyajin 3",
+  "Nivel de Poder": "54.000.000.000",
+  "Poderes": "Ataque Fantasma / Cañón Vengador / Donuts Galácticos"
+
+},
+{
+
+  "nombre":"Trunks del Futuro",
+  "apellidos": "未み来らいの",
+  "imagen": "mvc/vistas/img/modalimg/goku/Trunks_del_Futuro_DBZ_Render.webp",
+  "Especie": "Hibrido (Planeta Tierra)",
+  "Habilidad": "Recuperacion con aumento de Poder",
+  "Transformacion": "Súper saiyajin",
+  "Nivel de Poder": "1.850.000.000",
+  "Poderes": "Ataque Espada Luminosa / Corte de Luz / Ataque Big Bang"
+
+},
+{
+
+  "nombre":"Videl",
+  "apellidos":"ビーデル",
+  "imagen": "mvc/vistas/img/modalimg/goku/Videl_Torneo.webp",
+  "Especie": "Humana (Planeta Tierra)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "70",
+  "Poderes": "Volar / Fuerza superior a la humana"
+
+},
+{
+
+  "nombre":"Nappa",
+  "apellidos": "ナッパ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Nappa_Artwork.webp",
+  "Especie": "Saiyajin (Planeta Vegita)",
+  "Habilidad": "Recuperacion con aumento de Poder",
+  "Transformacion": "Ozaru",
+  "Nivel de Poder": "7.500",
+  "Poderes": "Bombardero DX / Hiperguardia"
+
+},
+{
+
+  "nombre":"Raditz",
+  "apellidos": "ラディッツ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Raditz_artwork_Dokkan.webp",
+  "Especie": "Saiyajin (Planeta Vegita)",
+  "Habilidad": "Recuperacion con aumento de Poder",
+  "Transformacion": "Ozaru",
+  "Nivel de Poder": "1.220",
+  "Poderes": "Onda de Ki / Acometida de Alta Potencia:"
+
+},
+{
+
+  "nombre":"Saibaiman",
+  "apellidos": "栽サイ培バイマン",
+  "imagen": "mvc/vistas/img/modalimg/goku/Saibaiman.webp",
+  "Especie": "Experimental (Desconocido)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "1.200",
+  "Poderes": "Ácido / Bomba Saibaiman"
+
+},
+{
+
+  "nombre":"Rey Enma",
+  "apellidos": "閻魔大王",
+  "imagen": "mvc/vistas/img/modalimg/goku/Rey_Enma_Dokkan.webp",
+  "Especie": "Guardián de la puerta del Otro Mundo",
+  "Habilidad": "Control sobre las almas",
+  "Transformacion": "Desconocida",
+  "Nivel de Poder": "3.500",
+  "Poderes": "Desconocidos"
+
+},
+{
+
+  "nombre":"Mr. Popo",
+  "apellidos": "ミスタ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Mr._Popo_Artwork.webp",
+  "Especie": "Genio (Planeta Tierra)",
+  "Habilidad": "Magicas / Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "1.030",
+  "Poderes": "Desconocidos"
+
+},
+{
+
+  "nombre":"Pu'ar",
+  "apellidos": "プーアル",
+  "imagen": "mvc/vistas/img/modalimg/goku/Puar_Artwork.webp",
+  "Especie": "Animal Magico (Planeta Tierra)",
+  "Habilidad": "Magica",
+  "Transformacion": "Variadas pero sin aumento de poder",
+  "Nivel de Poder": "15",
+  "Poderes": "Volar / Metamorfosis"
+
+},
+{
+
+  "nombre":"Woolong ",
+  "apellidos": "ウーロン",
+  "imagen": "mvc/vistas/img/modalimg/goku/Oolong_Artwork.webp",
+  "Especie": "Animal Magico (Planeta Tierra)",
+  "Habilidad": "Magica",
+  "Transformacion": "Variadas pero sin aumento de poder",
+  "Nivel de Poder": "14",
+  "Poderes": "Metamorfosis"
+
+},
+{
+
+  "nombre":"Karin ",
+  "apellidos": "カリン",
+  "imagen": "mvc/vistas/img/modalimg/goku/Karin_en_Super_Hero.webp",
+  "Especie": "Animal Magico (Planeta Tierra)",
+  "Habilidad": "Magica / Maestro de artes marciales / Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "190",
+  "Poderes": "Leer la Mente / Creador de las Semillas del Ermitaño"
+
+},
+{
+
+  "nombre":"Bulma",
+  "apellidos": "ブルマ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Bulma_Saga_Buu_Artwork.webp",
+  "Especie": "Humana (Planeta Tierra)",
+  "Habilidad": "Científica genio",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "12",
+  "Poderes": "Habilidad para crear cualquier objeto necesario"
+
+},
+{
+
+  "nombre":"Milk",
+  "apellidos": "チチ",
+  "imagen": "mvc/vistas/img/modalimg/goku/ChiChi_DBS.webp",
+  "Especie": "Humana (Planeta Tierra)",
+  "Habilidad": "Experta en artes marciales",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "130",
+  "Poderes": "Fuerza superior a la humana"
+
+},
+{
+
+  "nombre":"Rey Ox-Satán",
+  "apellidos": "魔王まお",
+  "imagen": "mvc/vistas/img/modalimg/goku/Rey_Gyuma_Dokkan.webp",
+  "Especie": "Humana (Planeta Tierra)",
+  "Habilidad": "Experto en artes marciales",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "95",
+  "Poderes": "Fuerza superior a la humana"
+
+},
+{
+
+  "nombre":"Mr. Satán",
+  "apellidos": "ミスタ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Mr_Satan_Artwork.webp",
+  "Especie": "Humana (Planeta Tierra)",
+  "Habilidad": "Experto en artes marciales",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "145",
+  "Poderes": "Fuerza superior a la humana"
+
+},
+{
+
+  "nombre":"Kyui",
+  "apellidos":"キュイ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Cui_Artwork.webp",
+  "Especie": "Desconocida (Ejército de Freezer)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": " 18.000",
+  "Poderes": "Disparos de Energia"
+
+},
+{
+
+  "nombre":"Dodoria",
+  "apellidos": "ドドリア",
+  "imagen": "mvc/vistas/img/modalimg/goku/Dodoria_artwork_Broly.webp",
+  "Especie": "Duduriana (Ejército de Freezer)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "20.000",
+  "Poderes": "Chou Makouhou / Destrozo Máximo"
+
+},
+{
+
+  "nombre":"Zābon",
+  "apellidos": "ザーボン",
+  "imagen": "mvc/vistas/img/modalimg/goku/Zarbon_Transformado_Artwork.webp",
+  "Especie": "zarboniano (Ejército de Freezer)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Modo Bestia",
+  "Nivel de Poder": "29.000",
+  "Poderes": "Rotura Monstruosa / Danza Sangrienta"
+
+},
+{
+
+  "nombre":"Ghurd",
+  "apellidos": "グルド",
+  "imagen": "mvc/vistas/img/modalimg/goku/Ghurd_artwork_Broly.webp",
+  "Especie": "Bas (Ejército de Freezer)",
+  "Habilidad": "Habilidades espacio temporales",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "3.500",
+  "Poderes": "Congelación del Tiempo / Psicoquinesia"
+
+},
+{
+
+  "nombre":"Rikūmu",
+  "apellidos": "リクーム ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Reacoom_artwork_Broly.webp",
+  "Especie": "Desconocida (Ejército de Freezer)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "45.000",
+  "Poderes": "Ataque de Cadera Recoome / Bombardeo Renegado de Recoome"
+
+},
+{
+
+  "nombre":"Burter",
+  "apellidos": "バータ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Butta_artwork_Broly.webp",
+  "Especie": "Butta (Ejército de Freezer)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "42.000",
+  "Poderes": "Cañón de Choque Continuo / Ataque de Cometa Púrpura / Huracán Azul"
+
+},
+{
+
+  "nombre":"Jheese",
+  "apellidos": "ジース",
+  "imagen": "mvc/vistas/img/modalimg/goku/Jheese_artwork_Broly.webp",
+  "Especie": "Brench (Ejército de Freezer)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "43.000",
+  "Poderes": "Cañón de Choque Continuo / Ataque Cometa Rojo / Bola aplastadora"
+
+},
+{
+
+  "nombre":"Ginyū",
+  "apellidos": "ギニュー",
+  "imagen": "mvc/vistas/img/modalimg/goku/Ginyu_artwork_Broly.webp",
+  "Especie": "Desconocida (Ejército de Freezer)",
+  "Habilidad": "Cambio de Cuerpo / Control de Kí",
+  "Transformacion": "Habilidad para cambiar mentes",
+  "Nivel de Poder": "forma original 120.000 / varia dependiendo el cuerpo",
+  "Poderes": "Ácido / Dinamita Galáctica / Telequinesis"
+
+},
+{
+
+  "nombre":"Nail",
+  "apellidos": "ネイル",
+  "imagen": "mvc/vistas/img/modalimg/goku/Nail_Artwork.webp",
+  "Especie": "Namekiano (Planeta Namekku-sei-jin)",
+  "Habilidad": "Regeneracion de extremidades /Telekinesis",
+  "Transformacion": "Fusión Namekiana",
+  "Nivel de Poder": "42.000",
+  "Poderes": "Ataque Místico / Super Onda Explosiva"
+
+},
+{
+
+  "nombre":"Gran Patriarca",
+  "apellidos": "最さい長",
+  "imagen": "mvc/vistas/img/modalimg/goku/Gran_Patriarca_Dokkan.webp",
+  "Especie": "Namekiano (Planeta Namekku-sei-jin)",
+  "Habilidad": "Regeneracion de extremidades /Telekinesis / Creacion de otros seres",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "Desconocido",
+  "Poderes": "Pokopen / Telepatía / Potencial Desbloqueado"
+
+},
+{
+
+  "nombre":"Dende",
+  "apellidos": "デンデ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Dende_Artwork.webp",
+  "Especie": "Namekiano (Planeta Namekku-sei-jin)",
+  "Habilidad": "Regeneracion de extremidades /Telekinesis / Materialización Mágica ",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "10.000",
+  "Poderes": "Curación / Telepatía  / Apertura del Portal "
+
+},
+{
+
+  "nombre":"Freezer Primera Forma",
+  "apellidos": "フリーザ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Primera_Forma_de_Freeza_en_Dragon_Ball_Super.webp",
+  "Especie": "Freeza (Planeta Changlong)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Primera Forma",
+  "Nivel de Poder": "530.000",
+  "Poderes": "Aumento de Poder / Bola Mortal / Bláster de la Muerte / Supernova"
+
+},
+{
+
+  "nombre":"Freezer Segunda Forma",
+  "apellidos": "フリーザ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Freezer_2da_forma_Artwork.webp",
+  "Especie": "Freeza (Planeta Changlong)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Segunda Forma",
+  "Nivel de Poder": "1.060.000",
+  "Poderes": "Aumento de Poder / Bola Mortal / Bláster de la Muerte / Supernova"
+
+},
+{
+
+  "nombre":"Freezer Tercera Forma",
+  "apellidos": "フリーザ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Freezer_3era_forma_Artwork.webp",
+  "Especie": "Freeza (Planeta Changlong)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Tercera Forma",
+  "Nivel de Poder": "2.120.000",
+  "Poderes": "Aumento de Poder / Bola Mortal / Bláster de la Muerte / Supernova"
+
+},
+{
+
+  "nombre":"Freezer",
+  "apellidos": "フリーザ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Freeza_artwork_Dragon_Ball_Super_Broly_29.webp",
+  "Especie": "Freeza (Planeta Changlong)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "100% Liberado",
+  "Nivel de Poder": "120.000.000",
+  "Poderes": "Aumento de Poder / Bola Mortal / Bláster de la Muerte / Supernova"
+
+},
+{
+
+  "nombre":"Freezer Mecha",
+  "apellidos": "フリーザ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Mecha_Freezer_Artwork.webp",
+  "Especie": "Freeza (Planeta Changlong)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Modo Androide",
+  "Nivel de Poder": "8.500.000",
+  "Poderes": "Bola Mortal / Bláster de la Muerte / Supernova"
+
+},{
+
+  "nombre":"Rey Cold",
+  "apellidos": "フーザザ",
+  "imagen": "mvc/vistas/img/modalimg/goku/King_Cold.webp",
+  "Especie": "Freeza (Planeta Changlong)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "9.500.000",
+  "Poderes": "Bola Mortal / Bláster de la Muerte / Supernova"
+
+},
+{
+
+  "nombre":"Dr. Gero",
+  "apellidos": "ドクタ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Dr_Gero_Artwork.webp",
+  "Especie": "Androide (Planeta Tierra)",
+  "Habilidad": "Experto en robótica",
+  "Transformacion": "de Humano a Cybort",
+  "Nivel de Poder": "90.000.000",
+  "Poderes": "Absorción de Energía / Ojo Láser / Hikou"
+
+},
+{
+
+  "nombre":"Androide Número 19",
+  "apellidos": "人造人间",
+  "imagen": "mvc/vistas/img/modalimg/goku/Androide_19_Artwork.webp",
+  "Especie": "Androide (Planeta Tierra)",
+  "Habilidad": "Cientifico Asistente",
+  "Transformacion": "de Humano a Cybort",
+  "Nivel de Poder": "85.000.000",
+  "Poderes": "Absorción de Energía / Cabezazo / Dolor Cibernético / Hikou"
+
+},
+{
+
+  "nombre":"Androide Número 17",
+  "apellidos": "人造人間",
+  "imagen": "mvc/vistas/img/modalimg/goku/17_Artwork.webp",
+  "Especie": "Androide (Planeta Tierra)",
+  "Habilidad": "Energia ilimitada / Resistencia infinita",
+  "Transformacion": "de Humano a Cybort",
+  "Nivel de Poder": "300.000.000",
+  "Poderes": "Disparo Eléctrico / Gran Explosión / Bombardero de Potencia"
+
+},
+{
+
+  "nombre":"Androide Número 18",
+  "apellidos": "人造人間",
+  "imagen": "mvc/vistas/img/modalimg/goku/Androide_18_Artwork.webp",
+  "Especie": "Androide (Planeta Tierra)",
+  "Habilidad": "Energia ilimitada / Resistencia infinita",
+  "Transformacion": "de Humano a Cybort",
+  "Nivel de Poder": "275.000.000",
+  "Poderes": "Disparo Eléctrico / Bala Infinita / Bombardero de Potencia"
+
+},
+{
+
+  "nombre":"Androide Número 16",
+  "apellidos": "人造人間",
+  "imagen": "mvc/vistas/img/modalimg/goku/numero16.webp",
+  "Especie": "Androide (Planeta Tierra)",
+  "Habilidad": "Energia ilimitada / Resistencia infinita",
+  "Transformacion": "de Humano a Cybort",
+  "Nivel de Poder": "380.000.000",
+  "Poderes": "Hikou / Autoexplosión / Dispositivo de Autodestrucción"
+
+},
+{
+
+  "nombre":"Cell Primera forma",
+  "apellidos": "セル",
+  "imagen": "mvc/vistas/img/modalimg/goku/Cell_Imperfecto.webp",
+  "Especie": "Experimento (Planeta Tierra)",
+  "Habilidad": "Absorcíon de celulas",
+  "Transformacion": "2 fases",
+  "Nivel de Poder": "390.000.000",
+  "Poderes": "Sumidero de Vida Cell / Imitar cualquier tecnica / Absorción"
+
+},
+{
+
+  "nombre":"Cell Segunda Forma",
+  "apellidos": "セル",
+  "imagen": "mvc/vistas/img/modalimg/goku/Cell_Segunda_Forma_Artwork.webp",
+  "Especie": "Experimento (Planeta Tierra)",
+  "Habilidad": "Absorcíon de celulas",
+  "Transformacion": "Segunda Forma Absorción de numero 17",
+  "Nivel de Poder": "520.000.000",
+  "Poderes": "Sumidero de Vida Cell / Imitar cualquier tecnica / Absorción"
+
+},
+{
+
+  "nombre":"Cell Perfecto",
+  "apellidos": "セル",
+  "imagen": "mvc/vistas/img/modalimg/goku/Cell_Perfecto_Dokkan.webp",
+  "Especie": "Experimento (Planeta Tierra)",
+  "Habilidad": "Absorcíon de celulas / Recuperacion con aumento de Poder",
+  "Transformacion": "Forma perfecta  Absorción de numero 17 y 18",
+  "Nivel de Poder": "8.000.000.000",
+  "Poderes": "Sumidero de Vida Cell / Imitar cualquier tecnica / Absorción"
+
+},
+{
+
+  "nombre":"Cell Jr ",
+  "apellidos": "セルジュニア",
+  "imagen": "mvc/vistas/img/modalimg/goku/CellJr_Trans.webp",
+  "Especie": "Creaciones de Cell (Planeta Tierra)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder":"2.400.000.000",
+  "Poderes": "Danza de los Cell Jr. / Inocencia Frenética"
+
+},
+{
+
+  "nombre":"Kami",
+  "apellidos": "神かみ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Dios.webp",
+  "Especie": "Namekiano (Planeta Namekku-sei-jin)",
+  "Habilidad": "Guardián de la Tierra",
+  "Transformacion": "Fusión Namekiana",
+  "Nivel de Poder": "300",
+  "Poderes": "Creacion de objetos / Creacion de seres"
+
+},
+{
+
+  "nombre":"Kaiō del Norte ",
+  "apellidos": "北の界王",
+  "imagen": "mvc/vistas/img/modalimg/goku/Kaio_del_Norte.webp",
+  "Especie": "Nucleica benigna (Planeta Kaishin)",
+  "Habilidad": "Dios de las Galaxias del Norte ",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "4.500",
+  "Poderes": "variados"
+
+},
+{
+
+  "nombre":"Kaiō del Oeste ",
+  "apellidos": "西の界王",
+  "imagen": "mvc/vistas/img/modalimg/goku/Kaio_Oeste_Trans.webp",
+  "Especie": "Nucleica benigna (Planeta Kaishin)",
+  "Habilidad": "Dios de las Galaxias del Oeste ",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "3.500",
+  "Poderes": "variados"
+
+},
+{
+
+  "nombre":"Kaiō del Sur",
+  "apellidos": "西の界王",
+  "imagen": "mvc/vistas/img/modalimg/goku/Kaio_del_sur_cuerpo_completo.webp",
+  "Especie": "Nucleica benigna (Planeta Kaishin)",
+  "Habilidad": "Dios de las Galaxias del Sur",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "4.300",
+  "Poderes": "variados"
+
+},
+{
+
+  "nombre":"Kaiō del Este",
+  "apellidos": "西の界王",
+  "imagen": "mvc/vistas/img/modalimg/goku/East_Kai.webp",
+  "Especie": "Nucleica benigna (Planeta Kaishin)",
+  "Habilidad": "Dios de las Galaxias del Este",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "3.800",
+  "Poderes": "variados"
+
+},
+{
+
+  "nombre":"Kaiō-Shin-Sama",
+  "apellidos": "東の界",
+  "imagen": "mvc/vistas/img/modalimg/goku/Shin_en_Bucchigiri_Match.webp",
+  "Especie": "Nucleico (Planeta Kaishin)",
+  "Habilidad": "Dios de la creacion del universo 7",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "3.600.000.000",
+  "Poderes": "Gekiretsu Shin'ou'hou / Materialización Mágica"
+
+},
+{
+
+  "nombre":"Kibito ",
+  "apellidos": "キビト",
+  "imagen": "mvc/vistas/img/modalimg/goku/Kibito_Artwork.webp",
+  "Especie": "Nucleico (Planeta Kaishin)",
+  "Habilidad": "Aprendis de Kaiō-Shin",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "40.000.000",
+  "Poderes": "Curación / Movimiento Instantáneo"
+
+},
+{
+
+  "nombre":"Spopovich",
+  "apellidos": "スポポビ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Spopovich_Artwork.webp",
+  "Especie": "Humana (Planeta Tierra)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "230",
+  "Poderes": "Fuerza superior a la humana"
+
+},
+{
+
+  "nombre":"Yamū",
+  "apellidos": "ヤム",
+  "imagen": "mvc/vistas/img/modalimg/goku/Yamu_Artwork.webp",
+  "Especie": "Humana (Planeta Tierra)",
+  "Habilidad": "Control de Kí",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "220",
+  "Poderes": "Fuerza superior a la humana"
+
+},
+{
+
+  "nombre":"PuiPui",
+  "apellidos": "プイプイ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Pui_Pui_Artwork.webp",
+  "Especie": "Zuníes (Planeta Zun)",
+  "Habilidad": "Super velocidad",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "1.650.000",
+  "Poderes": "Disparo Elegante de Pui-Pui"
+
+},
+{
+
+  "nombre":"Yakon",
+  "apellidos": "ヤコン",
+  "imagen": "mvc/vistas/img/modalimg/goku/Yakon_Artwork.webp",
+  "Especie": "Majuu (Planeta Oscuro)",
+  "Habilidad": "Absorbiendo la luz",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "1.350.000",
+  "Poderes": "Disparos de energia"
+
+},
+{
+
+  "nombre":"Dābura",
+  "apellidos": "ダーブラ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Dabura_Artwork.webp",
+  "Especie": "Demonio (Reino Demoniaco)",
+  "Habilidad": "Materialización Mágica",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "4.000.000.000",
+  "Poderes": "Escupitajo de Piedra / Llama Maligna / Voluntad Demoníaca"
+
+},
+{
+
+  "nombre":"Babidi",
+  "apellidos": "ビビディ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Babidi_Artwork.webp",
+  "Especie": "Madoshi (Planeta Desconocido)",
+  "Habilidad": "Gran Poder magico",
+  "Transformacion": "Ninguna",
+  "Nivel de Poder": "300",
+  "Poderes": "Teletransportación / Materialización Mágica / Ojo de Demonio / Control mental"
+
+},
+{
+
+  "nombre":"Majin-Buu",
+  "apellidos": "無邪気",
+  "imagen": "mvc/vistas/img/modalimg/goku/Majin-Boo_Inocente_Toriyama_Kanzenban.webp",
+  "Especie": "Majin (Planeta Kaishin)",
+  "Habilidad": "Combate magico y fisico",
+  "Transformacion": "es la fision entre el primer Kaiō-Shin y Kid-Buu",
+  "Nivel de Poder": "23.000.000.000",
+  "Poderes": "Curación / Clonación / Absorción / Rayo de Chocolate / Rayo de Desaparición"
+
+},
+{
+
+  "nombre":"Majin-Buu Maldad",
+  "apellidos": "無邪気悪",
+  "imagen": "mvc/vistas/img/modalimg/goku/Buu_Maldad.webp",
+  "Especie": "Majin (Planeta Kaishin)",
+  "Habilidad": "Combate magico y fisico",
+  "Transformacion": "es la forma separada de Majin-Buu",
+  "Nivel de Poder": "29.000.000.000",
+  "Poderes": "Curación / Clonación / Absorción / Rayo de Chocolate / Rayo de Desaparición"
+
+},
+{
+
+  "nombre":"Super-Buu",
+  "apellidos": "魔人ブウ悪 ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Super_Buu_Artwork.webp",
+  "Especie": "Majin (Planeta Kaishin)",
+  "Habilidad": "Combate magico y fisico",
+  "Transformacion": "es la reunificacion de la forma maldad e inocente de Majin-Buu",
+  "Nivel de Poder": "52.000.000.000",
+  "Poderes": "Curación / Clonación / Absorción / Rayo de Chocolate / Rayo de Desaparición"
+
+},
+{
+
+  "nombre":"Super-Buu",
+  "apellidos": "魔人ブウ悪 ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Super_Buu_Artwork.webp",
+  "Especie": "Majin (Planeta Kaishin)",
+  "Habilidad": "Combate magico y fisico",
+  "Transformacion": "es la reunificacion de la forma maldad e inocente de Majin-Boo",
+  "Nivel de Poder": "52.000.000.000",
+  "Poderes": "Curación / Clonación / Absorción / Rayo de Chocolate / Rayo de Desaparición"
+
+},
+{
+
+  "nombre":"Super-Buu Piccolo",
+  "apellidos": "魔人悪 ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Super_Buu_Piccolo_Absorbido.webp",
+  "Especie": "Majin (Planeta Kaishin)",
+  "Habilidad": "Combate magico y fisico",
+  "Transformacion": "Lograda tras la Absorción de Piccolo",
+  "Nivel de Poder": "56.000.000.000",
+  "Poderes": "Curación / Clonación / Absorción / Rayo de Chocolate / Rayo de Desaparición"
+
+},
+{
+
+  "nombre":"Super-Buu Gotenks",
+  "apellidos": "魔人悪 ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Buu_Gotenks_Absorbido_Artwork.webp",
+  "Especie": "Majin (Planeta Kaishin)",
+  "Habilidad": "Combate magico y fisico",
+  "Transformacion": "Lograda tras la Absorción de Gotenks",
+  "Nivel de Poder": "110.000.000.000",
+  "Poderes": "Curación / Clonación / Absorción / Rayo de Chocolate / Rayo de Desaparición"
+
+},
+{
+
+  "nombre":"Super-Buu Gohan",
+  "apellidos": "魔人悪 ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Super_Buu_Gohan_Absorbido.webp",
+  "Especie": "Majin (Planeta Kaishin)",
+  "Habilidad": "Combate magico y fisico",
+  "Transformacion": "Lograda tras la Absorción de Gohan",
+  "Nivel de Poder": "130.000.000.000",
+  "Poderes": "Curación / Clonación / Absorción / Rayo de Chocolate / Rayo de Desaparición"
+
+},
+{
+
+  "nombre":"Kid Buu",
+  "apellidos": "魔人悪 ",
+  "imagen": "mvc/vistas/img/modalimg/goku/Kid_Buu_oficial_art.webp",
+  "Especie": "Majin (Planeta Kaishin)",
+  "Habilidad": "Combate magico y fisico",
+  "Transformacion": "Es la forma original de Buu",
+  "Nivel de Poder": "29.000.000.000",
+  "Poderes": "Curación / Clonación / Absorción / Rayo de Chocolate / Rayo de Desaparición"
+
+},
+{
+
+  "nombre":"vegito",
+  "apellidos": "ベジット ",
+  "imagen": "mvc/vistas/img/modalimg/goku/lr-str-super-vegito-goku.gif",
+  "Especie": "unificación de Goku y Vegeta mediante los Pothala",
+  "Habilidad": "Recuperacion con aumento de Poder",
+  "Transformacion": "Súper saiyajin",
+  "Nivel de Poder": "475.000.000.000",
+  "Poderes": "Teletransportación / Ataque Big Bang / Escudo saiyano / Kamehameha Final Divino "
+
+}
+
+
+    ]
+}
+ 
