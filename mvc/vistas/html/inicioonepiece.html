@@ -79,15 +79,50 @@
 
 <div class="MemoriaGames">
   <div class="dificultad">
-    <button class="dificultadesMemorama">Capitán</button>
+    <button class="dificultadesMemorama" id="facilMemoria" onclick="nivelFacil()">Capitán</button>
     <button class="dificultadesMemorama">Shichibukai</button>
     <button class="dificultadesMemorama">Almirante</button>
     <button class="dificultadesMemorama">Yonko</button>
     
   </div>
   <h1 class="hh1">Memoria</h1>
-  <div class="tablero"></div>
 </div>
+<main class="NivelFacilMemoria">
+  <section class="seccionCartasFaciles">
+      <h3>Dificultad Capitán</h3>
+      <p id="movimientosfaciles" class="estadisticas"><b>Movimientos: 0</b></p>
+      <p id="aciertosfaciles" class="estadisticas"><b>Aciertos: 0</b></p>
+      <p id="tiempofaciles" class="estadisticas"><b>Tiempo: 50 Segundos</b></p>
+      <table>
+          <tr>
+              <td><button id="0" onclick="destaparFacil(0)" class="tarjetasFacil"></button></td>
+              <td><button id="1" onclick="destaparFacil(1)" class="tarjetasFacil"></button></td>
+              <td><button id="2" onclick="destaparFacil(2)" class="tarjetasFacil"></button></td>
+              <td><button id="3" onclick="destaparFacil(3)" class="tarjetasFacil"></button></td>
+          </tr>
+          <tr>
+              <td><button id="4" onclick="destaparFacil(4)" class="tarjetasFacil"></button></td>
+              <td><button id="5" onclick="destaparFacil(5)" class="tarjetasFacil"></button></td>
+              <td><button id="6" onclick="destaparFacil(6)" class="tarjetasFacil"></button></td>
+              <td><button id="7" onclick="destaparFacil(7)" class="tarjetasFacil"></button></td>
+          </tr>
+          <tr>
+              <td><button id="8" onclick="destaparFacil(8)" class="tarjetasFacil"></button></td>
+              <td><button id="9" onclick="destaparFacil(9)" class="tarjetasFacil"></button></td>
+              <td><button id="10" onclick="destaparFacil(10)" class="tarjetasFacil"></button></td>
+              <td><button id="11" onclick="destaparFacil(11)" class="tarjetasFacil"></button></td>
+          </tr>
+          <tr>
+              <td><button id="12" onclick="destaparFacil(12)" class="tarjetasFacil"></button></td>
+              <td><button id="13" onclick="destaparFacil(13)" class="tarjetasFacil"></button></td>
+              <td><button id="14" onclick="destaparFacil(14)" class="tarjetasFacil"></button></td>
+              <td><button id="15" onclick="destaparFacil(15)" class="tarjetasFacil"></button></td>
+          </tr>
+      </table>
+  </section>
+</main>
+
+
 
               <script src="../../controladores/onePiece.js"></script>
 </body>

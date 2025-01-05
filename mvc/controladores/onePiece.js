@@ -67,3 +67,86 @@ function elegirDificultad() {
     memoriaGames.style.visibility = "visible";
   }
 }
+
+function nivelFacil() {
+  // Seleccionamos el primer (y único) elemento con la clase "MemoriaGames"
+  var nivelFacilMemoria = document.getElementsByClassName("NivelFacilMemoria")[0];
+  
+  // Comprobamos si el elemento está oculto y cambiamos la visibilidad
+  if (nivelFacilMemoria.style.visibility === "visible") {
+    nivelFacilMemoria.style.visibility = "hidden";
+  } else {
+    nivelFacilMemoria.style.visibility = "visible";
+  }
+}
+
+let voltearCartaFacil = 0;
+let tarjeta1Facil = null;
+let tarjeta2Facil = null;
+let primerResultadoFacil = null;
+let segundoResultadoFacil = null;
+let tarjetasDestapadasFacil = 0; // Define la variable aquí
+let movimientosfaciles = 0;
+let aciertosfaciles = 0;
+let tiempofaciles = false;
+let timerFacil = 50;
+let timerinicial = 50;
+let tiempoRegresivoFacilId = null;
+
+let mostrarMovimientosFacil = document.getElementById("movimientosfaciles");
+let mostrarAciertosFaciles = document.getElementById("aciertosfaciles");
+let mostrarTiempoFacil = document.getElementById("tiempofaciles");
+
+let numeroFacil = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8];
+numeroFacil = numeroFacil.sort(() => {
+    return Math.random() - 0.5;
+});
+
+function contarTiempoFacil() {
+    tiempoRegresivoFacilId = setInterval(() => {
+        timerFacil--;
+        mostrarTiempoFacil.innerHTML = `Tiempo: ${timerFacil} Segundos`;
+        if (timerFacil == 0) {
+            clearInterval(tiempoRegresivoFacilId);
+            bloquearTarjetasFacil();
+            //audios
+        }
+    }, 1000);
+}
+
+function bloquearTarjetasFacil() {
+  for (let i = 0; i <= 15; i++) {
+      let tarjetaBloqueadaFacil = document.getElementById(i);
+      tarjetaBloqueadaFacil.innerHTML = `<img src="../img/modalimg/luffy/onepieceMemoria/${numeroFacil[i]}.jpg">`;
+      tarjetaBloqueadaFacil.disabled = true;
+  }
+}
+
+function destaparFacil(id) {
+  if (tiempofaciles == false) {
+      contarTiempoFacil();
+      tiempofaciles = true;
+  }
+  tarjetasDestapadasFacil++;
+  if (tarjetasDestapadasFacil == 1) {
+      tarjeta1Facil = document.getElementById(id);
+      primerResultadoFacil = numeroFacil[id];
+      tarjeta1Facil.innerHTML = `<img src="../img/modalimg/luffy/onepieceMemoria/${primerResultadoFacil}.jpg">`;
+      tarjeta1Facil.disabled = true;
+  } else if (tarjetasDestapadasFacil == 2) {
+      tarjeta2Facil = document.getElementById(id);
+      segundoResultadoFacil = numeroFacil[id];
+      tarjeta2Facil.innerHTML = `<img src="../img/modalimg/luffy/onepieceMemoria/${segundoResultadoFacil}.jpg">`;
+      tarjeta2Facil.disabled = true;
+      movimientosfaciles++;
+      mostrarMovimientosFacil.innerHTML = `Movimientos: ${movimientosfaciles}`;
+      
+
+
+
+      // Aquí puedes agregar la lógica para verificar coincidencias y otros comportamientos.
+  }
+}
+
+
+
