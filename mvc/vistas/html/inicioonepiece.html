@@ -79,17 +79,17 @@
 
 <div class="MemoriaGames">
   <div class="dificultad">
-    <button class="dificultadesMemorama" id="facilMemoria" onclick="nivelFacil()">Capitán</button>
-    <button class="dificultadesMemorama">Shichibukai</button>
-    <button class="dificultadesMemorama">Almirante</button>
+    <button class="dificultadesMemorama" id="facilMemoria" onclick="nivelFacil()">Shichibukai</button>
+    <button class="dificultadesMemorama" id="dificilMemoria" onclick="nivelDificil()">Almirante</button>
     <button class="dificultadesMemorama">Yonko</button>
     
   </div>
   <h1 class="hh1">Memoria</h1>
 </div>
-<main class="NivelFacilMemoria">
-  <section class="seccionCartasFaciles">
-      <h3>Dificultad Capitán</h3>
+<main>
+  <section class=" NivelFacilMemoria">
+    <div class="seccionCartasFaciles">
+      <h3>Dificultad Shichibukai</h3>
       <p id="movimientosfaciles" class="estadisticas"><b>Movimientos: 0</b></p>
       <p id="aciertosfaciles" class="estadisticas"><b>Aciertos: 0</b></p>
       <p id="tiempofaciles" class="estadisticas"><b>Tiempo: 50 Segundos</b></p>
@@ -119,6 +119,49 @@
               <td><button id="15" onclick="destaparFacil(15)" class="tarjetasFacil"></button></td>
           </tr>
       </table>
+      <button onclick="reiniciarJuegoFacil()" class="reinicioBoton">Reiniciar Juego</button>
+    </div>
+  </section>
+
+
+  <section class=" NivelDificilMemoria">
+    <div class="seccionCartasdificiles">
+      <h3>Dificultad Almirante</h3>
+      <p id="movimientosdificiles" class="estadisticas"><b>Movimientos: 0</b></p>
+      <p id="aciertosdificiles"    class="estadisticas"><b>Aciertos: 0</b></p>
+      <p id="tiempodificiles"      class="estadisticas"><b>Tiempo: 50 Segundos</b></p>
+      <table>
+          <tr>
+              <td><button id="16" onclick="destaparDificil(16)" class="tarjetasFacil"></button></td>
+              <td><button id="17" onclick="destaparDificil(17)" class="tarjetasFacil"></button></td>
+              <td><button id="18" onclick="destaparDificil(18)" class="tarjetasFacil"></button></td>
+              <td><button id="19" onclick="destaparDificil(19)" class="tarjetasFacil"></button></td>
+              <td><button id="20" onclick="destaparDificil(20)" class="tarjetasFacil"></button></td>
+          </tr>
+          <tr>
+              <td><button id="21" onclick="destaparDificil(21)" class="tarjetasFacil"></button></td>
+              <td><button id="22" onclick="destaparDificil(22)" class="tarjetasFacil"></button></td>
+              <td><button id="23" onclick="destaparDificil(23)" class="tarjetasFacil"></button></td>
+              <td><button id="24" onclick="destaparDificil(24)" class="tarjetasFacil"></button></td>
+              <td><button id="25" onclick="destaparDificil(25)" class="tarjetasFacil"></button></td>
+          </tr>
+          <tr>
+              <td><button id="26" onclick="destaparDificil(26)" class="tarjetasFacil"></button></td>
+              <td><button id="27" onclick="destaparDificil(27)" class="tarjetasFacil"></button></td>
+              <td><button id="28" onclick="destaparDificil(28)" class="tarjetasFacil"></button></td>
+              <td><button id="29" onclick="destaparDificil(29)" class="tarjetasFacil"></button></td>
+              <td><button id="30" onclick="destaparDificil(30)" class="tarjetasFacil"></button></td>
+          </tr>
+          <tr>
+              <td><button id="31" onclick="destaparDificil(31)" class="tarjetasFacil"></button></td>
+              <td><button id="32" onclick="destaparDificil(32)" class="tarjetasFacil"></button></td>
+              <td><button id="33" onclick="destaparDificil(33)" class="tarjetasFacil"></button></td>
+              <td><button id="34" onclick="destaparDificil(34)" class="tarjetasFacil"></button></td>
+              <td><button id="35" onclick="destaparDificil(35)" class="tarjetasFacil"></button></td>
+          </tr>
+      </table>
+      <button onclick="reiniciarJuegoDificil()" class="reinicioBoton">Reiniciar Juego</button>
+    </div>
   </section>
 </main>
 
