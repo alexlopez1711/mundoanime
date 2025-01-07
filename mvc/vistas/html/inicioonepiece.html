@@ -71,21 +71,36 @@
                   <h1 id="card-name"></h1>
                 </div>
             </div>
-            <button class="botonElegir" id="botonMemoria" onclick="elegirDificultad()">Memoria</button>
-            <button class="botonElegir">Trivia</button>
+            <button class="botonElegir" id="botonMemoria" onclick="elegirDificultadMemoria()">Memoria</button>
+            <button class="botonElegir" id="botonTrivia" onclick="elegirDificultadTrivia()">Trivia</button>
               </div>
 
         <!-- HTML -->
 
-<div class="MemoriaGames">
+        
+        
+        
+
+<div class="MemoriaGames" style="display: none;">
   <div class="dificultad">
-    <button class="dificultadesMemorama" id="facilMemoria" onclick="nivelFacil()">Shichibukai</button>
-    <button class="dificultadesMemorama" id="dificilMemoria" onclick="nivelDificil()">Almirante</button>
-    <button class="dificultadesMemorama">Yonko</button>
-    
+    <button class="dificultadesMemorama" onclick="nivelFacilMemoria()">Shichibukai</button>
+    <button class="dificultadesMemorama" onclick="nivelDificilMemoria()">Almirante</button>
+    <button class="dificultadesMemorama" onclick="nivelExpertoMemoria()">Yonko</button>
   </div>
-  <h1 class="hh1">Memoria</h1>
+  <h1 class="hh1">Juego De Memoria</h1>
 </div>
+
+<div class="TriviaGames" style="display: none;">
+  <div class="dificultad">
+    <button class="dificultadesMemorama" onclick="nivelFacilTrivia()">Shichibukai</button>
+    <button class="dificultadesMemorama" onclick="nivelDificilTrivia()">Almirante</button>
+    <button class="dificultadesMemorama" onclick="nivelExpertoTrivia()">Yonko</button>
+  </div>
+  <h1 class="hh1">Juego De Trivia</h1>
+</div>
+
+
+
 <main>
   <section class=" NivelFacilMemoria">
     <div class="seccionCartasFaciles">
@@ -132,37 +147,96 @@
       <p id="tiempodificiles"      class="estadisticas"><b>Tiempo: 50 Segundos</b></p>
       <table>
           <tr>
-              <td><button id="16" onclick="destaparDificil(16)" class="tarjetasFacil"></button></td>
-              <td><button id="17" onclick="destaparDificil(17)" class="tarjetasFacil"></button></td>
-              <td><button id="18" onclick="destaparDificil(18)" class="tarjetasFacil"></button></td>
-              <td><button id="19" onclick="destaparDificil(19)" class="tarjetasFacil"></button></td>
-              <td><button id="20" onclick="destaparDificil(20)" class="tarjetasFacil"></button></td>
+              <td><button id="16" onclick="destaparDificil(16)" class="tarjetasDificiles"></button></td>
+              <td><button id="17" onclick="destaparDificil(17)" class="tarjetasDificiles"></button></td>
+              <td><button id="18" onclick="destaparDificil(18)" class="tarjetasDificiles"></button></td>
+              <td><button id="19" onclick="destaparDificil(19)" class="tarjetasDificiles"></button></td>
+              <td><button id="20" onclick="destaparDificil(20)" class="tarjetasDificiles"></button></td>
           </tr>
           <tr>
-              <td><button id="21" onclick="destaparDificil(21)" class="tarjetasFacil"></button></td>
-              <td><button id="22" onclick="destaparDificil(22)" class="tarjetasFacil"></button></td>
-              <td><button id="23" onclick="destaparDificil(23)" class="tarjetasFacil"></button></td>
-              <td><button id="24" onclick="destaparDificil(24)" class="tarjetasFacil"></button></td>
-              <td><button id="25" onclick="destaparDificil(25)" class="tarjetasFacil"></button></td>
+              <td><button id="21" onclick="destaparDificil(21)" class="tarjetasDificiles"></button></td>
+              <td><button id="22" onclick="destaparDificil(22)" class="tarjetasDificiles"></button></td>
+              <td><button id="23" onclick="destaparDificil(23)" class="tarjetasDificiles"></button></td>
+              <td><button id="24" onclick="destaparDificil(24)" class="tarjetasDificiles"></button></td>
+              <td><button id="25" onclick="destaparDificil(25)" class="tarjetasDificiles"></button></td>
           </tr>
           <tr>
-              <td><button id="26" onclick="destaparDificil(26)" class="tarjetasFacil"></button></td>
-              <td><button id="27" onclick="destaparDificil(27)" class="tarjetasFacil"></button></td>
-              <td><button id="28" onclick="destaparDificil(28)" class="tarjetasFacil"></button></td>
-              <td><button id="29" onclick="destaparDificil(29)" class="tarjetasFacil"></button></td>
-              <td><button id="30" onclick="destaparDificil(30)" class="tarjetasFacil"></button></td>
+              <td><button id="26" onclick="destaparDificil(26)" class="tarjetasDificiles"></button></td>
+              <td><button id="27" onclick="destaparDificil(27)" class="tarjetasDificiles"></button></td>
+              <td><button id="28" onclick="destaparDificil(28)" class="tarjetasDificiles"></button></td>
+              <td><button id="29" onclick="destaparDificil(29)" class="tarjetasDificiles"></button></td>
+              <td><button id="30" onclick="destaparDificil(30)" class="tarjetasDificiles"></button></td>
           </tr>
           <tr>
-              <td><button id="31" onclick="destaparDificil(31)" class="tarjetasFacil"></button></td>
-              <td><button id="32" onclick="destaparDificil(32)" class="tarjetasFacil"></button></td>
-              <td><button id="33" onclick="destaparDificil(33)" class="tarjetasFacil"></button></td>
-              <td><button id="34" onclick="destaparDificil(34)" class="tarjetasFacil"></button></td>
-              <td><button id="35" onclick="destaparDificil(35)" class="tarjetasFacil"></button></td>
+              <td><button id="31" onclick="destaparDificil(31)" class="tarjetasDificiles"></button></td>
+              <td><button id="32" onclick="destaparDificil(32)" class="tarjetasDificiles"></button></td>
+              <td><button id="33" onclick="destaparDificil(33)" class="tarjetasDificiles"></button></td>
+              <td><button id="34" onclick="destaparDificil(34)" class="tarjetasDificiles"></button></td>
+              <td><button id="35" onclick="destaparDificil(35)" class="tarjetasDificiles"></button></td>
           </tr>
       </table>
       <button onclick="reiniciarJuegoDificil()" class="reinicioBoton">Reiniciar Juego</button>
     </div>
   </section>
+  <section class="nivelExpertoMemoria">
+    <div class="seccionCartasExperto">
+        <h3>Dificultad Yonko</h3>
+        <p id="movimientosexpertos" class="estadisticas"><b>Movimientos: 0</b></p>
+        <p id="aciertosexpertos" class="estadisticas"><b>Aciertos: 0</b></p>
+        <p id="tiempoexpertos" class="estadisticas"><b>Tiempo: 70 Segundos</b></p>
+        <table>
+            <tr>
+                <td><button id="36" onclick="destaparExperto(36)" class="tarjetasDificiles"></button></td>
+                <td><button id="37" onclick="destaparExperto(37)" class="tarjetasDificiles"></button></td>
+                <td><button id="38" onclick="destaparExperto(38)" class="tarjetasDificiles"></button></td>
+                <td><button id="39" onclick="destaparExperto(39)" class="tarjetasDificiles"></button></td>
+                <td><button id="60" onclick="destaparExperto(60)" class="tarjetasDificiles"></button></td>
+                
+            </tr>
+            <tr>
+                <td><button id="40" onclick="destaparExperto(40)" class="tarjetasDificiles"></button></td>
+                <td><button id="41" onclick="destaparExperto(41)" class="tarjetasDificiles"></button></td>
+                <td><button id="42" onclick="destaparExperto(42)" class="tarjetasDificiles"></button></td>
+                <td><button id="43" onclick="destaparExperto(43)" class="tarjetasDificiles"></button></td>
+                <td><button id="44" onclick="destaparExperto(44)" class="tarjetasDificiles"></button></td>
+                
+            </tr>
+            <tr>
+                <td><button id="45" onclick="destaparExperto(45)" class="tarjetasDificiles"></button></td>
+                <td><button id="46" onclick="destaparExperto(46)" class="tarjetasDificiles"></button></td>
+                <td><button id="47" onclick="destaparExperto(47)" class="tarjetasDificiles"></button></td>
+                <td><button id="48" onclick="destaparExperto(48)" class="tarjetasDificiles"></button></td>
+                <td><button id="49" onclick="destaparExperto(49)" class="tarjetasDificiles"></button></td>
+                
+            </tr>
+            <tr>
+                <td><button id="50" onclick="destaparExperto(50)" class="tarjetasDificiles"></button></td>
+                <td><button id="51" onclick="destaparExperto(51)" class="tarjetasDificiles"></button></td>
+                <td><button id="52" onclick="destaparExperto(52)" class="tarjetasDificiles"></button></td>
+                <td><button id="53" onclick="destaparExperto(53)" class="tarjetasDificiles"></button></td>
+                <td><button id="54" onclick="destaparExperto(54)" class="tarjetasDificiles"></button></td>
+                
+            </tr>
+            <tr>
+                <td><button id="55" onclick="destaparExperto(55)" class="tarjetasDificiles"></button></td>
+                <td><button id="56" onclick="destaparExperto(56)" class="tarjetasDificiles"></button></td>
+                <td><button id="57" onclick="destaparExperto(57)" class="tarjetasDificiles"></button></td>
+                <td><button id="58" onclick="destaparExperto(58)" class="tarjetasDificiles"></button></td>
+                <td><button id="59" onclick="destaparExperto(59)" class="tarjetasDificiles"></button></td>
+                
+            </tr>
+            <tr>
+                <td><button id="61" onclick="destaparExperto(61)" class="tarjetasDificiles"></button></td>
+                <td><button id="62" onclick="destaparExperto(62)" class="tarjetasDificiles"></button></td>
+                <td><button id="63" onclick="destaparExperto(63)" class="tarjetasDificiles"></button></td>
+                <td><button id="64" onclick="destaparExperto(64)" class="tarjetasDificiles"></button></td>
+                <td><button id="65" onclick="destaparExperto(65)" class="tarjetasDificiles"></button></td>
+            </tr>
+        </table>
+        <button onclick="reiniciarJuegoExperto()" class="reinicioBoton">Reiniciar Juego</button>
+    </div>
+</section>
+
 </main>
 
 
@@ -170,3 +244,8 @@
               <script src="../../controladores/onePiece.js"></script>
 </body>
 </html>
+
+
+
+
+
