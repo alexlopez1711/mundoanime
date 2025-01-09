@@ -3,6 +3,11 @@
   font-family: anav; src: url(../fuentes/anav.otf);
 }
 
+@font-face{
+  font-family: titulonav; src: url(../fuentes/navtitulo.ttf);
+  
+}
+
 #overlay {
     position: fixed;
     top: 0;
@@ -201,7 +206,15 @@
   margin-left: 4px;
   background-color: #f9ab04;
 }
+.botonElegir:hover{
+  transform: scale(1.1);
+  
+}
 
+.hh1{
+  font-family: anav;
+  text-align: center;
+}
 /* Animación para mover la imagen de recargar a casa */
 @keyframes mover {
   0% {
@@ -279,113 +292,110 @@
 }
 
 
-
-.boddysegmen {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.juego {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 100vh;  /* Usamos 100vh para ocupar toda la altura de la pantalla */
-  width: 100%;  /* Aseguramos que ocupe todo el ancho */
-  background-color: #f9ab04;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-/* Contadores (Intentos, Aciertos, Tiempo) */
-.contadores {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 10px;
-}
-
-.contador {
-  background-color: white;
-  padding: 10px 10px;
-  border-radius: 5px;
-  font-size: 15px;
-}
-
-/* Botones de dificultad */
 .dificultad {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.btn-dificultad {
+.dificultadesMemorama,
+.reinicioBoton {
   background-color: #fff;
   color: #333;
-  padding: 10px 20px;
+  padding: 7px 7px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  font-family: anav;
+  border: 2px solid black;
 }
 
-.btn-dificultad:hover {
-  background-color: #e68a00;
-}
-
-/* Tablero */
-.tablero {
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  gap: 10px;
-  margin: 20px 0;
+.dificultadesMemorama:hover,
+.reinicioBoton:hover {
   background-color: #f9ab04;
-  width: 100%;
-  height: 100%;
+  transform: scale(1.1);
+  color: white;
+  
 }
 
-/* Carta */
-.carta {
+.MemoriaGames,
+.TriviaGames {
+  display: none;
+}
+
+.NivelFacilMemoria,
+.NivelDificilMemoria,
+.nivelExpertoMemoria,
+.NivelFacilTrivia,
+.NivelDificilTrivia,
+.nivelExpertoTrivia {
+  display: none; /* Ocultar por defecto */
+  width: 100%;
+  max-width: 5000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seccionCartasFaciles,
+.seccionCartasExperto,
+.seccionCartasdificiles {
+  background-color: #f1c40f ;
+  border: 4px solid black;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+}
+
+.tarjetasFacil {
+  background-image: url('../img/contracaraNaruto.png');
   width: 80px;
   height: 80px;
-  background-color: #ccc;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-size: contain;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.tarjetasDificiles{
   background-image: url('../img/contracaraNaruto.png');
-  background-size: cover;
-  background-position: center;
+  width: 66px;
+  height: 66px;
+  background-size: contain;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+img {
+  width: 110%;
+  
+}
+
+.tarjetasFacil:hover {
   cursor: pointer;
-  transition: transform 0.3s ease-in-out;
-  transform-style: preserve-3d; /* Necesario para los efectos 3D de rotación */
-  position: relative;
+  box-shadow: 0 0 20px rgba(30, 253, 249, 0.7);
+  transform: scale(1.1);
 }
 
-/* Carta volteada */
-.carta.flipped {
-  transform: rotateY(180deg);
+.estadisticas {
+  border: 2px solid black;
+  height: 40px;
+  padding: 5px 5px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 
-/* Imagen dentro de la carta */
-.carta img {
-  display: none;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  backface-visibility: hidden; /* Para que la imagen no se vea cuando la carta está volteada */
-}
-
-/* Carta vuelta mostrando la imagen */
-.carta.flipped img {
-  display: block;
-  object-fit: fill;
-  backface-visibility: hidden; /* Para ocultar la parte trasera cuando está volteada */
+.center-table { 
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: center;
 }

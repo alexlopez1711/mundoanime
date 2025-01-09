@@ -1,3 +1,13 @@
+@font-face{
+  font-family: anav; src: url(../fuentes/anav.otf);
+}
+
+@font-face{
+  font-family: titulonav; src: url(../fuentes/navtitulo.ttf);
+  
+}
+
+
 #overlay {
     position: fixed;
     top: 0;
@@ -161,6 +171,7 @@
   border-radius: 10px;
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
 .volver1, .recargar {
@@ -178,6 +189,28 @@
   animation: mover 8s linear infinite, crecer 8s linear infinite; /* Animaciones */
   animation-delay: 0s, 0s; /* Establece la sincronización */
   opacity: 1; /* Inicia visible */
+}
+
+.botonElegir{
+  text-align: center;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  border-radius: 30%;
+  border: solid;
+  font-family: anav;
+  margin-top: 80px;
+  margin-left: 4px;
+  background-color: rgb(49, 14, 173);
+}
+.botonElegir:hover{
+  transform: scale(1.1);
+  
+}
+
+.hh1{
+  font-family: anav;
+  text-align: center;
 }
 
 /* Animación para mover la imagen de recargar a casa */
@@ -254,4 +287,110 @@
       width: 55px;
       height: 55px;
   }
+}
+
+.dificultad {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.dificultadesMemorama,
+.reinicioBoton {
+  background-color: #fff;
+  color: #333;
+  padding: 7px 7px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  font-family: anav;
+  border: 2px solid black;
+}
+
+.dificultadesMemorama:hover,
+.reinicioBoton:hover {
+  background-color: rgb(49, 14, 173);
+  transform: scale(1.1);
+  color: white;
+}
+
+.MemoriaGames,
+.TriviaGames {
+  display: none;
+}
+
+.NivelFacilMemoria,
+.NivelDificilMemoria,
+.nivelExpertoMemoria,
+.NivelFacilTrivia,
+.NivelDificilTrivia,
+.nivelExpertoTrivia {
+  display: none; /* Ocultar por defecto */
+  width: 100%;
+  max-width: 5000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seccionCartasFaciles,
+.seccionCartasExperto,
+.seccionCartasdificiles {
+  background-color: #2471a3;
+  border: 4px solid black;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+}
+
+.tarjetasFacil {
+  background-image: url('../img/dragonlogo.jpg');
+  width: 80px;
+  height: 80px;
+  background-size: contain;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.tarjetasDificiles{
+  background-image: url('../img/dragonlogo.jpg');
+  width: 66px;
+  height: 66px;
+  background-size: contain;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+img {
+  width: 110%;
+}
+
+.tarjetasFacil:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(30, 253, 249, 0.7);
+  transform: scale(1.1);
+}
+
+.estadisticas {
+  border: 2px solid black;
+  height: 40px;
+  padding: 5px 5px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.center-table { 
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: center;
 }

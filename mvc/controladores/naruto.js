@@ -55,209 +55,466 @@ showImagesButton.addEventListener("click", function() {
   });
 }); 
 
-/////
-// Rutas de las imágenes que se usarán en el juego
-const imagenes = [
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/1.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/2.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/3.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/3.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/4.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/5.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/6.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/7.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/8.png",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/9.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/10.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/11.webp",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/12.webp",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/13.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/14.webp",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/15.webp",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/16.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/17.webp",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/18.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/19.gif",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/20.jpg.",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/21.webp",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/22.png",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/23.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/24.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/25.webp",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/26.png",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/27.png.",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/28.webp",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/29.jpg.",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/30.jpg.",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/31.jpg",
-  "http://127.0.0.1:5500/mvc/vistas/img/modalimg/naruto/32.webp",
-  
-  
-];
+let memoriaVisible = false;
+let triviaVisible = false;
+
+function elegirDificultadMemoria() {
+    const memoriaGames = document.querySelector('.MemoriaGames');
+    const triviaGames = document.querySelector('.TriviaGames');
+
+    if (memoriaVisible) {
+        memoriaGames.style.display = 'none';
+        memoriaVisible = false;
+    } else {
+        memoriaGames.style.display = 'block';
+        triviaGames.style.display = 'none';
+        memoriaVisible = true;
+        triviaVisible = false;
+    }
+}
+
+function elegirDificultadTrivia() {
+    const memoriaGames = document.querySelector('.MemoriaGames');
+    const triviaGames = document.querySelector('.TriviaGames');
+
+    if (triviaVisible) {
+        triviaGames.style.display = 'none';
+        triviaVisible = false;
+    } else {
+        triviaGames.style.display = 'block';
+        memoriaGames.style.display = 'none';
+        triviaVisible = true;
+        memoriaVisible = false;
+    }
+}
+
+function nivelFacilMemoria() {
+    ocultarSeccionesMemoria();
+    document.querySelector('.NivelFacilMemoria').style.display = 'block';
+}
+
+function nivelDificilMemoria() {
+    ocultarSeccionesMemoria();
+    document.querySelector('.NivelDificilMemoria').style.display = 'block';
+}
+
+function nivelExpertoMemoria() {
+    ocultarSeccionesMemoria();
+    document.querySelector('.nivelExpertoMemoria').style.display = 'block';
+}
+
+function nivelFacilTrivia() {
+    ocultarSeccionesTrivia();
+    document.querySelector('.NivelFacilTrivia').style.display = 'block';
+}
+
+function nivelDificilTrivia() {
+    ocultarSeccionesTrivia();
+    document.querySelector('.NivelDificilTrivia').style.display = 'block';
+}
+
+function nivelExpertoTrivia() {
+    ocultarSeccionesTrivia();
+    document.querySelector('.nivelExpertoTrivia').style.display = 'block';
+}
+
+function ocultarSeccionesMemoria() {
+    document.querySelector('.NivelFacilMemoria').style.display = 'none';
+    document.querySelector('.NivelDificilMemoria').style.display = 'none';
+    document.querySelector('.nivelExpertoMemoria').style.display = 'none';
+}
+
+function ocultarSeccionesTrivia() {
+    document.querySelector('.NivelFacilTrivia').style.display = 'none';
+    document.querySelector('.NivelDificilTrivia').style.display = 'none';
+    document.querySelector('.nivelExpertoTrivia').style.display = 'none';
+}
+
+
+let voltearCartaFacil = 0;
+let tarjeta1Facil = null;
+let tarjeta2Facil = null;
+let primerResultadoFacil = null;
+let segundoResultadoFacil = null;
+let tarjetasDestapadasFacil = 0; // Define la variable aquí
+let movimientosfaciles = 0;
+let aciertosfaciles = 0;
+let tiempofaciles = false;
+let timerFacil = 50;
+let timerinicial = 50;
+let tiempoRegresivoFacilId = null;
+let winAudio = new Audio ('../sonidos/win.wav')
+let loseAudio = new Audio ('../sonidos/lose.wav')
+let clickAudio = new Audio ('../sonidos/click.wav')
+let rightAudio = new Audio ('../sonidos/right.wav')
+let wrongAudio = new Audio ('../sonidos/wrong.wav')
 
 
 
-let intentos = 0;
-let aciertos = 0;
-let tiempo = 0;
-let timer;
-let cartaSeleccionada = [];
-let cartaIdSeleccionada = [];
-let cartasVolteadas = 0; // Nuevo contador para el estado de las cartas
 
-// Manejadores de los botones de dificultad
-document.querySelectorAll('.btn-dificultad').forEach(button => {
-  button.addEventListener('click', function() {
-      const dificultad = this.getAttribute('data-dificultad');
-      iniciarJuego(dificultad);
-  });
+let mostrarMovimientosFacil = document.getElementById("movimientosfaciles");
+let mostrarAciertosFaciles = document.getElementById("aciertosfaciles");
+let mostrarTiempoFacil = document.getElementById("tiempofaciles");
+
+let numeroFacil = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8];
+numeroFacil = numeroFacil.sort(() => {
+    return Math.random() - 0.5;
 });
 
-// Función para iniciar el juego dependiendo del nivel de dificultad
-function iniciarJuego(dificultad) {
-  // Resetear los contadores
-  intentos = 0;
-  aciertos = 0;
-  tiempo = 0;
-  document.getElementById('intentos-count').textContent = intentos;
-  document.getElementById('aciertos-count').textContent = aciertos;
-  document.getElementById('tiempo-count').textContent = tiempo;
+function contarTiempoFacil() {
+    tiempoRegresivoFacilId = setInterval(() => {
+        timerFacil--;
+        mostrarTiempoFacil.innerHTML = `Tiempo: ${timerFacil} Segundos`;
+        if (timerFacil == 0) {
+            clearInterval(tiempoRegresivoFacilId);
+            bloquearTarjetasFacil();
+            loseAudio.play();
 
-  // Detener cualquier temporizador previo
-  if (timer) {
-      clearInterval(timer);
-  }
-
-  // Iniciar el temporizador
-  timer = setInterval(() => {
-      tiempo++;
-      document.getElementById('tiempo-count').textContent = tiempo;
-  }, 1000);
-
-  // Determinar el tamaño del tablero y las imágenes que se van a usar
-  let filas, columnas, numImagenes;
-  switch (dificultad) {
-      case 'genin':
-          filas = 4;
-          columnas = 4;
-          numImagenes = 8; // 4x4 = 16 cartas (8 imágenes duplicadas)
-          break;
-      case 'chunin':
-          filas = 5;
-          columnas = 4;
-          numImagenes = 10; // 5x4 = 20 cartas (9 imágenes duplicadas)
-          break;
-      case 'jonin':
-          filas = 6;
-          columnas = 5;
-          numImagenes = 15; // 6x5 = 30 cartas (15 imágenes duplicadas)
-          break;
-      case 'kage':
-          filas = 7;
-          columnas = 5;
-          numImagenes = 20; // 6x6 = 36 cartas (18 imágenes duplicadas)
-          break;
-  }
-
-  // Crear el tablero vacío
-  const tablero = document.getElementById('tablero');
-  tablero.innerHTML = '';
-
-  // Crear el arreglo de cartas a partir de las imágenes
-  const cartas = crearCartas(numImagenes);
-
-  // Llenar el tablero con las cartas
-  cartas.forEach(carta => {
-      const cartaElemento = document.createElement('div');
-      cartaElemento.classList.add('carta');
-      cartaElemento.setAttribute('data-id', carta.id);
-
-      const imagen = document.createElement('img');
-      imagen.src = carta.imagen;
-      imagen.style.display = 'none';  // Las imágenes deben estar ocultas al principio
-      cartaElemento.appendChild(imagen);
-
-      cartaElemento.addEventListener('click', voltearCarta);
-
-      tablero.appendChild(cartaElemento);
-  });
-
-  // Establecer el tamaño del tablero según el número de filas y columnas
-  tablero.style.gridTemplateColumns = `repeat(${columnas}, 80px)`;
-  tablero.style.gridTemplateRows = `repeat(${filas}, 80px)`;
+        }
+    }, 1000);
 }
 
-// Función para crear las cartas con las imágenes duplicadas y mezcladas
-function crearCartas(numImagenes) {
-  let cartas = [];
-  const imagenesSeleccionadas = imagenes.slice(0, numImagenes);
-
-  imagenesSeleccionadas.forEach((imagen, index) => {
-      // Crear dos cartas por cada imagen
-      cartas.push({ id: index, imagen: imagen });
-      cartas.push({ id: index, imagen: imagen });
-  });
-
-  // Mezclar las cartas aleatoriamente
-  return mezclar(cartas);
-}
-
-// Función para mezclar las cartas aleatoriamente
-function mezclar(arr) {
-  for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]]; // Intercambiar los elementos
-  }
-  return arr;
-}
-
-// Función para voltear las cartas
-function voltearCarta(event) {
-  const carta = event.target;
-
-  // Si ya está volteada o ya hay dos cartas seleccionadas, no hacer nada
-  if (carta.classList.contains('flipped') || cartaSeleccionada.length === 2) {
-      return;
-  }
-
-  // Mostrar la imagen de la carta seleccionada
-  carta.classList.add('flipped');
-  const imagen = carta.querySelector('img');
-  imagen.style.display = 'block';
-
-  // Añadir la carta a la selección
-  cartaSeleccionada.push(imagen.src);
-  cartaIdSeleccionada.push(carta.getAttribute('data-id'));
-
-  // Si hay 2 cartas seleccionadas, verificar la coincidencia
-  if (cartaSeleccionada.length === 2) {
-      setTimeout(verificarCoincidencia, 1000); // Se comparan las cartas después de 1 segundo
+function bloquearTarjetasFacil() {
+  for (let i = 0; i <= 15; i++) {
+      let tarjetaBloqueadaFacil = document.getElementById(i);
+      tarjetaBloqueadaFacil.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${numeroFacil[i]}.jpg">`;
+      tarjetaBloqueadaFacil.disabled = true;
   }
 }
 
-// Función para verificar si las cartas coinciden
-function verificarCoincidencia() {
-  const cartas = document.querySelectorAll('.carta');
-  const carta1 = cartas[cartaIdSeleccionada[0]];
-  const carta2 = cartas[cartaIdSeleccionada[1]];
+function destaparFacil(id) {
+  if (tiempofaciles == false) {
+      contarTiempoFacil();
+      tiempofaciles = true;
+  }
+  tarjetasDestapadasFacil++;
+  if (tarjetasDestapadasFacil == 1) {
+      tarjeta1Facil = document.getElementById(id);
+      primerResultadoFacil = numeroFacil[id];
+      tarjeta1Facil.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${primerResultadoFacil}.jpg">`;
+      clickAudio.play();
+      tarjeta1Facil.disabled = true;
+  } else if (tarjetasDestapadasFacil == 2) {
+      tarjeta2Facil = document.getElementById(id);
+      segundoResultadoFacil = numeroFacil[id];
+      tarjeta2Facil.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${segundoResultadoFacil}.jpg">`;
+      clickAudio.play();
+      tarjeta2Facil.disabled = true;
+      movimientosfaciles++;
+      mostrarMovimientosFacil.innerHTML = `Movimientos: ${movimientosfaciles}`;
+      
+      if(primerResultadoFacil == segundoResultadoFacil){
+        tarjetasDestapadasFacil = 0;
+        aciertosfaciles++;
+        rightAudio.play();
+        mostrarAciertosFaciles.innerHTML =  `Aciertos: ${aciertosfaciles} `;
 
-  // Si las cartas coinciden
-  if (cartaSeleccionada[0] === cartaSeleccionada[1]) {
-      aciertos++;
-      document.getElementById('aciertos-count').textContent = aciertos;
-  } else {
-      // Si no coinciden, ocultarlas después de 1 segundo
-      carta1.classList.remove('flipped');
-      carta2.classList.remove('flipped');
-      carta1.querySelector('img').style.display = 'none';
-      carta2.querySelector('img').style.display = 'none';
+        if (aciertosfaciles == 8){
+          clearInterval(tiempoRegresivoFacilId);
+          mostrarAciertosFaciles.innerHTML=  `Aciertos: ${aciertosfaciles} `;
+          mostrarMovimientosFacil.innerHTML = `Usaste:  ${movimientosfaciles} Movimientos`;
+          mostrarTiempoFacil.innerHTML = `Te Tardaste  ${timerinicial - timerFacil} Segundos`;
+          winAudio.play();
+        }
+
+      }else {
+         setTimeout(() => {
+          tarjeta1Facil.innerHTML = "";
+          tarjeta2Facil.innerHTML = "";
+          tarjeta1Facil.disabled = false;
+          tarjeta2Facil.disabled = false;
+          tarjetasDestapadasFacil = 0;
+          wrongAudio.play();
+         },700)
+      }
+
+
+
+      // Aquí puedes agregar la lógica para verificar coincidencias y otros comportamientos.
+  }
+}
+function reiniciarJuegoFacil() {
+  // Restablecer todas las variables
+  voltearCartaFacil = 0;
+  tarjeta1Facil = null;
+  tarjeta2Facil = null;
+  primerResultadoFacil = null;
+  segundoResultadoFacil = null;
+  tarjetasDestapadasFacil = 0;
+  movimientosfaciles = 0;
+  aciertosfaciles = 0;
+  tiempofaciles = false;
+  timerFacil = timerinicial;
+  winAudio.play();
+
+  // Actualizar las estadísticas en pantalla
+  mostrarMovimientosFacil.innerHTML = `Movimientos: 0`;
+  mostrarAciertosFaciles.innerHTML = `Aciertos: 0`;
+  mostrarTiempoFacil.innerHTML = `Tiempo: ${timerinicial} Segundos`;
+
+  // Barajar nuevamente las tarjetas
+  numeroFacil = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8];
+  numeroFacil = numeroFacil.sort(() => Math.random() - 0.5);
+
+  // Restablecer el contenido de todas las tarjetas
+  for (let i = 0; i <= 15; i++) {
+      let tarjeta = document.getElementById(i);
+      tarjeta.innerHTML = "";
+      tarjeta.disabled = false;
   }
 
-  // Incrementar el contador de intentos
-  intentos++;
-  document.getElementById('intentos-count').textContent = intentos;
+  // Detener cualquier temporizador en curso
+  if (tiempoRegresivoFacilId !== null) {
+      clearInterval(tiempoRegresivoFacilId);
+  }
+}
 
-  // Reiniciar la selección para el siguiente turno
-  cartaSeleccionada = [];
-  cartaIdSeleccionada = [];
+
+
+
+let voltearCartaDificil = 0;
+let tarjeta1Dificil = null;
+let tarjeta2Dificil = null;
+let primerResultadoDificil = null;
+let segundoResultadoDificil = null;
+let tarjetasDestapadasDificil = 0;
+let movimientosdificiles = 0;
+let aciertosdificiles = 0;
+let tiempodificiles = false;
+let timerDificil = 50;
+let timerinicialDificil = 50;
+let tiempoRegresivoDificilId = null;
+
+let mostrarMovimientosDificil = document.getElementById("movimientosdificiles");
+let mostrarAciertosDificil = document.getElementById("aciertosdificiles");
+let mostrarTiempoDificil = document.getElementById("tiempodificiles");
+
+let numeroDificil = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10];
+numeroDificil = numeroDificil.sort(() => Math.random() - 0.5);
+
+function contarTiempoDificil() {
+    tiempoRegresivoDificilId = setInterval(() => {
+        timerDificil--;
+        mostrarTiempoDificil.innerHTML = `Tiempo: ${timerDificil} Segundos`;
+        if (timerDificil == 0) {
+            clearInterval(tiempoRegresivoDificilId);
+            bloquearTarjetasDificil();
+            loseAudio.play();
+        }
+    }, 1000);
+}
+
+function bloquearTarjetasDificil() {
+    for (let i = 16; i <= 35; i++) {
+        let tarjetaBloqueadaDificil = document.getElementById(i);
+        tarjetaBloqueadaDificil.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${numeroDificil[i - 16]}.jpg">`;
+        tarjetaBloqueadaDificil.disabled = true;
+    }
+}
+
+function destaparDificil(id) {
+    if (tiempodificiles == false) {
+        contarTiempoDificil();
+        tiempodificiles = true;
+    }
+    tarjetasDestapadasDificil++;
+    if (tarjetasDestapadasDificil == 1) {
+        tarjeta1Dificil = document.getElementById(id);
+        primerResultadoDificil = numeroDificil[id - 16];
+        tarjeta1Dificil.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${primerResultadoDificil}.jpg">`;
+        clickAudio.play();
+        tarjeta1Dificil.disabled = true;
+    } else if (tarjetasDestapadasDificil == 2) {
+        tarjeta2Dificil = document.getElementById(id);
+        segundoResultadoDificil = numeroDificil[id - 16];
+        tarjeta2Dificil.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${segundoResultadoDificil}.jpg">`;
+        clickAudio.play();
+        tarjeta2Dificil.disabled = true;
+        movimientosdificiles++;
+        mostrarMovimientosDificil.innerHTML = `Movimientos: ${movimientosdificiles}`;
+        
+        if(primerResultadoDificil == segundoResultadoDificil) {
+            tarjetasDestapadasDificil = 0;
+            aciertosdificiles++;
+            rightAudio.play();
+            mostrarAciertosDificil.innerHTML = `Aciertos: ${aciertosdificiles}`;
+
+            if (aciertosdificiles == 10) {
+                clearInterval(tiempoRegresivoDificilId);
+                mostrarAciertosDificil.innerHTML = `Aciertos: ${aciertosdificiles}`;
+                mostrarMovimientosDificil.innerHTML = `Usaste: ${movimientosdificiles} Movimientos`;
+                mostrarTiempoDificil.innerHTML = `Te Tardaste ${timerinicialDificil - timerDificil} Segundos`;
+                winAudio.play();
+            }
+        } else {
+            setTimeout(() => {
+                tarjeta1Dificil.innerHTML = "";
+                tarjeta2Dificil.innerHTML = "";
+                tarjeta1Dificil.disabled = false;
+                tarjeta2Dificil.disabled = false;
+                tarjetasDestapadasDificil = 0;
+                wrongAudio.play();
+            }, 700);
+        }
+    }
+}
+
+function reiniciarJuegoDificil() {
+    voltearCartaDificil = 0;
+    tarjeta1Dificil = null;
+    tarjeta2Dificil = null;
+    primerResultadoDificil = null;
+    segundoResultadoDificil = null;
+    tarjetasDestapadasDificil = 0;
+    movimientosdificiles = 0;
+    aciertosdificiles = 0;
+    tiempodificiles = false;
+    timerDificil = timerinicialDificil;
+    winAudio.play();
+
+    mostrarMovimientosDificil.innerHTML = `Movimientos: 0`;
+    mostrarAciertosDificil.innerHTML = `Aciertos: 0`;
+    mostrarTiempoDificil.innerHTML = `Tiempo: ${timerinicialDificil} Segundos`;
+
+    numeroDificil = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10];
+    numeroDificil = numeroDificil.sort(() => Math.random() - 0.5);
+
+    for (let i = 16; i <= 35; i++) {
+        let tarjeta = document.getElementById(i);
+        tarjeta.innerHTML = "";
+        tarjeta.disabled = false;
+    }
+
+    if (tiempoRegresivoDificilId !== null) {
+        clearInterval(tiempoRegresivoDificilId);
+    }
+}
+
+
+
+
+let voltearCartaExperto = 0;
+let tarjeta1Experto = null;
+let tarjeta2Experto = null;
+let primerResultadoExperto = null;
+let segundoResultadoExperto = null;
+let tarjetasDestapadasExperto = 0;
+let movimientoSexpertos = 0;
+let aciertoSexpertos = 0;
+let tiempoExpertos = false;
+let timerExperto = 70;
+let timerInicialExperto = 70;
+let tiempoRegresivoExpertoId = null;
+
+let mostrarMovimientosExperto = document.getElementById("movimientosexpertos");
+let mostrarAciertosExperto = document.getElementById("aciertosexpertos");
+let mostrarTiempoExperto = document.getElementById("tiempoexpertos");
+
+let numeroExperto = [
+    1, 1, 2, 2, 3, 3, 4, 4, 5, 5,
+    6, 6, 7, 7, 8, 8, 9, 9, 10, 10,
+    11, 11, 12, 12, 13, 13, 14, 14, 15, 15
+];
+numeroExperto = numeroExperto.sort(() => Math.random() - 0.5);
+
+function contarTiempoExperto() {
+    tiempoRegresivoExpertoId = setInterval(() => {
+        timerExperto--;
+        mostrarTiempoExperto.innerHTML = `Tiempo: ${timerExperto} Segundos`;
+        if (timerExperto == 0) {
+            clearInterval(tiempoRegresivoExpertoId);
+            bloquearTarjetasExperto();
+            loseAudio.play();
+        }
+    }, 1000);
+}
+
+function bloquearTarjetasExperto() {
+    for (let i = 36; i <= 65; i++) {
+        let tarjetaBloqueadaExperto = document.getElementById(i);
+        tarjetaBloqueadaExperto.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${numeroExperto[i - 36]}.jpg">`;
+        tarjetaBloqueadaExperto.disabled = true;
+    }
+}
+
+function destaparExperto(id) {
+    if (tiempoExpertos == false) {
+        contarTiempoExperto();
+        tiempoExpertos = true;
+    }
+    tarjetasDestapadasExperto++;
+    if (tarjetasDestapadasExperto == 1) {
+        tarjeta1Experto = document.getElementById(id);
+        primerResultadoExperto = numeroExperto[id - 36];
+        tarjeta1Experto.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${primerResultadoExperto}.jpg">`;
+        clickAudio.play();
+        tarjeta1Experto.disabled = true;
+    } else if (tarjetasDestapadasExperto == 2) {
+        tarjeta2Experto = document.getElementById(id);
+        segundoResultadoExperto = numeroExperto[id - 36];
+        tarjeta2Experto.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${segundoResultadoExperto}.jpg">`;
+        clickAudio.play();
+        tarjeta2Experto.disabled = true;
+        movimientoSexpertos++;
+        mostrarMovimientosExperto.innerHTML = `Movimientos: ${movimientoSexpertos}`;
+        
+        if (primerResultadoExperto == segundoResultadoExperto) {
+            tarjetasDestapadasExperto = 0;
+            aciertoSexpertos++;
+            rightAudio.play();
+            mostrarAciertosExperto.innerHTML = `Aciertos: ${aciertoSexpertos}`;
+
+            if (aciertoSexpertos == 15) {
+                clearInterval(tiempoRegresivoExpertoId);
+                mostrarAciertosExperto.innerHTML = `Aciertos: ${aciertoSexpertos}`;
+                mostrarMovimientosExperto.innerHTML = `Usaste: ${movimientoSexpertos} Movimientos`;
+                mostrarTiempoExperto.innerHTML = `Te Tardaste ${timerInicialExperto - timerExperto} Segundos`;
+                winAudio.play();
+            }
+        } else {
+            setTimeout(() => {
+                tarjeta1Experto.innerHTML = "";
+                tarjeta2Experto.innerHTML = "";
+                tarjeta1Experto.disabled = false;
+                tarjeta2Experto.disabled = false;
+                tarjetasDestapadasExperto = 0;
+                wrongAudio.play();
+            }, 700);
+        }
+    }
+}
+
+function reiniciarJuegoExperto() {
+    voltearCartaExperto = 0;
+    tarjeta1Experto = null;
+    tarjeta2Experto = null;
+    primerResultadoExperto = null;
+    segundoResultadoExperto = null;
+    tarjetasDestapadasExperto = 0;
+    movimientoSexpertos = 0;
+    aciertoSexpertos = 0;
+    tiempoExpertos = false;
+    timerExperto = timerInicialExperto;
+    winAudio.play();
+
+    mostrarMovimientosExperto.innerHTML = `Movimientos: 0`;
+    mostrarAciertosExperto.innerHTML = `Aciertos: 0`;
+    mostrarTiempoExperto.innerHTML = `Tiempo: ${timerInicialExperto} Segundos`;
+
+    numeroExperto = [
+        1, 1, 2, 2, 3, 3, 4, 4, 5, 5,
+        6, 6, 7, 7, 8, 8, 9, 9, 10, 10,
+        11, 11, 12, 12, 13, 13, 14, 14, 15, 15
+    ];
+    numeroExperto = numeroExperto.sort(() => Math.random() - 0.5);
+
+    for (let i = 36; i <= 65; i++) {
+        let tarjeta = document.getElementById(i);
+        tarjeta.innerHTML = "";
+        tarjeta.disabled = false;
+    }
+
+    if (tiempoRegresivoExpertoId !== null) {
+        clearInterval(tiempoRegresivoExpertoId);
+    }
 }

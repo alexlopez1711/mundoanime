@@ -74,43 +74,168 @@
                 </div>
             </div>
             
-            <button class="botonElegir">Memoria</button>
-            <button class="botonElegir">Trivia</button>
+            <button class="botonElegir" id="botonMemoria" onclick="elegirDificultadMemoria()">Memoria</button>
+            <button class="botonElegir" id="botonTrivia" onclick="elegirDificultadTrivia()">Trivia</button>
               
           </div>
         
-
-          <div class="boddysegmen">
-          <div id="juego" class="juego">
-                 <!-- Opciones de dificultad -->
-            <div id="dificultad" class="dificultad">
-              <button class="btn-dificultad" data-dificultad="genin">Genin</button>
-              <button class="btn-dificultad" data-dificultad="chunin">Chūnin</button>
-              <button class="btn-dificultad" data-dificultad="jonin">Jōnin</button>
-              <button class="btn-dificultad" data-dificultad="kage">Kage</button>
-          </div>
-
-            
-    
-            <!-- Espacio para las cartas del juego -->
-            <div id="tablero" class="tablero">
-                <!-- Las cartas se generarán dinámicamente aquí -->
+          <div class="MemoriaGames" style="display: none;">
+            <div class="dificultad">
+              <button class="dificultadesMemorama" onclick="nivelFacilMemoria()">Chūnin</button>
+              <button class="dificultadesMemorama" onclick="nivelDificilMemoria()">Jōnin</button>
+              <button class="dificultadesMemorama" onclick="nivelExpertoMemoria()">Kage</button>
             </div>
-          
-            <!-- Contadores -->
-            <div id="contadores" class="contadores">
-              <div class="contador" id="intentos">
-                  Intentos: <span id="intentos-count">0</span>
-              </div>
-              <div class="contador" id="aciertos">
-                  Aciertos: <span id="aciertos-count">0</span>
-              </div>
-              <div class="contador" id="tiempo">
-                  Tiempo: <span id="tiempo-count">0:00</span> 
-              </div>
+            <h1 class="hh1">Juego De Memoria</h1>
           </div>
-        </div> 
-      </div>
+          
+          <div class="TriviaGames" style="display: none;">
+            <div class="dificultad">
+              <button class="dificultadesMemorama" onclick="nivelFacilTrivia()">Chūnin</button>
+              <button class="dificultadesMemorama" onclick="nivelDificilTrivia()">Jōnin</button>
+              <button class="dificultadesMemorama" onclick="nivelExpertoTrivia()">Kage</button>
+            </div>
+            <h1 class="hh1">Juego De Trivia</h1>
+          </div>
+
+          <main>
+            <section class=" NivelFacilMemoria">
+              <div class="seccionCartasFaciles">
+                <h3>Dificultad Chūnin</h3>
+                <p id="movimientosfaciles" class="estadisticas"><b>Movimientos: 0</b></p>
+                <p id="aciertosfaciles" class="estadisticas"><b>Aciertos: 0</b></p>
+                <p id="tiempofaciles" class="estadisticas"><b>Tiempo: 50 Segundos</b></p>
+                <table class="center-table">
+                    <tr>
+                        <td><button id="0" onclick="destaparFacil(0)" class="tarjetasFacil"></button></td>
+                        <td><button id="1" onclick="destaparFacil(1)" class="tarjetasFacil"></button></td>
+                        <td><button id="2" onclick="destaparFacil(2)" class="tarjetasFacil"></button></td>
+                        <td><button id="3" onclick="destaparFacil(3)" class="tarjetasFacil"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="4" onclick="destaparFacil(4)" class="tarjetasFacil"></button></td>
+                        <td><button id="5" onclick="destaparFacil(5)" class="tarjetasFacil"></button></td>
+                        <td><button id="6" onclick="destaparFacil(6)" class="tarjetasFacil"></button></td>
+                        <td><button id="7" onclick="destaparFacil(7)" class="tarjetasFacil"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="8" onclick="destaparFacil(8)" class="tarjetasFacil"></button></td>
+                        <td><button id="9" onclick="destaparFacil(9)" class="tarjetasFacil"></button></td>
+                        <td><button id="10" onclick="destaparFacil(10)" class="tarjetasFacil"></button></td>
+                        <td><button id="11" onclick="destaparFacil(11)" class="tarjetasFacil"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="12" onclick="destaparFacil(12)" class="tarjetasFacil"></button></td>
+                        <td><button id="13" onclick="destaparFacil(13)" class="tarjetasFacil"></button></td>
+                        <td><button id="14" onclick="destaparFacil(14)" class="tarjetasFacil"></button></td>
+                        <td><button id="15" onclick="destaparFacil(15)" class="tarjetasFacil"></button></td>
+                    </tr>
+                </table>
+                <button onclick="reiniciarJuegoFacil()" class="reinicioBoton">Reiniciar Juego</button>
+              </div>
+            </section>
+          
+          
+            <section class=" NivelDificilMemoria">
+              <div class="seccionCartasdificiles">
+                <h3>Dificultad Jōnin</h3>
+                <p id="movimientosdificiles" class="estadisticas"><b>Movimientos: 0</b></p>
+                <p id="aciertosdificiles"    class="estadisticas"><b>Aciertos: 0</b></p>
+                <p id="tiempodificiles"      class="estadisticas"><b>Tiempo: 50 Segundos</b></p>
+                <table class="center-table">
+                    <tr>
+                        <td><button id="16" onclick="destaparDificil(16)" class="tarjetasDificiles"></button></td>
+                        <td><button id="17" onclick="destaparDificil(17)" class="tarjetasDificiles"></button></td>
+                        <td><button id="18" onclick="destaparDificil(18)" class="tarjetasDificiles"></button></td>
+                        <td><button id="19" onclick="destaparDificil(19)" class="tarjetasDificiles"></button></td>
+                        <td><button id="20" onclick="destaparDificil(20)" class="tarjetasDificiles"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="21" onclick="destaparDificil(21)" class="tarjetasDificiles"></button></td>
+                        <td><button id="22" onclick="destaparDificil(22)" class="tarjetasDificiles"></button></td>
+                        <td><button id="23" onclick="destaparDificil(23)" class="tarjetasDificiles"></button></td>
+                        <td><button id="24" onclick="destaparDificil(24)" class="tarjetasDificiles"></button></td>
+                        <td><button id="25" onclick="destaparDificil(25)" class="tarjetasDificiles"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="26" onclick="destaparDificil(26)" class="tarjetasDificiles"></button></td>
+                        <td><button id="27" onclick="destaparDificil(27)" class="tarjetasDificiles"></button></td>
+                        <td><button id="28" onclick="destaparDificil(28)" class="tarjetasDificiles"></button></td>
+                        <td><button id="29" onclick="destaparDificil(29)" class="tarjetasDificiles"></button></td>
+                        <td><button id="30" onclick="destaparDificil(30)" class="tarjetasDificiles"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="31" onclick="destaparDificil(31)" class="tarjetasDificiles"></button></td>
+                        <td><button id="32" onclick="destaparDificil(32)" class="tarjetasDificiles"></button></td>
+                        <td><button id="33" onclick="destaparDificil(33)" class="tarjetasDificiles"></button></td>
+                        <td><button id="34" onclick="destaparDificil(34)" class="tarjetasDificiles"></button></td>
+                        <td><button id="35" onclick="destaparDificil(35)" class="tarjetasDificiles"></button></td>
+                    </tr>
+                </table>
+                <button onclick="reiniciarJuegoDificil()" class="reinicioBoton">Reiniciar Juego</button>
+              </div>
+            </section>
+            <section class="nivelExpertoMemoria">
+              <div class="seccionCartasExperto">
+                  <h3>Dificultad Kage</h3>
+                  <p id="movimientosexpertos" class="estadisticas"><b>Movimientos: 0</b></p>
+                  <p id="aciertosexpertos" class="estadisticas"><b>Aciertos: 0</b></p>
+                  <p id="tiempoexpertos" class="estadisticas"><b>Tiempo: 70 Segundos</b></p>
+                  <table class="center-table">
+                      <tr>
+                          <td><button id="36" onclick="destaparExperto(36)" class="tarjetasDificiles"></button></td>
+                          <td><button id="37" onclick="destaparExperto(37)" class="tarjetasDificiles"></button></td>
+                          <td><button id="38" onclick="destaparExperto(38)" class="tarjetasDificiles"></button></td>
+                          <td><button id="39" onclick="destaparExperto(39)" class="tarjetasDificiles"></button></td>
+                          <td><button id="60" onclick="destaparExperto(60)" class="tarjetasDificiles"></button></td>
+                          
+                      </tr>
+                      <tr>
+                          <td><button id="40" onclick="destaparExperto(40)" class="tarjetasDificiles"></button></td>
+                          <td><button id="41" onclick="destaparExperto(41)" class="tarjetasDificiles"></button></td>
+                          <td><button id="42" onclick="destaparExperto(42)" class="tarjetasDificiles"></button></td>
+                          <td><button id="43" onclick="destaparExperto(43)" class="tarjetasDificiles"></button></td>
+                          <td><button id="44" onclick="destaparExperto(44)" class="tarjetasDificiles"></button></td>
+                          
+                      </tr>
+                      <tr>
+                          <td><button id="45" onclick="destaparExperto(45)" class="tarjetasDificiles"></button></td>
+                          <td><button id="46" onclick="destaparExperto(46)" class="tarjetasDificiles"></button></td>
+                          <td><button id="47" onclick="destaparExperto(47)" class="tarjetasDificiles"></button></td>
+                          <td><button id="48" onclick="destaparExperto(48)" class="tarjetasDificiles"></button></td>
+                          <td><button id="49" onclick="destaparExperto(49)" class="tarjetasDificiles"></button></td>
+                          
+                      </tr>
+                      <tr>
+                          <td><button id="50" onclick="destaparExperto(50)" class="tarjetasDificiles"></button></td>
+                          <td><button id="51" onclick="destaparExperto(51)" class="tarjetasDificiles"></button></td>
+                          <td><button id="52" onclick="destaparExperto(52)" class="tarjetasDificiles"></button></td>
+                          <td><button id="53" onclick="destaparExperto(53)" class="tarjetasDificiles"></button></td>
+                          <td><button id="54" onclick="destaparExperto(54)" class="tarjetasDificiles"></button></td>
+                          
+                      </tr>
+                      <tr>
+                          <td><button id="55" onclick="destaparExperto(55)" class="tarjetasDificiles"></button></td>
+                          <td><button id="56" onclick="destaparExperto(56)" class="tarjetasDificiles"></button></td>
+                          <td><button id="57" onclick="destaparExperto(57)" class="tarjetasDificiles"></button></td>
+                          <td><button id="58" onclick="destaparExperto(58)" class="tarjetasDificiles"></button></td>
+                          <td><button id="59" onclick="destaparExperto(59)" class="tarjetasDificiles"></button></td>
+                          
+                      </tr>
+                      <tr>
+                          <td><button id="61" onclick="destaparExperto(61)" class="tarjetasDificiles"></button></td>
+                          <td><button id="62" onclick="destaparExperto(62)" class="tarjetasDificiles"></button></td>
+                          <td><button id="63" onclick="destaparExperto(63)" class="tarjetasDificiles"></button></td>
+                          <td><button id="64" onclick="destaparExperto(64)" class="tarjetasDificiles"></button></td>
+                          <td><button id="65" onclick="destaparExperto(65)" class="tarjetasDificiles"></button></td>
+                      </tr>
+                  </table>
+                  <button onclick="reiniciarJuegoExperto()" class="reinicioBoton">Reiniciar Juego</button>
+              </div>
+          </section>
+          
+          </main>
+          
+          
           
 
               <script src="../../controladores/naruto.js"></script>

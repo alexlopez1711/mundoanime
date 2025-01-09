@@ -316,6 +316,7 @@
 .reinicioBoton:hover {
   background-color: #1bb435;
   transform: scale(1.1);
+  color: white;
 }
 
 .MemoriaGames,
@@ -355,7 +356,7 @@ p {
   width: 80px;
   height: 80px;
   background-size: contain;
- 
+  border-radius: 10px;
   color: black;
   font-weight: bold;
 }
@@ -367,6 +368,7 @@ p {
   background-size: contain;
   color: black;
   font-weight: bold;
+  border-radius: 10px;
 }
 
 img {
@@ -387,3 +389,9 @@ img {
   border-radius: 10px;
   box-sizing: border-box;
 }
+
+.center-table { 
+  margin-left: auto; 
+  margin-right: auto;
+   text-align: center;
+  }
