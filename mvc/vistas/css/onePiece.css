@@ -329,7 +329,7 @@
 .nivelExpertoMemoria,
 .NivelFacilTrivia,
 .NivelDificilTrivia,
-.nivelExpertoTrivia {
+.NivelExpertoTrivia { /* Corregido a 'NivelExpertoTrivia' */
   display: none; /* Ocultar por defecto */
   width: 100%;
   max-width: 5000px;
@@ -339,13 +339,18 @@
 
 .seccionCartasFaciles,
 .seccionCartasExperto,
-.seccionCartasdificiles {
+.seccionCartasdificiles,
+.seccionTriviaFacil,
+.seccionTriviaDificil,
+.seccionTriviaExperto {
   background-color: #3CB371;
   border: 4px solid black;
   padding: 5px;
   border-radius: 20px;
   text-align: center;
 }
+
+
 
 p {
   display: inline-block;

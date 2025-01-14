@@ -174,7 +174,7 @@ const videos = {
         'https://www.youtube.com/embed/3mBwE41AXEk',
         'https://www.youtube.com/embed/XwJEFzsqNoY',
         'https://www.youtube.com/embed/pZaRs2bvy4U',
-        'https://www.youtube.com/embed/V1XnVIgz_G4',
+        'https://www.youtube.com/embed/GBE1VkrL8b0',
         'https://www.youtube.com/embed/kGGgOb61LP0',
         'https://www.youtube.com/embed/lilv4MvBY6E',
         'https://www.youtube.com/embed/ZKd5C6w7UvA',

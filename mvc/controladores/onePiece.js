@@ -70,6 +70,7 @@ function elegirDificultadMemoria() {
         triviaGames.style.display = 'none';
         memoriaVisible = true;
         triviaVisible = false;
+        ocultarSeccionesTrivia(); // Oculta secciones de trivia
     }
 }
 
@@ -85,6 +86,7 @@ function elegirDificultadTrivia() {
         memoriaGames.style.display = 'none';
         triviaVisible = true;
         memoriaVisible = false;
+        ocultarSeccionesMemoria(); // Oculta secciones de memoria
     }
 }
 
@@ -129,6 +131,38 @@ function ocultarSeccionesTrivia() {
     document.querySelector('.NivelDificilTrivia').style.display = 'none';
     document.querySelector('.nivelExpertoTrivia').style.display = 'none';
 }
+
+function nivelFacilTrivia() {
+    ocultarSeccionesTrivia();
+    const nivelFacil = document.querySelector('.NivelFacilTrivia');
+    if (nivelFacil) {
+        nivelFacil.style.display = 'block';
+    }
+}
+
+function nivelDificilTrivia() {
+    ocultarSeccionesTrivia();
+    const nivelDificil = document.querySelector('.NivelDificilTrivia');
+    if (nivelDificil) {
+        nivelDificil.style.display = 'block';
+    }
+}
+
+function nivelExpertoTrivia() {
+    ocultarSeccionesTrivia();
+    const nivelExperto = document.querySelector('.NivelExpertoTrivia');
+    if (nivelExperto) {
+        nivelExperto.style.display = 'block';
+    }
+}
+
+function ocultarSeccionesTrivia() {
+    const niveles = document.querySelectorAll('.NivelFacilTrivia, .NivelDificilTrivia, .NivelExpertoTrivia');
+    niveles.forEach(nivel => {
+        nivel.style.display = 'none';
+    });
+}
+
 
 
 let voltearCartaFacil = 0;
