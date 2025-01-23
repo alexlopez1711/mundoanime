@@ -169,21 +169,18 @@ let tarjeta1Facil = null;
 let tarjeta2Facil = null;
 let primerResultadoFacil = null;
 let segundoResultadoFacil = null;
-let tarjetasDestapadasFacil = 0; // Define la variable aquí
+let tarjetasDestapadasFacil = 0;
 let movimientosfaciles = 0;
 let aciertosfaciles = 0;
 let tiempofaciles = false;
 let timerFacil = 50;
 let timerinicial = 50;
 let tiempoRegresivoFacilId = null;
-let winAudio = new Audio ('../sonidos/win.wav')
-let loseAudio = new Audio ('../sonidos/lose.wav')
-let clickAudio = new Audio ('../sonidos/click.wav')
-let rightAudio = new Audio ('../sonidos/right.wav')
-let wrongAudio = new Audio ('../sonidos/wrong.wav')
-
-
-
+let winAudio = new Audio('../sonidos/win.wav');
+let loseAudio = new Audio('../sonidos/lose.wav');
+let clickAudio = new Audio('../sonidos/click.wav');
+let rightAudio = new Audio('../sonidos/right.wav');
+let wrongAudio = new Audio('../sonidos/wrong.wav');
 
 let mostrarMovimientosFacil = document.getElementById("movimientosfaciles");
 let mostrarAciertosFaciles = document.getElementById("aciertosfaciles");
@@ -191,81 +188,94 @@ let mostrarTiempoFacil = document.getElementById("tiempofaciles");
 
 let numeroFacil = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8];
 numeroFacil = numeroFacil.sort(() => {
-    return Math.random() - 0.5;
+  return Math.random() - 0.5;
 });
 
 function contarTiempoFacil() {
-    tiempoRegresivoFacilId = setInterval(() => {
-        timerFacil--;
-        mostrarTiempoFacil.innerHTML = `Tiempo: ${timerFacil} Segundos`;
-        if (timerFacil == 0) {
-            clearInterval(tiempoRegresivoFacilId);
-            bloquearTarjetasFacil();
-            loseAudio.play();
-
-        }
-    }, 1000);
+  tiempoRegresivoFacilId = setInterval(() => {
+    timerFacil--;
+    mostrarTiempoFacil.innerHTML = `Tiempo: ${timerFacil} Segundos`;
+    if (timerFacil == 0) {
+      clearInterval(tiempoRegresivoFacilId);
+      bloquearTarjetasFacil();
+      loseAudio.play();
+      Swal.fire({
+        imageUrl: "https://www.fotosdememes.com/wp-content/uploads/2021/07/te-falta-odio.jpg",
+        imageWidth: 200,
+        imageHeight: 200,
+        imageAlt: "Custom image",
+        title: 'Perdiste',
+        text: '¡Nunca seras Hokage!',
+      });
+    }
+  }, 700);
 }
 
 function bloquearTarjetasFacil() {
   for (let i = 0; i <= 15; i++) {
-      let tarjetaBloqueadaFacil = document.getElementById(i);
-      tarjetaBloqueadaFacil.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${numeroFacil[i]}.jpg">`;
-      tarjetaBloqueadaFacil.disabled = true;
+    let tarjetaBloqueadaFacil = document.getElementById(i);
+    tarjetaBloqueadaFacil.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${numeroFacil[i]}.jpg">`;
+    tarjetaBloqueadaFacil.disabled = true;
   }
 }
 
 function destaparFacil(id) {
   if (tiempofaciles == false) {
-      contarTiempoFacil();
-      tiempofaciles = true;
+    contarTiempoFacil();
+    tiempofaciles = true;
   }
   tarjetasDestapadasFacil++;
   if (tarjetasDestapadasFacil == 1) {
-      tarjeta1Facil = document.getElementById(id);
-      primerResultadoFacil = numeroFacil[id];
-      tarjeta1Facil.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${primerResultadoFacil}.jpg">`;
-      clickAudio.play();
-      tarjeta1Facil.disabled = true;
+    tarjeta1Facil = document.getElementById(id);
+    primerResultadoFacil = numeroFacil[id];
+    tarjeta1Facil.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${primerResultadoFacil}.jpg">`;
+    clickAudio.play();
+    tarjeta1Facil.disabled = true;
   } else if (tarjetasDestapadasFacil == 2) {
-      tarjeta2Facil = document.getElementById(id);
-      segundoResultadoFacil = numeroFacil[id];
-      tarjeta2Facil.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${segundoResultadoFacil}.jpg">`;
-      clickAudio.play();
-      tarjeta2Facil.disabled = true;
-      movimientosfaciles++;
-      mostrarMovimientosFacil.innerHTML = `Movimientos: ${movimientosfaciles}`;
-      
-      if(primerResultadoFacil == segundoResultadoFacil){
-        tarjetasDestapadasFacil = 0;
-        aciertosfaciles++;
-        rightAudio.play();
-        mostrarAciertosFaciles.innerHTML =  `Aciertos: ${aciertosfaciles} `;
+    tarjeta2Facil = document.getElementById(id);
+    segundoResultadoFacil = numeroFacil[id];
+    tarjeta2Facil.innerHTML = `<img src="../img/modalimg/naruto/narutoMemoria/${segundoResultadoFacil}.jpg">`;
+    clickAudio.play();
+    tarjeta2Facil.disabled = true;
+    movimientosfaciles++;
+    mostrarMovimientosFacil.innerHTML = `Movimientos: ${movimientosfaciles}`;
 
-        if (aciertosfaciles == 8){
-          clearInterval(tiempoRegresivoFacilId);
-          mostrarAciertosFaciles.innerHTML=  `Aciertos: ${aciertosfaciles} `;
-          mostrarMovimientosFacil.innerHTML = `Usaste:  ${movimientosfaciles} Movimientos`;
-          mostrarTiempoFacil.innerHTML = `Te Tardaste  ${timerinicial - timerFacil} Segundos`;
-          winAudio.play();
-        }
+    if (primerResultadoFacil == segundoResultadoFacil) {
+      tarjetasDestapadasFacil = 0;
+      aciertosfaciles++;
+      rightAudio.play();
+      mostrarAciertosFaciles.innerHTML = `Aciertos: ${aciertosfaciles} `;
 
-      }else {
-         setTimeout(() => {
-          tarjeta1Facil.innerHTML = "";
-          tarjeta2Facil.innerHTML = "";
-          tarjeta1Facil.disabled = false;
-          tarjeta2Facil.disabled = false;
-          tarjetasDestapadasFacil = 0;
-          wrongAudio.play();
-         },700)
+      if (aciertosfaciles == 8) {
+        clearInterval(tiempoRegresivoFacilId);
+        mostrarAciertosFaciles.innerHTML = `Aciertos: ${aciertosfaciles} `;
+        mostrarMovimientosFacil.innerHTML = `Usaste: ${movimientosfaciles} Movimientos`;
+        mostrarTiempoFacil.innerHTML = `Te Tardaste ${timerinicial - timerFacil} Segundos`;
+        winAudio.play();
+        Swal.fire({
+            imageUrl: "https://i.pinimg.com/originals/02/07/2a/02072a87d479f3b0da5ae73160107b18.png",
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: "Custom image",
+          title: '¡Ganaste!',
+          text: 'Eres un Chūnin. Un paso mas cerca de ser Hokage',
+          draggable: true
+        });
       }
 
-
-
-      // Aquí puedes agregar la lógica para verificar coincidencias y otros comportamientos.
+    } else {
+      setTimeout(() => {
+        tarjeta1Facil.innerHTML = "";
+        tarjeta2Facil.innerHTML = "";
+        tarjeta1Facil.disabled = false;
+        tarjeta2Facil.disabled = false;
+        tarjetasDestapadasFacil = 0;
+        wrongAudio.play();
+      }, 700);
+    }
   }
 }
+
 function reiniciarJuegoFacil() {
   // Restablecer todas las variables
   voltearCartaFacil = 0;
@@ -291,14 +301,14 @@ function reiniciarJuegoFacil() {
 
   // Restablecer el contenido de todas las tarjetas
   for (let i = 0; i <= 15; i++) {
-      let tarjeta = document.getElementById(i);
-      tarjeta.innerHTML = "";
-      tarjeta.disabled = false;
+    let tarjeta = document.getElementById(i);
+    tarjeta.innerHTML = "";
+    tarjeta.disabled = false;
   }
 
   // Detener cualquier temporizador en curso
   if (tiempoRegresivoFacilId !== null) {
-      clearInterval(tiempoRegresivoFacilId);
+    clearInterval(tiempoRegresivoFacilId);
   }
 }
 
@@ -314,8 +324,8 @@ let tarjetasDestapadasDificil = 0;
 let movimientosdificiles = 0;
 let aciertosdificiles = 0;
 let tiempodificiles = false;
-let timerDificil = 50;
-let timerinicialDificil = 50;
+let timerDificil = 55;
+let timerinicialDificil = 55;
 let tiempoRegresivoDificilId = null;
 
 let mostrarMovimientosDificil = document.getElementById("movimientosdificiles");
@@ -333,8 +343,16 @@ function contarTiempoDificil() {
             clearInterval(tiempoRegresivoDificilId);
             bloquearTarjetasDificil();
             loseAudio.play();
+            Swal.fire({
+                imageUrl: "https://www.fotosdememes.com/wp-content/uploads/2021/07/te-falta-odio.jpg",
+                imageWidth: 200,
+                imageHeight: 200,
+                imageAlt: "Custom image",
+                title: 'Perdiste',
+                text: '¡Nunca seras Hokage!',
+              });
         }
-    }, 1000);
+    }, 700);
 }
 
 function bloquearTarjetasDificil() {
@@ -378,6 +396,16 @@ function destaparDificil(id) {
                 mostrarMovimientosDificil.innerHTML = `Usaste: ${movimientosdificiles} Movimientos`;
                 mostrarTiempoDificil.innerHTML = `Te Tardaste ${timerinicialDificil - timerDificil} Segundos`;
                 winAudio.play();
+                Swal.fire({
+                    
+                  imageUrl: "https://i.pinimg.com/originals/02/07/2a/02072a87d479f3b0da5ae73160107b18.png",
+                  imageWidth: 200,
+                  imageHeight: 200,
+                  imageAlt: "Custom image",
+                  title: '¡Ganaste!',
+                  text: 'Eres un Jōnin. Un paso mas cerca de ser Hokage',
+                  draggable: true
+                });
             }
         } else {
             setTimeout(() => {
@@ -435,8 +463,8 @@ let tarjetasDestapadasExperto = 0;
 let movimientoSexpertos = 0;
 let aciertoSexpertos = 0;
 let tiempoExpertos = false;
-let timerExperto = 70;
-let timerInicialExperto = 70;
+let timerExperto = 90;
+let timerInicialExperto = 90;
 let tiempoRegresivoExpertoId = null;
 
 let mostrarMovimientosExperto = document.getElementById("movimientosexpertos");
@@ -458,8 +486,16 @@ function contarTiempoExperto() {
             clearInterval(tiempoRegresivoExpertoId);
             bloquearTarjetasExperto();
             loseAudio.play();
+            Swal.fire({
+                imageUrl: "https://www.fotosdememes.com/wp-content/uploads/2021/07/te-falta-odio.jpg",
+                imageWidth: 200,
+                imageHeight: 200,
+                imageAlt: "Custom image",
+                title: 'Perdiste',
+                text: '¡Nunca seras Hokage!',
+              });
         }
-    }, 1000);
+    }, 700);
 }
 
 function bloquearTarjetasExperto() {
@@ -503,6 +539,15 @@ function destaparExperto(id) {
                 mostrarMovimientosExperto.innerHTML = `Usaste: ${movimientoSexpertos} Movimientos`;
                 mostrarTiempoExperto.innerHTML = `Te Tardaste ${timerInicialExperto - timerExperto} Segundos`;
                 winAudio.play();
+                Swal.fire({
+                    imageUrl: "https://i.pinimg.com/originals/02/07/2a/02072a87d479f3b0da5ae73160107b18.png",
+                    imageWidth: 200,
+                    imageHeight: 200,
+                    imageAlt: "Custom image",
+                  title: '¡Ganaste!',
+                  text: 'Felicidades Hokage',
+                  draggable: true
+                });
             }
         } else {
             setTimeout(() => {
