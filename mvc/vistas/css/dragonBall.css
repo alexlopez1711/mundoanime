@@ -8,6 +8,7 @@
 }
 
 
+
 #overlay {
     position: fixed;
     top: 0;
@@ -17,8 +18,12 @@
     background-color: #41396ec2;
     z-index: 1;
   }
+
+
 .main-content {
     background-color: #8566e4;
+    background-image: url(../img/Vegeta100.png);
+    background-size: contain;
     
   }
 .titulo{
@@ -35,6 +40,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.836);
     z-index: 2;
+    overflow-y: auto;
     
   }
   
@@ -373,8 +379,16 @@ p {
   border-radius: 10px;
 }
 
-img {
-  width: 110%;
+.tarjetasFacil img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.tarjetasDificiles img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  
 }
 
 .tarjetasFacil:hover {

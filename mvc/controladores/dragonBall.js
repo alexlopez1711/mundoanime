@@ -202,9 +202,17 @@ function contarTiempoFacil() {
             clearInterval(tiempoRegresivoFacilId);
             bloquearTarjetasFacil();
             loseAudio.play();
+            Swal.fire({
+                imageUrl: "https://www.descargarstickers.com/src_img/2020/08/074967.png",
+                imageWidth: 200,
+                imageHeight: 200,
+                imageAlt: "Custom image",
+                title: 'Perdiste',
+                text: '¡Eres un gerrero de clase BAJA!',
+              });
 
         }
-    }, 1000);
+    }, 700);
 }
 
 function bloquearTarjetasFacil() {
@@ -248,6 +256,15 @@ function destaparFacil(id) {
           mostrarMovimientosFacil.innerHTML = `Usaste:  ${movimientosfaciles} Movimientos`;
           mostrarTiempoFacil.innerHTML = `Te Tardaste  ${timerinicial - timerFacil} Segundos`;
           winAudio.play();
+          Swal.fire({
+            imageUrl: "https://e1.pngegg.com/pngimages/762/105/png-clipart-dragon-ball-z-chibis-chbi-goku-turns-ssj-by-vejit-d3af02l-icon.png",
+            imageWidth: 200,
+            imageHeight: 200,
+            imageAlt: "Custom image",
+          title: '¡Ganaste!',
+          text: '¡Ya sabes qué tan fuertes son los Saiyajin!',
+          draggable: true
+        });
         }
 
       }else {
@@ -314,8 +331,8 @@ let tarjetasDestapadasDificil = 0;
 let movimientosdificiles = 0;
 let aciertosdificiles = 0;
 let tiempodificiles = false;
-let timerDificil = 50;
-let timerinicialDificil = 50;
+let timerDificil = 55;
+let timerinicialDificil = 55;
 let tiempoRegresivoDificilId = null;
 
 let mostrarMovimientosDificil = document.getElementById("movimientosdificiles");
@@ -333,8 +350,16 @@ function contarTiempoDificil() {
             clearInterval(tiempoRegresivoDificilId);
             bloquearTarjetasDificil();
             loseAudio.play();
+            Swal.fire({
+                imageUrl: "https://www.descargarstickers.com/src_img/2020/08/074967.png",
+                imageWidth: 200,
+                imageHeight: 200,
+                imageAlt: "Custom image",
+                title: 'Perdiste',
+                text: '¡Eres un gerrero de clase BAJA!',
+              });
         }
-    }, 1000);
+    }, 700);
 }
 
 function bloquearTarjetasDificil() {
@@ -378,6 +403,15 @@ function destaparDificil(id) {
                 mostrarMovimientosDificil.innerHTML = `Usaste: ${movimientosdificiles} Movimientos`;
                 mostrarTiempoDificil.innerHTML = `Te Tardaste ${timerinicialDificil - timerDificil} Segundos`;
                 winAudio.play();
+                Swal.fire({
+                    imageUrl: "https://e1.pngegg.com/pngimages/762/105/png-clipart-dragon-ball-z-chibis-chbi-goku-turns-ssj-by-vejit-d3af02l-icon.png",
+                    imageWidth: 200,
+                    imageHeight: 200,
+                    imageAlt: "Custom image",
+                  title: '¡Ganaste!',
+                  text: '¡Ya sabes qué tan fuertes son los Androides!', 
+                  draggable: true
+                });
             }
         } else {
             setTimeout(() => {
@@ -435,8 +469,8 @@ let tarjetasDestapadasExperto = 0;
 let movimientoSexpertos = 0;
 let aciertoSexpertos = 0;
 let tiempoExpertos = false;
-let timerExperto = 70;
-let timerInicialExperto = 70;
+let timerExperto = 100;
+let timerInicialExperto = 100;
 let tiempoRegresivoExpertoId = null;
 
 let mostrarMovimientosExperto = document.getElementById("movimientosexpertos");
@@ -458,8 +492,17 @@ function contarTiempoExperto() {
             clearInterval(tiempoRegresivoExpertoId);
             bloquearTarjetasExperto();
             loseAudio.play();
+            Swal.fire({
+                imageUrl: "https://www.descargarstickers.com/src_img/2020/08/074967.png",
+                imageWidth: 200,
+                imageHeight: 200,
+                imageAlt: "Custom image",
+                title: 'Perdiste',
+                text: '¡Eres un gerrero de clase BAJA!',
+              });
+
         }
-    }, 1000);
+    }, 700);
 }
 
 function bloquearTarjetasExperto() {
@@ -503,6 +546,15 @@ function destaparExperto(id) {
                 mostrarMovimientosExperto.innerHTML = `Usaste: ${movimientoSexpertos} Movimientos`;
                 mostrarTiempoExperto.innerHTML = `Te Tardaste ${timerInicialExperto - timerExperto} Segundos`;
                 winAudio.play();
+                Swal.fire({
+                    imageUrl: "https://e1.pngegg.com/pngimages/762/105/png-clipart-dragon-ball-z-chibis-chbi-goku-turns-ssj-by-vejit-d3af02l-icon.png",
+                    imageWidth: 200,
+                    imageHeight: 200,
+                    imageAlt: "Custom image",
+                  title: '¡Ganaste!',
+                  text: '¡Ya sabes qué tan fuertes son los Super Saiyajin!',
+                  draggable: true
+                });
             }
         } else {
             setTimeout(() => {

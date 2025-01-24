@@ -463,8 +463,8 @@ let tarjetasDestapadasExperto = 0;
 let movimientoSexpertos = 0;
 let aciertoSexpertos = 0;
 let tiempoExpertos = false;
-let timerExperto = 90;
-let timerInicialExperto = 90;
+let timerExperto = 100;
+let timerInicialExperto = 100;
 let tiempoRegresivoExpertoId = null;
 
 let mostrarMovimientosExperto = document.getElementById("movimientosexpertos");

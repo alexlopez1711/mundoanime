@@ -18,6 +18,8 @@
 
 .main-content {
     background-color: #0ff317d7;
+    background-image: url(../img/9c24a497be14eb3adfff2d3189357fbb.png);
+    background-size: fill;
     
   }
 .titulo{
@@ -176,7 +178,7 @@
 
 .volver1, .recargar {
   border-radius: 10px;
-  background-color: #0ff317d7;
+  background-color: #31e14e;
 }
 
 /* Animación de la imagen */
@@ -376,8 +378,16 @@ p {
   border-radius: 10px;
 }
 
-img {
-  width: 110%;
+.tarjetasFacil img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.tarjetasDificiles img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  
 }
 
 .tarjetasFacil:hover {
