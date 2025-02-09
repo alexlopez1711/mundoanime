@@ -239,29 +239,355 @@
 
 <section class="NivelFacilTrivia">
   <div class="seccionTriviaFacil">
-      <h3>Shichibukai</h3>
-      <!-- Contenido del nivel fácil de trivia -->
-      <p>Pregunta 1: ¿Qué es HTML?</p>
-      <ul>
-          <li><button onclick="respuestaFacil(1, 'a')">a) Un lenguaje de programación</button></li>
-          <li><button onclick="respuestaFacil(1, 'b')">b) Un lenguaje de marcado</button></li>
-          <li><button onclick="respuestaFacil(1, 'c')">c) Un sistema operativo</button></li>
-          <li><button onclick="respuestaFacil(1, 'd')">d) Un navegador web</button></li>
-      </ul>
+      <h3>Dificultad Shichibukai</h3>
+
+      <div id="stats-container">
+          <p id="preguntas" class="estadisticas"><b>Preguntas: 0/10</b></p>
+          <p id="aciertos" class="estadisticas"><b>Aciertos: 0/10</b></p>
+          <p id="timer-container" class="estadisticas"><b>Tiempo: <span id="timer">50</span> segundos</b></p>
+      </div>
+
+      
+      <img id="question-image" src="../img/modalimg/luffy/2f5690ee185f5345025b1a5b0bf2c8aa.gif" alt="Imagen de la pregunta">
+      <h2 id="question">Pregunta cargada desde el HTML</h2>
+      <div id="answer-buttons" class="btn-container">
+          <button class="answer-btn">respuesta cargada desde el HTML</button>
+          <button class="answer-btn">respuesta cargada desde el HTML</button>
+          <button class="answer-btn">respuesta cargada desde el HTML</button>
+          <button class="answer-btn">respuesta cargada desde el HTML</button>
+      </div>
+      <img id="question-image" src="../img/modalimg/luffy/Nami_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de la pregunta">
+      <h2 id="question">Pregunta cargada desde el HTML</h2>
+      <div id="answer-buttons" class="btn-container">
+          <button class="answer-btn">respuesta cargada desde el HTML</button>
+          <button class="answer-btn">respuesta cargada desde el HTML</button>
+          <button class="answer-btn">respuesta cargada desde el HTML</button>
+          <button class="answer-btn">respuesta cargada desde el HTML</button>
+      </div>
+      <button id="restart-btn" onclick="reiniciarJuego()">Reiniciar Juego</button>
+
+
+      <!-- Lista de preguntas en HTML -->
+      <div id="preguntasData" style="display: none;">
+        <div class="pregunta">
+          <img src="../img/modalimg/luffy/2f5690ee185f5345025b1a5b0bf2c8aa.gif" alt="Imagen de pregunta">
+          <p>¿Como se llama su fruta del diablo?</p>
+          <ol>
+              <li class="correcta">Hito Hito: modelo Nika</li>
+              <li>Hito Hito: Modelo Hito</li>
+              <li>Yomi Yomi</li>
+              <li>Suna Suna</li>
+          </ol>
+      </div>
+      <div class="pregunta">
+          <img src="../img/modalimg/luffy/ed29741e2d0fb0ae214a333c69fd9b2e.gif" alt="Imagen de pregunta">
+          <p>¿Como se llaman sus espadas?</p>
+          <ol>
+              <li class="correcta">Ichimonji, Enma y Sandai Kitetsu</li>
+              <li>Sandai Kitetsu, Ichimonji y Mononan</li>
+              <li>Mononan, Kimetetsu y Mamoshika</li>
+              <li>Ichimonji, Kindai set y Amne</li>
+          </ol>
+      </div>
+      <div class="pregunta">
+          <img src="../img/modalimg/luffy/Nami_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+          <p>¿Cual es su SobreNombre?</p>
+          <ol>
+              <li class="correcta">Gata Ladrona</li>
+              <li>Felina ladrona</li>
+              <li>Gata de 7 vidas</li>
+              <li>Gata impostora</li>
+          </ol>
+      </div>
+      <div class="pregunta">
+          <img src="../img/modalimg/luffy/Usopp_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+          <p>¿Que tipo de Haki posee?</p>
+          <ol>
+              <li class="correcta">Observación</li>
+              <li>Ninguna</li>
+              <li>Armadura</li>
+              <li>Conquistador</li>
+          </ol>
+      </div>
+      <div class="pregunta">
+          <img src="../img/modalimg/luffy/descarga.gif" alt="Imagen de pregunta">
+          <p>¿Cual es su papel en la Tripulacion?</p>
+          <ol>
+              <li class="correcta">Cocinero</li>
+              <li>Carpintero</li>
+              <li>Navegante</li>
+              <li>Arqueologo</li>
+          </ol>
+      </div>
+      <div class="pregunta">
+          <img src="../img/modalimg/luffy/Tony_Tony_Chopper_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+          <p>¿Cual es su recompensa?</p>
+          <ol>
+              <li class="correcta">1.000</li>
+              <li>10.000</li>
+              <li>100.000</li>
+              <li>1.000.000</li>
+          </ol>
+      </div>
+      <div class="pregunta">
+          <img src="../img/modalimg/luffy/Nico_Robin_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+          <p>¿Cual es su estilo de pelea?</p>
+          <ol>
+              <li class="correcta">Karate Gyojin</li>
+              <li>Karate Samoano</li>
+              <li>Lucha Gyojin</li>
+              <li>Estilo de muchas manos</li>
+          </ol>
+      </div>
+      <div class="pregunta">
+          <img src="../img/modalimg/luffy/Franky_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+          <p>¿En que oceano nacio?</p>
+          <ol>
+              <li class="correcta">South Blue</li>
+              <li>West Blue</li>
+              <li>North Blue</li>
+              <li>East Blue</li>
+          </ol>
+      </div>
+      <div class="pregunta">
+          <img src="../img/modalimg/luffy/Brook_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+          <p>¿Como se llamaba su primera Tripulacion?</p>
+          <ol>
+              <li class="correcta">Piratas Rumba</li>
+              <li>Piratas Fiesta</li>
+              <li>Piratas Mambo</li>
+              <li>Piratas Salsa</li>
+          </ol>
+      </div>
+      <div class="pregunta">
+          <img src="../img/modalimg/luffy/Jinbe_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+          <p>¿Cual es su Recompensa?</p>
+          <ol>
+              <li class="correcta">1.100.000.000</li>
+              <li>1.110.000.000</li>
+              <li>2.000.000</li>
+              <li>1.100.100.000</li>
+          </ol>
+      </div>
+      <div class="pregunta">
+        <img src="../img/modalimg/luffy/Nefertari_Vivi_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+        <p>¿Cual es su apodo?</p>
+        <ol>
+            <li class="correcta">Miss Wednesday</li>
+            <li>Miss Thursday</li>
+            <li>Miss Monday</li>
+            <li>Miss Sunday</li>
+        </ol>
+    </div>
+    <div class="pregunta">
+        <img src="../img/modalimg/luffy/Buggy_Anime_Dos_Años_Después_Infobox.webp" alt="Imagen de pregunta">
+        <p>¿Como se llama su fruta del diablo?</p>
+        <ol>
+            <li class="correcta">Bara Bara</li>
+            <li>Bere Bere</li>
+            <li>Biri Biri</li>
+            <li>Boro Boro</li>
+        </ol>
+    </div>
+    <div class="pregunta">
+        <img src="../img/modalimg/luffy/Crocodile_Anime_Debut_Infobox.webp" alt="Imagen de pregunta">
+        <p>¿Cual es su apodo?</p>
+        <ol>
+            <li class="correcta">Rey del Desierto</li>
+            <li>Rey Cocodrilo</li>
+            <li>Rey de la Arena</li>
+            <li>Rey Tirano</li>
+        </ol>
+    </div>
+    <div class="pregunta">
+        <img src="../img/modalimg/luffy/73865dd32a26fc58e388973928d28fd0.gif" alt="Imagen de pregunta">
+        <p>¿Como se llama su espada?</p>
+        <ol>
+            <li class="correcta">Yoru</li>
+            <li>Yuro</li>
+            <li>Yoyu</li>
+            <li>Yuyo</li>
+        </ol>
+    </div>
+    <div class="pregunta">
+        <img src="../img/modalimg/luffy/Daz_Bonez_Anime_Infobox.webp" alt="Imagen de pregunta">
+        <p>¿Como se llama su Tripulacion?</p>
+        <ol>
+            <li class="correcta">Cross Guild</li>
+            <li>Cross Biild</li>
+            <li>Cross Geield</li>
+            <li>Cross Bineld</li>
+        </ol>
+    </div>
+    <div class="pregunta">
+        <img src="../img/modalimg/luffy/Alvida_Anime_Infobox (1).webp" alt="Imagen de pregunta">
+        <p>¿Como se llama su fruta del diablo?</p>
+        <ol>
+            <li class="correcta">Sube Sube</li>
+            <li>Baja Baja</li>
+            <li>Lado Lado</li>
+            <li>Lodo Lodo</li>
+        </ol>
+    </div>
+    <div class="pregunta">
+        <img src="../img/modalimg/luffy/Bentham_Anime_Infobox.webp" alt="Imagen de pregunta">
+        <p>¿Cual es su apodo?</p>
+        <ol>
+            <li class="correcta">Mr. 2</li>
+            <li>Mr. 1</li>
+            <li>Mr. 3</li>
+            <li>Mr. 4</li>
+        </ol>
+    </div>
+    <div class="pregunta">
+        <img src="../img/modalimg/luffy/Capone_Bege_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+        <p>¿Como se llama este personaje?</p>
+        <ol>
+            <li class="correcta">Capone</li>
+            <li>Al Capone</li>
+            <li>Escobar</li>
+            <li>Luchy Luciano</li>
+        </ol>
+    </div>
+    <div class="pregunta">
+        <img src="../img/modalimg/luffy/X_Drake_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+        <p>¿Como se llama su Tripulacion?</p>
+        <ol>
+            <li class="correcta">Piratas de Drake</li>
+            <li>Piratas de Donma</li>
+            <li>Piratas de Kraken</li>
+            <li>Piratas de Josh</li>
+        </ol>
+    </div>
+    <div class="pregunta">
+        <img src="../img/modalimg/luffy/Trafalgar_D._Water_Law_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+        <p>¿Cual es su apodo?</p>
+        <ol>
+            <li class="correcta">Cirujano de la Muerte</li>
+            <li>Cirujano de la Vida</li>
+            <li>Doctor Muerte</li>
+            <li>Doctor Vida</li>
+        </ol>
+    </div>
+    <div class="pregunta">
+      <img src="..\img\modalimg\luffy\221261.gif" alt="Imagen de pregunta">
+      <p>¿Como se llama su espada?</p>
+      <ol>
+          <li class="correcta">Gryphon</li>
+          <li>Gyarado</li>
+          <li>Genmichy</li>
+          <li>Graphon</li>
+      </ol>
+  </div>
+  <div class="pregunta">
+      <img src="../img/modalimg/luffy/Benn_Beckman_Anime_Infobox.webp" alt="Imagen de pregunta">
+      <p>¿En que oceano nacio?</p>
+      <ol>
+          <li class="correcta">North Blue</li>
+          <li>West Blue</li>
+          <li>South Blue</li>
+          <li>East Blue</li>
+      </ol>
+  </div>
+  <div class="pregunta">
+      <img src="../img/modalimg/luffy/f3514a4db3a14cfbcb4cf95ac963d826.gif" alt="Imagen de pregunta">
+      <p>¿Cual es su Recompensa?</p>
+      <ol>
+          <li class="correcta">3.996.000.000</li>
+          <li>3.997.000.000</li>
+          <li>3.900.000.000</li>
+          <li>3.897.000.000</li>
+      </ol>
+  </div>
+  <div class="pregunta">
+      <img src="../img/modalimg/luffy/Jesus_Burgess_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+      <p>¿Como se llama su fruta del diablo?</p>
+      <ol>
+          <li class="correcta">Riki Riki</li>
+          <li>Malo Malo</li>
+          <li>Roco Roco</li>
+          <li>Ruki Ruki</li>
+      </ol>
+  </div>
+  <div class="pregunta">
+      <img src="../img/modalimg/luffy/Kuzan_Anime_Dos_Años_Después_Infobox.webp" alt="Imagen de pregunta">
+      <p>¿Como se llama este personaje?</p>
+      <ol>
+          <li class="correcta">Kuzan</li>
+          <li>Aokiji</li>
+          <li>Aoichi</li>
+          <li>Kuzen</li>
+      </ol>
+  </div>
+  <div class="pregunta">
+      <img src="../img/modalimg/luffy/Large.webp" alt="Imagen de pregunta">
+      <p>¿Como se llama su fruta del diablo?</p>
+      <ol>
+          <li class="correcta">Gura Gura</li>
+          <li>Gera Gera</li>
+          <li>Gira Gira</li>
+          <li>Gora Gora</li>
+      </ol>
+  </div>
+  <div class="pregunta">
+      <img src="../img/modalimg/luffy/Marco_Anime_Dos_A3Fs_Infobox.webp" alt="Imagen de pregunta">
+      <p>¿Que tipo es su Futa del Diablo?</p>
+      <ol>
+          <li class="correcta">Zoan mítica</li>
+          <li>Zoan Celestial</li>
+          <li>Zoan Artificial</li>
+          <li>Zoan Prehistorica</li>
+      </ol>
+  </div>
+  <div class="pregunta">
+      <img src="../img/modalimg/luffy/Portgas_D._Ace_Anime_Infobox.webp" alt="Imagen de pregunta">
+      <p>¿Cual es su Recompensa?</p>
+      <ol>
+          <li class="correcta">550.000.000</li>
+          <li>560.000.000</li>
+          <li>650.000.000</li>
+          <li>540.000.000</li>
+      </ol>
+  </div>
+  <div class="pregunta">
+      <img src="../img/modalimg/luffy/one-piece-kaido.gif" alt="Imagen de pregunta">
+      <p>¿Cual es su Raza?</p>
+      <ol>
+          <li class="correcta">Oni</li>
+          <li>Gyojin</li>
+          <li>Cybor</li>
+          <li>Tenrriubito</li>
+      </ol>
+  </div>
+  <div class="pregunta">
+      <img src="../img/modalimg/luffy/Jack_Anime_Infobox.webp" alt="Imagen de pregunta">
+      <p>¿Cual es su apodo?</p>
+      <ol>
+          <li class="correcta">La Sequía</li>
+          <li>La Lluvia</li>
+          <li>La Nevada</li>
+          <li>La Tormenta</li>
+      </ol>
+  </div>
+      
+      </div>
   </div>
 </section>
+
+
+
 
 <section class="NivelDificilTrivia">
   <div class="seccionTriviaDificil">
       <h3>Dificultad Almirante</h3>
       <!-- Contenido del nivel difícil de trivia -->
       <p>Pregunta 1: ¿Qué es CSS?</p>
-      <ul>
-          <li><button onclick="respuestaDificil(1, 'a')">a) Cascading Style Sheets</button></li>
-          <li><button onclick="respuestaDificil(1, 'b')">b) Central Style Sheets</button></li>
-          <li><button onclick="respuestaDificil(1, 'c')">c) Cascading Simple Sheets</button></li>
-          <li><button onclick="respuestaDificil(1, 'd')">d) Central Simple Sheets</button></li>
-      </ul>
+      
+          <button onclick="respuestaDificil(1, 'a')">Cascading Style Sheets</button>
+          <button onclick="respuestaDificil(1, 'b')">Central Style Sheets</button>
+          <button onclick="respuestaDificil(1, 'c')">Cascading Simple Sheets</button>
+          <button onclick="respuestaDificil(1, 'd')">Central Simple Sheets</button>
+      
   </div>
 </section>
 
@@ -269,13 +595,14 @@
   <div class="seccionTriviaExperto">
       <h3>Dificultad Yonko</h3>
       <!-- Contenido del nivel experto de trivia -->
+       
       <p>Pregunta 1: ¿Qué es JavaScript?</p>
-      <ul>
-          <li><button onclick="respuestaExperto(1, 'a')">a) Un lenguaje de marcado</button></li>
-          <li><button onclick="respuestaExperto(1, 'b')">b) Un lenguaje de programación</button></li>
-          <li><button onclick="respuestaExperto(1, 'c')">c) Un sistema operativo</button></li>
-          <li><button onclick="respuestaExperto(1, 'd')">d) Un navegador web</button></li>
-      </ul>
+      
+          <button onclick="respuestaExperto(1, 'a')">Un lenguaje de marcado</button>
+          <button onclick="respuestaExperto(1, 'b')">Un lenguaje de programación</button>
+          <button onclick="respuestaExperto(1, 'c')">Un sistema operativo</button>
+          <button onclick="respuestaExperto(1, 'd')">Un navegador web</button>
+      
   </div>
 </section>
 

@@ -75,7 +75,7 @@
                 "Habilidad": "Médico / Zoan: Bestia Hombre",
                 "Haki": "No es usuario de Haki",
                 "Tripulacion": "Mugiwara",
-                "Recompensa": "1000"
+                "Recompensa": "1.000"
         
             }, 
             {
@@ -385,7 +385,7 @@
                 "Raza": "Humano (North Blue)",
                 "Akuma no mi": "Ope Ope",
                 "Habilidad": "Paramecia, que le otorga el poder para hacer modificaciones a voluntad dentro de una determinada área",
-                "Haki": "Observación",
+                "Haki": "Observación / Armadura",
                 "Tripulacion": "Piratas de Heart / ExSeñor de la guerra",
                 "Recompensa": "3.000.000.000"
         
@@ -488,7 +488,7 @@
                 "SobreNombre": "el Pelirrojo",
                 "Raza": "Humano (West Blue)",
                 "Akuma no mi": "Ninguna",
-                "Habilidad": "Poder Fisico / Velocidad al niveles luminicos / Portador de la Espada: Gryphon de grado Saijo O Wazamono",
+                "Habilidad": "Poder Fisico / Velocidad a niveles luminicos / Portador de la Espada: Gryphon de grado Saijo O Wazamono",
                 "Haki": "Observación / Armadura / Conquistador",
                 "Tripulacion": "Piratas del Pelirrojo",
                 "Recompensa": "4.048.900.000"
@@ -641,7 +641,7 @@
                 "nombre": "Jack",
                 "apellidos": "旱害",
                 "imagen": "mvc/vistas/img/modalimg/luffy/Jack_Anime_Infobox.webp",
-                "SobreNombre": "la Sequía",
+                "SobreNombre": "La Sequía",
                 "Raza": "Gyojin (Reino de Ryugu)",
                 "Akuma no mi": "Zou Zou: modelo mamut",
                 "Habilidad": "Zoan prehistórica que lo convierte en un mamut",

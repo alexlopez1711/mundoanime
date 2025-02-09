@@ -605,4 +605,93 @@ function reiniciarJuegoExperto() {
 }
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const preguntas = document.querySelectorAll(".pregunta");
 
+    preguntas.forEach(pregunta => {
+        const imagen = pregunta.querySelector("img");
+        const opciones = pregunta.querySelectorAll("ol li");
+
+        // Asegurarse de que las imágenes se carguen correctamente
+        imagen.addEventListener("error", function() {
+            console.error("Error al cargar la imagen: ", imagen.src);
+        });
+
+        imagen.addEventListener("load", function() {
+            opciones.forEach(opcion => {
+                opcion.addEventListener("click", function() {
+                    // Resalta la opción seleccionada
+                    opciones.forEach(opcion => {
+                        opcion.style.backgroundColor = "";
+                        opcion.style.color = "";
+                    });
+
+                    if (opcion.classList.contains("correcta")) {
+                        opcion.style.backgroundColor = "green";
+                        opcion.style.color = "white";
+                    } else {
+                        opcion.style.backgroundColor = "red";
+                        opcion.style.color = "white";
+                    }
+                });
+            });
+        });
+    });
+});
+
+
+function reiniciarJuego() {
+    // Aquí puedes definir la lógica para reiniciar el juego
+    const preguntas = document.querySelectorAll(".pregunta");
+
+    preguntas.forEach(pregunta => {
+        const opciones = pregunta.querySelectorAll("ol li");
+        opciones.forEach(opcion => {
+            opcion.style.backgroundColor = "";
+            opcion.style.color = "";
+        });
+    });
+
+    console.log("El juego ha sido reiniciado.");
+}
+
+// Asegúrate de que la función esté definida antes de llamar al evento onclick
+document.addEventListener("DOMContentLoaded", function() {
+    const preguntas = document.querySelectorAll(".pregunta");
+
+    preguntas.forEach(pregunta => {
+        const imagen = pregunta.querySelector("img");
+        const opciones = pregunta.querySelectorAll("ol li");
+
+        // Asegurarse de que las imágenes se carguen correctamente
+        imagen.addEventListener("error", function() {
+            console.error("Error al cargar la imagen: ", imagen.src);
+        });
+
+        imagen.addEventListener("load", function() {
+            opciones.forEach(opcion => {
+                opcion.addEventListener("click", function() {
+                    // Resalta la opción seleccionada
+                    opciones.forEach(opcion => {
+                        opcion.style.backgroundColor = "";
+                        opcion.style.color = "";
+                    });
+
+                    if (opcion.classList.contains("correcta")) {
+                        opcion.style.backgroundColor = "green";
+                        opcion.style.color = "white";
+                    } else {
+                        opcion.style.backgroundColor = "red";
+                        opcion.style.color = "white";
+                    }
+                });
+            });
+        });
+    });
+
+    // Asigna la función reiniciarJuego al botón correspondiente
+    const botonReiniciar = document.querySelector("#botonReiniciar");
+    if (botonReiniciar) {
+        botonReiniciar.addEventListener("click", reiniciarJuego);
+    }
+});

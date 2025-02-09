@@ -18,7 +18,7 @@
 
 .main-content {
     background-color: #0ff317d7;
-    background-image: url(../img/9c24a497be14eb3adfff2d3189357fbb.png);
+    background-image: url(../img/11947850d6c438bc55711acdf8063d2d.png);
     background-size: fill;
     
   }
@@ -208,14 +208,29 @@
 }
 
 .botonElegir:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
+  background-color: #1bb435;
+  color: #fff;
   
 }
 
 .hh1{
+  
   font-family: anav;
-  text-align: center;
-}
+  color: #fff;
+  display: inline;
+  background-color: #3CB371;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  
+  border-radius: 5px;
+ 
+  }
+
 /* Animación para mover la imagen de recargar a casa */
 @keyframes mover {
   0% {
@@ -317,7 +332,7 @@
 .dificultadesMemorama:hover,
 .reinicioBoton:hover {
   background-color: #1bb435;
-  transform: scale(1.1);
+  transform: scale(1.2);
   color: white;
 }
 
@@ -326,12 +341,13 @@
   display: none;
 }
 
+/* Manteniendo tus estilos originales */
 .NivelFacilMemoria,
 .NivelDificilMemoria,
 .nivelExpertoMemoria,
 .NivelFacilTrivia,
 .NivelDificilTrivia,
-.NivelExpertoTrivia { /* Corregido a 'NivelExpertoTrivia' */
+.NivelExpertoTrivia {
   display: none; /* Ocultar por defecto */
   width: 100%;
   max-width: 5000px;
@@ -351,6 +367,56 @@
   border-radius: 20px;
   text-align: center;
 }
+
+
+
+
+/* Estilos adicionales para la trivia */
+#question-image {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+#question {
+  margin-bottom: 20px;
+}
+
+#answer-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.answer-btn {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  width: calc(50% - 10px); /* Ajuste del ancho para que dos botones quepan en una línea */
+}
+
+.answer-btn.correct {
+  background-color: green;
+  color: white;
+}
+
+.answer-btn.incorrect {
+  background-color: red;
+  color: white;
+}
+
+#timer-container {
+  margin-top: 20px;
+}
+
+
+
 
 
 
