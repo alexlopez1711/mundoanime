@@ -1,6 +1,5 @@
 let selectedImage = '';
 
-// const imageInput = document.getElementById("image-input");
 const nameInput = document.getElementById("name-input");
 const submitButton = document.getElementById("submit-button");
 const cardImage = document.getElementById("card-image");
@@ -70,7 +69,7 @@ function elegirDificultadMemoria() {
         triviaGames.style.display = 'none';
         memoriaVisible = true;
         triviaVisible = false;
-        ocultarSeccionesTrivia(); // Oculta secciones de trivia
+        ocultarSeccionesTrivia();
     }
 }
 
@@ -86,7 +85,7 @@ function elegirDificultadTrivia() {
         memoriaGames.style.display = 'none';
         triviaVisible = true;
         memoriaVisible = false;
-        ocultarSeccionesMemoria(); // Oculta secciones de memoria
+        ocultarSeccionesMemoria(); 
     }
 }
 
@@ -170,7 +169,7 @@ let tarjeta1Facil = null;
 let tarjeta2Facil = null;
 let primerResultadoFacil = null;
 let segundoResultadoFacil = null;
-let tarjetasDestapadasFacil = 0; // Define la variable aquí
+let tarjetasDestapadasFacil = 0; 
 let movimientosfaciles = 0;
 let aciertosfaciles = 0;
 let tiempofaciles = false;
@@ -280,12 +279,9 @@ function destaparFacil(id) {
       }
 
 
-
-      // Aquí puedes agregar la lógica para verificar coincidencias y otros comportamientos.
   }
 }
 function reiniciarJuegoFacil() {
-  // Restablecer todas las variables
   voltearCartaFacil = 0;
   tarjeta1Facil = null;
   tarjeta2Facil = null;
@@ -298,23 +294,19 @@ function reiniciarJuegoFacil() {
   timerFacil = timerinicial;
   winAudio.play();
 
-  // Actualizar las estadísticas en pantalla
   mostrarMovimientosFacil.innerHTML = `Movimientos: 0`;
   mostrarAciertosFaciles.innerHTML = `Aciertos: 0`;
   mostrarTiempoFacil.innerHTML = `Tiempo: ${timerinicial} Segundos`;
 
-  // Barajar nuevamente las tarjetas
   numeroFacil = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8];
   numeroFacil = numeroFacil.sort(() => Math.random() - 0.5);
 
-  // Restablecer el contenido de todas las tarjetas
   for (let i = 0; i <= 15; i++) {
       let tarjeta = document.getElementById(i);
       tarjeta.innerHTML = "";
       tarjeta.disabled = false;
   }
 
-  // Detener cualquier temporizador en curso
   if (tiempoRegresivoFacilId !== null) {
       clearInterval(tiempoRegresivoFacilId);
   }
@@ -605,93 +597,26 @@ function reiniciarJuegoExperto() {
 }
 
 
-document.addEventListener("DOMContentLoaded", function() {
-    const preguntas = document.querySelectorAll(".pregunta");
 
-    preguntas.forEach(pregunta => {
-        const imagen = pregunta.querySelector("img");
-        const opciones = pregunta.querySelectorAll("ol li");
+window.addEventListener('DOMContentLoaded', (event) => {
+    window.nivelFacilCargarPreguntas();
+    window.nivelMedioCargarPreguntas();
+    window.nivelDificilCargarPreguntas();
 
-        // Asegurarse de que las imágenes se carguen correctamente
-        imagen.addEventListener("error", function() {
-            console.error("Error al cargar la imagen: ", imagen.src);
-        });
-
-        imagen.addEventListener("load", function() {
-            opciones.forEach(opcion => {
-                opcion.addEventListener("click", function() {
-                    // Resalta la opción seleccionada
-                    opciones.forEach(opcion => {
-                        opcion.style.backgroundColor = "";
-                        opcion.style.color = "";
-                    });
-
-                    if (opcion.classList.contains("correcta")) {
-                        opcion.style.backgroundColor = "green";
-                        opcion.style.color = "white";
-                    } else {
-                        opcion.style.backgroundColor = "red";
-                        opcion.style.color = "white";
-                    }
-                });
-            });
-        });
-    });
+   
 });
 
 
-function reiniciarJuego() {
-    // Aquí puedes definir la lógica para reiniciar el juego
-    const preguntas = document.querySelectorAll(".pregunta");
 
-    preguntas.forEach(pregunta => {
-        const opciones = pregunta.querySelectorAll("ol li");
-        opciones.forEach(opcion => {
-            opcion.style.backgroundColor = "";
-            opcion.style.color = "";
-        });
-    });
 
-    console.log("El juego ha sido reiniciado.");
+function reiniciarJuegoTfFacil() {
+    window.nivelFacilReiniciarJuego();
 }
 
-// Asegúrate de que la función esté definida antes de llamar al evento onclick
-document.addEventListener("DOMContentLoaded", function() {
-    const preguntas = document.querySelectorAll(".pregunta");
+function reiniciarJuegoTfMedio() {
+    window.nivelMedioReiniciarJuego();
+}
 
-    preguntas.forEach(pregunta => {
-        const imagen = pregunta.querySelector("img");
-        const opciones = pregunta.querySelectorAll("ol li");
-
-        // Asegurarse de que las imágenes se carguen correctamente
-        imagen.addEventListener("error", function() {
-            console.error("Error al cargar la imagen: ", imagen.src);
-        });
-
-        imagen.addEventListener("load", function() {
-            opciones.forEach(opcion => {
-                opcion.addEventListener("click", function() {
-                    // Resalta la opción seleccionada
-                    opciones.forEach(opcion => {
-                        opcion.style.backgroundColor = "";
-                        opcion.style.color = "";
-                    });
-
-                    if (opcion.classList.contains("correcta")) {
-                        opcion.style.backgroundColor = "green";
-                        opcion.style.color = "white";
-                    } else {
-                        opcion.style.backgroundColor = "red";
-                        opcion.style.color = "white";
-                    }
-                });
-            });
-        });
-    });
-
-    // Asigna la función reiniciarJuego al botón correspondiente
-    const botonReiniciar = document.querySelector("#botonReiniciar");
-    if (botonReiniciar) {
-        botonReiniciar.addEventListener("click", reiniciarJuego);
-    }
-});
+function reiniciarJuegoTfDificil() { 
+    window.nivelDificilReiniciarJuego();
+}

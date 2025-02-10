@@ -1,5 +1,5 @@
 {
-    "preguntasfaciles": [
+    "preguntasTOneFacil": [
       {
         "imagen": "../img/modalimg/luffy/2f5690ee185f5345025b1a5b0bf2c8aa.gif",
         "pregunta": "¿Como se llama su fruta del diablo?",
@@ -45,7 +45,7 @@
         "respuestaCorresta": "a"
       },
       {
-        "imagen": "../img/modalimg/luffy/luffy/descarga.gif",
+        "imagen": "../img/modalimg/luffy/descarga.gif",
         "pregunta": "¿Cual es su papel en la Tripulacion?",
         "posiblesRespuestas": {
           "a": "Cocinero",
@@ -153,6 +153,116 @@
           "d": "Yuyo"
         },
         "respuestaCorresta": "a"
+      },{
+        "imagen": "../img/modalimg/luffy/eYoW0W.gif",
+        "pregunta": "¿En que oceano nacio?",
+        "posiblesRespuestas": {
+          "a": "East Blue",
+          "b": "West Blue",
+          "c": "North Blue",
+          "d": "South Blue "
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/odenoden.webp",
+        "pregunta": "¿Como se llama este personaje?",
+        "posiblesRespuestas": {
+          "a": "Kozuki Oden",
+          "b": "Kozuki GOden",
+          "c": "Oden Momochi",
+          "d": "Oder Kusiki"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/Silvers_Rayleigh_Anime_Infobox.webp",
+        "pregunta": "¿Cual es su recompensa?",
+        "posiblesRespuestas": {
+          "a": "4.150.000.000",
+          "b": "4.015.000.000",
+          "c": "4.010.000.000",
+          "d": "4.150.110.000"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/Emporio_Ivankov_Anime_Infobox.webp",
+        "pregunta": "¿Como se llama su fruta del diablo?",
+        "posiblesRespuestas": {
+          "a": "Horu Horu",
+          "b": "Hara Hara",
+          "c": "Trans Trans",
+          "d": "Bato Bata"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/98962ca4ac3d1ee19efc0338afd4c3d1.gif",
+        "pregunta": "¿Cual es su apodo?",
+        "posiblesRespuestas": {
+          "a": "El Emperador de las Llamas",
+          "b": "El Emperador de Fuego",
+          "c": "Señor de las Llamas",
+          "d": "Seños del Fuego"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/Monkey_D._Dragon_Anime_Infobox.webp",
+        "pregunta": "¿Cual es su estilo de pelea?",
+        "posiblesRespuestas": {
+          "a": "Artes Marciales Ryusoken",
+          "b": "Artes Marciales Dragondefender",
+          "c": "Artes Marciales Ryusosoken",
+          "d": "Artes Marciales DragonStyle"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/Donquixote_Doflamingo_Anime_Infobox.webp",
+        "pregunta": "¿Como se llama su fruta del diablo?",
+        "posiblesRespuestas": {
+          "a": "Ito Ito",
+          "b": "Hido Hido",
+          "c": "Ato Ato",
+          "d": "Hata Hata"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/Bartholomew_Kuma_Anime_Debut_Infobox.webp",
+        "pregunta": "¿Como se llama este personaje?",
+        "posiblesRespuestas": {
+          "a": "Bartholomew Kuma",
+          "b": "Kuma el Oso",
+          "c": "Bartholomew Duma",
+          "d": "Kuma Bartolo"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/aaf8e318554bca44baf13b8d2de766ae95f8a89ar1-400-225_hq.gif",
+        "pregunta": "¿Cual es su recompensa ?",
+        "posiblesRespuestas": {
+          "a": "4.388.000.000",
+          "b": "4.300.000.000",
+          "c": "4.388.400.000",
+          "d": "4.388.000.380"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/one-piece-kaido.gif",
+        "pregunta": "¿Como se llama su fruta del diablo?",
+        "posiblesRespuestas": {
+          "a": "Uo Uo: modelo seiryu",
+          "b": "Uo Uo: modelo seikaku",
+          "c": "Ou Ou: modelo dragon",
+          "d": "Ou Ou: modelo daronzote"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/Chinjao_Anime_Infobox.webp",
+        "pregunta": "¿Como se llama este personaje?",
+        "posiblesRespuestas": {
+          "a": "Chinjao",
+          "b": "Cindiaoo",
+          "c": "Chintao",
+          "d": "Chinchao"
+        },
+        "respuestaCorresta": "a"
       },
       {
         "imagen": "../img/modalimg/luffy/Daz_Bonez_Anime_Infobox.webp",
@@ -221,7 +331,7 @@
         "respuestaCorresta": "a"
       },
       {
-        "imagen": "../img/modalimg/luffy/luffy/221261.gif",
+        "imagen": "../img/modalimg/luffy/221261.gif",
         "pregunta": "¿Como se llama su espada?",
         "posiblesRespuestas": {
           "a": "Gryphon",
@@ -288,7 +398,7 @@
       },
       {
         "imagen": "../img/modalimg/luffy/Marco_Anime_Dos_A3Fs_Infobox.webp",
-        "pregunta": "¿Que tipo es su Futa del Diablo?",
+        "pregunta": "¿Que tipo es su Fruta del Diablo?",
         "posiblesRespuestas": {
           "a": "Zoan mítica",
           "b": "Zoan Celestial",

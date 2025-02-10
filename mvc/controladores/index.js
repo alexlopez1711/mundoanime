@@ -1,41 +1,34 @@
 document.querySelectorAll('.divini a').forEach(function(link) {
     link.addEventListener('click', function(event) {
-        event.preventDefault(); // Previene la redirección inmediata
-        var href = this.getAttribute('href'); // Guarda la URL de redirección
+        event.preventDefault(); 
+        var href = this.getAttribute('href'); 
 
-        // Oculta la imagen de fondo
         var backgroundImage = this.querySelector('img:not([id^="loading"])');
         backgroundImage.style.display = 'none';
 
-        // Muestra el GIF de carga
         var loadingGif = this.querySelector('img[id^="loading"]');
         loadingGif.style.display = 'block';
 
-        // Elimina el borde del div
         this.parentElement.style.border = 'none';
 
         setTimeout(function() {
-            window.location.href = href; // Redirige a la otra página después de 3 segundos
-        }, 4200); // 3000 milisegundos equivalen a 3 segundos
+            window.location.href = href;
+        }, 4200);
     });
 });
 
 
-
-// Función para abrir el modal
 let posicionPersonaje = 0;
-let data = {}; // Inicializa data como un objeto vacío
+let data = {}; 
 
 function abrirModal1() {
     fetch('mvc/modelos/modalNarutoPersonajes.json')
         .then(response => response.json())
         .then(jsonData => {
-            data = jsonData; // Asigna los datos cargados a la variable data
+            data = jsonData;
 
-            // Obtener el personaje actual
             const personaje = data.personajes[posicionPersonaje];
 
-            // Mostrar información en el modal
             document.getElementById('personajeNombreNaruto').textContent = `${personaje.nombre} ${personaje.apellido}`;
             document.getElementById('personajeImagenNaruto').src = personaje.imagen;
             document.getElementById('personajeAldeaNaruto').textContent = personaje.Aldea;
@@ -44,7 +37,6 @@ function abrirModal1() {
             document.getElementById('personajeTipoChakraNaruto').textContent = personaje["Tipo de chacra"];
             document.getElementById('personajeHabilidadesNaruto').textContent = personaje.Habilidades;
             
-            // Mostrar el modal
             document.getElementById('myModalNaruto').style.display = 'block';
         })
         .catch(error => {
@@ -54,7 +46,6 @@ function abrirModal1() {
 
 function siguientePersonajeNaruto() {
     if (data.personajes) {
-        // Avanzar al siguiente personaje (circular)
         posicionPersonaje = (posicionPersonaje + 1) % data.personajes.length;
         abrirModal1();
     } else {
@@ -62,11 +53,9 @@ function siguientePersonajeNaruto() {
     }
 }
 
-// Configura el evento de clic para el botón "Siguiente"
 document.getElementById('siguienteBtnNaruto').addEventListener('click', siguientePersonajeNaruto);
 
 function volverPersonajeNaruto() {
-    // Resta 1 a la posición actual para mostrar el personaje anterior
     posicionPersonaje = (posicionPersonaje - 1 + data.personajes.length) % data.personajes.length;
     abrirModal1();
 }
@@ -77,12 +66,10 @@ function abrirModal2() {
     fetch('mvc/modelos/modalDragonPersonajes.json')
         .then(response => response.json())
         .then(jsonData => {
-            data = jsonData; // Asigna los datos cargados a la variable data
+            data = jsonData;
 
-            // Obtener el personaje actual
             const personaje = data.personajes[posicionPersonaje];
 
-            // Mostrar información en el modal
             document.getElementById('personajeNombreGoku').textContent = `${personaje.nombre} ${personaje.apellidos}`;
             document.getElementById('personajeImagenGoku').src = personaje.imagen;
             document.getElementById('personajeEspecieGoku').textContent = personaje.Especie;
@@ -91,7 +78,6 @@ function abrirModal2() {
             document.getElementById('personajeNiveldePoderGoku').textContent = personaje["Nivel de Poder"];
             document.getElementById('personajePoderesGoku').textContent = personaje.Poderes;
 
-            // Mostrar el modal
             document.getElementById('myModalGoku').style.display = 'block';
         })
         .catch(error => {
@@ -101,7 +87,6 @@ function abrirModal2() {
 
 function siguientePersonajeGoku() {
     if (data.personajes) {
-        // Avanzar al siguiente personaje (circular)
         posicionPersonaje = (posicionPersonaje + 1) % data.personajes.length;
         abrirModal2();
     } else {
@@ -109,11 +94,9 @@ function siguientePersonajeGoku() {
     }
 }
 
-// Configura el evento de clic para el botón "Siguiente"
 document.getElementById('siguienteBtnGoku').addEventListener('click', siguientePersonajeGoku);
 
 function volverPersonajeGoku() {
-    // Resta 1 a la posición actual para mostrar el personaje anterior
     posicionPersonaje = (posicionPersonaje - 1 + data.personajes.length) % data.personajes.length;
     abrirModal2();
 }
@@ -148,7 +131,6 @@ function abrirModal3() {
 document.getElementById('siguienteBtnLuffy').addEventListener('click', siguientePersonajeLuffy);
 
 function volverPersonajeLuffy() {
-    // Resta 1 a la posición actual para mostrar el personaje anterior
     posicionPersonaje = (posicionPersonaje - 1 + data.personajes.length) % data.personajes.length;
     abrirModal3();
 }
@@ -156,7 +138,6 @@ document.getElementById('volverBtnLuffy').addEventListener('click', volverPerson
 
 function siguientePersonajeLuffy() {
     if (data.personajes) {
-        // Avanzar al siguiente personaje (circular)
         posicionPersonaje = (posicionPersonaje + 1) % data.personajes.length;
         abrirModal3();
     } else {
@@ -246,14 +227,14 @@ const videos = {
 
 function abrirModalVideo(modalId) {
     const modal = document.getElementById(modalId);
-    currentVideoIndex = 0; // Reiniciar el índice al abrir
-    modal.style.display = "block"; // Mostrar el modal
+    currentVideoIndex = 0;
+    modal.style.display = "block";
     cargarVideo(modalId, currentVideoIndex);
 }
 
 function cerrarModal(modalId) {
     const modal = document.getElementById(modalId);
-    modal.style.display = "none"; // Ocultar el modal
+    modal.style.display = "none";
 }
 
 function cargarVideo(modalId, index) {
@@ -263,17 +244,16 @@ function cargarVideo(modalId, index) {
 
 function siguienteVideo(modalId) {
     const totalVideos = videos[modalId].length;
-    currentVideoIndex = (currentVideoIndex + 1) % totalVideos; // Avanzar al siguiente video
+    currentVideoIndex = (currentVideoIndex + 1) % totalVideos;
     cargarVideo(modalId, currentVideoIndex);
 }
 
 function videoAnterior(modalId) {
     const totalVideos = videos[modalId].length;
-    currentVideoIndex = (currentVideoIndex - 1 + totalVideos) % totalVideos; // Retroceder al video anterior
+    currentVideoIndex = (currentVideoIndex - 1 + totalVideos) % totalVideos;
     cargarVideo(modalId, currentVideoIndex);
 }
 
-// Cerrar modal al hacer clic fuera del contenido
 window.onclick = function(event) {
     if (event.target.className === 'modal') {
         cerrarModal(event.target.id);

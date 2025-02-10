@@ -1,0 +1,459 @@
+{
+    "preguntasTOneDificil": [
+      {
+        "imagen": "../img/modalimg/luffy/2f5690ee185f5345025b1a5b0bf2c8aa.gif",
+        "pregunta": "¿Como se llama su fruta del diablo?",
+        "posiblesRespuestas": {
+          "a": "Hito Hito: modelo Nika",
+          "b": "Hito Hito: Modelo Hito",
+          "c": "Yomi Yomi",
+          "d": "Suna Suna"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/ed29741e2d0fb0ae214a333c69fd9b2e.gif",
+        "pregunta": "¿Como se llaman sus espadas?",
+        "posiblesRespuestas": {
+          "a": "Ichimonji, Enma y Sandai Kitetsu",
+          "b": "Sandai Kitetsu, Ichimonji y Mononan",
+          "c": "Mononan, Kimetetsu y Mamoshika",
+          "d": "Ichimonji, Kindai set y Amne"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Nami_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿Cual es su SobreNombre?",
+        "posiblesRespuestas": {
+          "a": "Gata Ladrona",
+          "b": "Felina ladrona",
+          "c": "Gata de 7 vidas",
+          "d": "Gata impostora"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Usopp_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿Que tipo de Haki posee?",
+        "posiblesRespuestas": {
+          "a": "Observación",
+          "b": "Ninguna",
+          "c": "Armadura",
+          "d": "Conquistador"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/descarga.gif",
+        "pregunta": "¿Cual es su papel en la Tripulacion?",
+        "posiblesRespuestas": {
+          "a": "Cocinero",
+          "b": "Carpintero",
+          "c": "Navegante",
+          "d": "Arqueologo"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Tony_Tony_Chopper_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿Cual es su recompensa ?",
+        "posiblesRespuestas": {
+          "a": "1.000",
+          "b": "10.000",
+          "c": "100.000",
+          "d": "1.000.000"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Nico_Robin_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿Cual es su estilo de pelea?",
+        "posiblesRespuestas": {
+          "a": "Karate Gyojin",
+          "b": "Karate Samoano",
+          "c": "Lucha Gyojin",
+          "d": "Estilo de muchas manos"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Franky_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿En que oceano nacio?",
+        "posiblesRespuestas": {
+          "a": "South Blue",
+          "b": "West Blue",
+          "c": "North Blue",
+          "d": "East Blue"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Brook_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿Como se llamaba su primera Tripulacion?",
+        "posiblesRespuestas": {
+          "a": "Piratas Rumba",
+          "b": "Piratas Fiesta",
+          "c": "Piratas Mambo",
+          "d": "Piratas Salsa"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Jinbe_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿Cual es su Recompensa?",
+        "posiblesRespuestas": {
+          "a": "1.100.000.000",
+          "b": "1.110.000.000",
+          "c": "2.000.000",
+          "d": "1.100.100.000"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Nefertari_Vivi_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿Cual es su apodo?",
+        "posiblesRespuestas": {
+          "a": "Miss Wednesday",
+          "b": "Miss Thursday ",
+          "c": "Miss Monday ",
+          "d": "Miss Sunday "
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Buggy_Anime_Dos_Años_Después_Infobox.webp",
+        "pregunta": "¿Como se llama su fruta del diablo?",
+        "posiblesRespuestas": {
+          "a": "Bara Bara",
+          "b": "Bere Bere",
+          "c": "Biri Biri",
+          "d": "Boro Boro"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Crocodile_Anime_Debut_Infobox.webp",
+        "pregunta": "¿Cual es su apodo?",
+        "posiblesRespuestas": {
+          "a": "Rey del Desierto",
+          "b": "Rey Cocodrilo",
+          "c": "Rey de la Arena",
+          "d": "Rey Tirano"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/73865dd32a26fc58e388973928d28fd0.gif",
+        "pregunta": "¿Como se llama su espada?",
+        "posiblesRespuestas": {
+          "a": "Yoru",
+          "b": "Yuro",
+          "c": "Yoyu",
+          "d": "Yuyo"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Daz_Bonez_Anime_Infobox.webp",
+        "pregunta": "¿Como se llama su Tripulacion?",
+        "posiblesRespuestas": {
+          "a": "Cross Guild",
+          "b": "Cross Biild",
+          "c": "Cross Geield",
+          "d": "Cross Bineld"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Alvida_Anime_Infobox (1).webp",
+        "pregunta": "¿Como se llama su fruta del diablo?",
+        "posiblesRespuestas": {
+          "a": "Sube Sube",
+          "b": "Baja Baja",
+          "c": "Lado Lado",
+          "d": "Lodo Lodo"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Bentham_Anime_Infobox.webp",
+        "pregunta": "¿Cual es su apodo?",
+        "posiblesRespuestas": {
+          "a": "Mr. 2 ",
+          "b": "Mr. 1",
+          "c": "Mr. 3",
+          "d": "Mr. 4"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Capone_Bege_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿Como se llama este personaje?",
+        "posiblesRespuestas": {
+          "a": "Capone",
+          "b": "Al Capone",
+          "c": "Escobar",
+          "d": "Luchy Luciano"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/X_Drake_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿Como se llama su Tripulacion?",
+        "posiblesRespuestas": {
+          "a": "Piratas de Drake",
+          "b": "Piratas de Donma",
+          "c": "Piratas de Kraken",
+          "d": "Piratas de Josh"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Trafalgar_D._Water_Law_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿Cual es su apodo?",
+        "posiblesRespuestas": {
+          "a": "Cirujano de la Muerte",
+          "b": "Cirujano de la Vida",
+          "c": "Doctor Muerte",
+          "d": "Doctor Vida"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/221261.gif",
+        "pregunta": "¿Como se llama su espada?",
+        "posiblesRespuestas": {
+          "a": "Gryphon",
+          "b": "Gyarado",
+          "c": "Genmichy",
+          "d": "Graphon"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Benn_Beckman_Anime_Infobox.webp",
+        "pregunta": "¿En que oceano nacio?",
+        "posiblesRespuestas": {
+          "a": "North Blue",
+          "b": "West Blue",
+          "c": "South Blue",
+          "d": "East Blue"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/f3514a4db3a14cfbcb4cf95ac963d826.gif",
+        "pregunta": "¿Cual es su Recompensa?",
+        "posiblesRespuestas": {
+          "a": "3.996.000.000",
+          "b": "3.997.000.000",
+          "c": "3.900.000.000",
+          "d": "3.897.000.000"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Jesus_Burgess_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿Como se llama su fruta del diablo?",
+        "posiblesRespuestas": {
+          "a": "Riki Riki",
+          "b": "Malo Malo",
+          "c": "Roco Roco",
+          "d": "Ruki Ruki"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Kuzan_Anime_Dos_Años_Después_Infobox.webp",
+        "pregunta": "¿Como se llama este personaje?",
+        "posiblesRespuestas": {
+          "a": "Kuzan",
+          "b": "Aokiji",
+          "c": "Aoichi",
+          "d": "Kuzen"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Large.webp",
+        "pregunta": "¿Como se llama su fruta del diablo?",
+        "posiblesRespuestas": {
+          "a": "Gura Gura",
+          "b": "Gera Gera",
+          "c": "Gira Gira",
+          "d": "Gora Gora"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Marco_Anime_Dos_A3Fs_Infobox.webp",
+        "pregunta": "¿Que tipo es su Fruta del Diablo?",
+        "posiblesRespuestas": {
+          "a": "Zoan mítica",
+          "b": "Zoan Celestial",
+          "c": "Zoan Artificial",
+          "d": "Zoan Prehistorica"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Portgas_D._Ace_Anime_Infobox.webp",
+        "pregunta": "¿Cual es su Recompensa?",
+        "posiblesRespuestas": {
+          "a": "550.000.000",
+          "b": "560.000.000",
+          "c": "650.000.000",
+          "d": "540.000.000"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/one-piece-kaido.gif",
+        "pregunta": "¿Cual es su Raza?",
+        "posiblesRespuestas": {
+          "a": "Oni",
+          "b": "Gyojin",
+          "c": "Cybor",
+          "d": "Tenrriubito"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Jack_Anime_Infobox.webp",
+        "pregunta": "¿Cual es su apodo?",
+        "posiblesRespuestas": {
+          "a": "La Sequía",
+          "b": "La Lluvia",
+          "c": "La Nevada",
+          "d": "La Tormenta"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/Jack_Anime_Infobox.webp",
+        "pregunta": "¿Cual es su apodo?",
+        "posiblesRespuestas": {
+          "a": "La Sequía",
+          "b": "La Lluvia",
+          "c": "La Nevada",
+          "d": "La Tormenta"
+        },
+        "respuestaCorresta": "a"
+      },
+      {
+        "imagen": "../img/modalimg/luffy/eYoW0W.gif",
+        "pregunta": "¿En que oceano nacio?",
+        "posiblesRespuestas": {
+          "a": "East Blue",
+          "b": "West Blue",
+          "c": "North Blue",
+          "d": "South Blue "
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/odenoden.webp",
+        "pregunta": "¿Como se llama este personaje?",
+        "posiblesRespuestas": {
+          "a": "Kozuki Oden",
+          "b": "Kozuki GOden",
+          "c": "Oden Momochi",
+          "d": "Oder Kusiki"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/Silvers_Rayleigh_Anime_Infobox.webp",
+        "pregunta": "¿Cual es su recompensa?",
+        "posiblesRespuestas": {
+          "a": "4.150.000.000",
+          "b": "4.015.000.000",
+          "c": "4.010.000.000",
+          "d": "4.150.110.000"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/Emporio_Ivankov_Anime_Infobox.webp",
+        "pregunta": "¿Como se llama su fruta del diablo?",
+        "posiblesRespuestas": {
+          "a": "Horu Horu",
+          "b": "Hara Hara",
+          "c": "Trans Trans",
+          "d": "Bato Bata"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/98962ca4ac3d1ee19efc0338afd4c3d1.gif",
+        "pregunta": "¿Cual es su apodo?",
+        "posiblesRespuestas": {
+          "a": "El Emperador de las Llamas",
+          "b": "El Emperador de Fuego",
+          "c": "Señor de las Llamas",
+          "d": "Seños del Fuego"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/Monkey_D._Dragon_Anime_Infobox.webp",
+        "pregunta": "¿Cual es su estilo de pelea?",
+        "posiblesRespuestas": {
+          "a": "Artes Marciales Ryusoken",
+          "b": "Artes Marciales Dragondefender",
+          "c": "Artes Marciales Ryusosoken",
+          "d": "Artes Marciales DragonStyle"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/Donquixote_Doflamingo_Anime_Infobox.webp",
+        "pregunta": "¿Como se llama su fruta del diablo?",
+        "posiblesRespuestas": {
+          "a": "Ito Ito",
+          "b": "Hido Hido",
+          "c": "Ato Ato",
+          "d": "Hata Hata"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/Bartholomew_Kuma_Anime_Debut_Infobox.webp",
+        "pregunta": "¿Como se llama este personaje?",
+        "posiblesRespuestas": {
+          "a": "Bartholomew Kuma",
+          "b": "Kuma el Oso",
+          "c": "Bartholomew Duma",
+          "d": "Kuma Bartolo"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/aaf8e318554bca44baf13b8d2de766ae95f8a89ar1-400-225_hq.gif",
+        "pregunta": "¿Cual es su recompensa ?",
+        "posiblesRespuestas": {
+          "a": "4.388.000.000",
+          "b": "4.300.000.000",
+          "c": "4.388.400.000",
+          "d": "4.388.000.380"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/one-piece-kaido.gif",
+        "pregunta": "¿Como se llama su fruta del diablo?",
+        "posiblesRespuestas": {
+          "a": "Uo Uo: modelo seiryu",
+          "b": "Uo Uo: modelo seikaku",
+          "c": "Ou Ou: modelo dragon",
+          "d": "Ou Ou: modelo daronzote"
+        },
+        "respuestaCorresta": "a"
+      }, {
+        "imagen": "../img/modalimg/luffy/Chinjao_Anime_Infobox.webp",
+        "pregunta": "¿Como se llama este personaje?",
+        "posiblesRespuestas": {
+          "a": "Chinjao",
+          "b": "Cindiaoo",
+          "c": "Chintao",
+          "d": "Chinchao"
+        },
+        "respuestaCorresta": "a"
+      }
+      
+    ]
+  }
+
+  

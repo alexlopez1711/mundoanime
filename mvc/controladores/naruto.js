@@ -1,6 +1,4 @@
 let selectedImage = '';
-
-// const imageInput = document.getElementById("image-input");
 const nameInput = document.getElementById("name-input");
 const submitButton = document.getElementById("submit-button");
 const cardImage = document.getElementById("card-image");
@@ -70,7 +68,7 @@ function elegirDificultadMemoria() {
         triviaGames.style.display = 'none';
         memoriaVisible = true;
         triviaVisible = false;
-        ocultarSeccionesTrivia(); // Oculta secciones de trivia
+        ocultarSeccionesTrivia();
     }
 }
 
@@ -86,7 +84,7 @@ function elegirDificultadTrivia() {
         memoriaGames.style.display = 'none';
         triviaVisible = true;
         memoriaVisible = false;
-        ocultarSeccionesMemoria(); // Oculta secciones de memoria
+        ocultarSeccionesMemoria();
     }
 }
 
@@ -277,7 +275,6 @@ function destaparFacil(id) {
 }
 
 function reiniciarJuegoFacil() {
-  // Restablecer todas las variables
   voltearCartaFacil = 0;
   tarjeta1Facil = null;
   tarjeta2Facil = null;
@@ -290,23 +287,19 @@ function reiniciarJuegoFacil() {
   timerFacil = timerinicial;
   winAudio.play();
 
-  // Actualizar las estadísticas en pantalla
   mostrarMovimientosFacil.innerHTML = `Movimientos: 0`;
   mostrarAciertosFaciles.innerHTML = `Aciertos: 0`;
   mostrarTiempoFacil.innerHTML = `Tiempo: ${timerinicial} Segundos`;
 
-  // Barajar nuevamente las tarjetas
   numeroFacil = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8];
   numeroFacil = numeroFacil.sort(() => Math.random() - 0.5);
 
-  // Restablecer el contenido de todas las tarjetas
   for (let i = 0; i <= 15; i++) {
     let tarjeta = document.getElementById(i);
     tarjeta.innerHTML = "";
     tarjeta.disabled = false;
   }
 
-  // Detener cualquier temporizador en curso
   if (tiempoRegresivoFacilId !== null) {
     clearInterval(tiempoRegresivoFacilId);
   }

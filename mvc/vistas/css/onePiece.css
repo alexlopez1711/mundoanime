@@ -93,8 +93,6 @@
     color: aliceblue;
   }
   
-
-  /* input[type="file"], */
   input[type="text"] {
     display: block;
     width: 80%;
@@ -136,7 +134,7 @@
   #container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* Establecer "space-around" en lugar de "space-between" */
+    justify-content: space-around;
 }
 
 .row {
@@ -160,15 +158,13 @@
   
 }
 
-/* Navbar Layout */
 .navbar {
   display: flex;
-  justify-content: space-between; /* Esto separa los botones en los extremos */
+  justify-content: space-between;
   margin: 5px;
-  position: relative; /* Necesario para el posicionamiento de la animación */
+  position: relative;
 }
 
-/* Estilo de los botones */
 .volver, .recargar1 {
   border-radius: 10px;
   width: 30px;
@@ -181,16 +177,15 @@
   background-color: #31e14e;
 }
 
-/* Animación de la imagen */
 .aniMacion {
-  position: absolute;  /* Posiciona la imagen en el mismo espacio que los botones */
-  left: 50%;  /* Comienza desde el centro de la pantalla */
-  transform: translateX(-50%); /* Centra la imagen en el medio */
-  width: 15px;  /* Ancho inicial */
-  height: 15px;  /* Alto inicial */
-  animation: mover 8s linear infinite, crecer 8s linear infinite; /* Animaciones */
-  animation-delay: 0s, 0s; /* Establece la sincronización */
-  opacity: 1; /* Inicia visible */
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 15px;  
+  height: 15px;  
+  animation: mover 8s linear infinite, crecer 8s linear infinite; 
+  animation-delay: 0s, 0s; 
+  opacity: 1; 
 }
 
 .botonElegir{
@@ -231,55 +226,54 @@
  
   }
 
-/* Animación para mover la imagen de recargar a casa */
+
 @keyframes mover {
   0% {
-      left: 90%; /* Empieza en el centro del contenedor */
+      left: 90%; 
       opacity: 1;
   }
   15% {
-    left: 85%; /* Regresa al centro */
+    left: 85%; 
     opacity: 1;
 }
   25% {
-      left: 80%; /* Se mueve a la izquierda (al botón de recargar) */
+      left: 80%; 
       opacity: 1;
   }
   35% {
-    left: 70%; /* Se mueve a la derecha (al botón de casa) */
+    left: 70%; 
     opacity: 1;
 }
   45% {
-      left: 60%; /* Se mueve a la derecha (al botón de casa) */
+      left: 60%; 
       opacity: 1;
   }
   55% {
-      left: 55%; /* Regresa al centro */
+      left: 55%; 
       opacity: 1;
   }
   75% {
-    left: 45%; /* Regresa al centro */
+    left: 45%; 
     opacity: 1;
 }
 85% {
-  left: 20%; /* Regresa al centro */
+  left: 20%; 
   opacity: 1;
 }
 90% {
-  left: 10%; /* Regresa al centro */
+  left: 10%; 
   opacity: 0;
 }
 95% {
-  left: 5%; /* Regresa al centro */
+  left: 5%; 
   opacity: 0;
 }
 100% {
-  left: 1%; /* Regresa al centro */
+  left: 1%; 
   opacity: 0;
 }
 }
 
-/* Animación para el aumento de tamaño de la imagen */
 @keyframes crecer {
   0% {
       width: 15px;
@@ -341,14 +335,13 @@
   display: none;
 }
 
-/* Manteniendo tus estilos originales */
 .NivelFacilMemoria,
 .NivelDificilMemoria,
 .nivelExpertoMemoria,
 .NivelFacilTrivia,
 .NivelDificilTrivia,
 .NivelExpertoTrivia {
-  display: none; /* Ocultar por defecto */
+  display: none; 
   width: 100%;
   max-width: 5000px;
   margin: 0 auto;
@@ -370,54 +363,94 @@
 
 
 
-
-/* Estilos adicionales para la trivia */
-#question-image {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
+.seccionTriviaFacil,
+.seccionTriviaDificil,
+.seccionTriviaExperto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#question {
-  margin-bottom: 20px;
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-#answer-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+#question-imageFacil,
+#question-imageMedio,
+#question-imageDificil {
+    width: 250px; 
+    height: 250px;
+    margin: 10px auto;
+    object-fit: contain;
+    display: block;
+}
+
+#preguntaTFacil,
+#preguntaTMedio,
+#preguntaTDificil {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .answer-btn {
-  background-color: white;
-  border: 2px solid black;
-  color: black;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-  transition: background-color 0.3s ease;
-  width: calc(50% - 10px); /* Ajuste del ancho para que dos botones quepan en una línea */
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: calc(50% - 20px); 
+    box-sizing: border-box;
 }
 
 .answer-btn.correct {
-  background-color: green;
-  color: white;
+    background-color: green;
+    color: #fff;
+    border-color: green;
 }
 
 .answer-btn.incorrect {
-  background-color: red;
-  color: white;
+    background-color: red;
+    color: #fff;
+    border-color: red;
 }
 
-#timer-container {
-  margin-top: 20px;
+#stats-container,
+#stats-containerMedio,
+#stats-containerDificil {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.estadisticas {
+    margin: 5px 0; 
 }
 
 
+.reinicioBoton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
-
+.reinicioBoton:hover {
+    background-color: #0056b3;
+}
 
 
 p {
