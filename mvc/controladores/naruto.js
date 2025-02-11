@@ -589,3 +589,27 @@ function reiniciarJuegoExperto() {
         clearInterval(tiempoRegresivoExpertoId);
     }
 }
+
+
+window.addEventListener('DOMContentLoaded', (event) => {
+  window.nivelFacilCargarPreguntas();
+  window.nivelMedioCargarPreguntas();
+  window.nivelDificilCargarPreguntas();
+
+ 
+});
+
+
+
+
+function reiniciarJuegoTfFacil() {
+  window.nivelFacilReiniciarJuego();
+}
+
+function reiniciarJuegoTfMedio() {
+  window.nivelMedioReiniciarJuego();
+}
+
+function reiniciarJuegoTfDificil() { 
+  window.nivelDificilReiniciarJuego();
+}

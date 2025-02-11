@@ -1,0 +1,446 @@
+{
+    "preguntasTNarutoFacil": [
+        {
+            "imagen": "../img/modalimg/naruto/1.jpg",
+            "pregunta": "¿De donde vienen sus invocaciones?",
+            "posiblesRespuestas": {
+              "a": "Monte Myōboku",
+              "b": "Monte Myōbiku",
+              "c": "Montaña Sapo",
+              "d": "Montaña Mybaki"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/2.jpg",
+            "pregunta": "¿De donde vienen sus invocaciones?",
+            "posiblesRespuestas": {
+              "a": "Cueva Ryūchi",
+              "b": "Cueva Ruchibi",
+              "c": "Caverna Serpiente",
+              "d": "Caverna Riamon "
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/3.jpg",
+            "pregunta": "¿De donde vienen sus invocaciones?",
+            "posiblesRespuestas": {
+              "a": "Bosque Shikkotsu",
+              "b": "Bosque Shokkitsu",
+              "c": "Valle de la Babosa",
+              "d": "Valle de Shikkotsu"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/5.jpg",
+            "pregunta": "¿Tipo de chacra?",
+            "posiblesRespuestas": {
+              "a": "Viento Tierra Rayo Iman",
+              "b": "Viento Tierra Rayo Fuego",
+              "c": "Tierra Rayo Fuego Agua",
+              "d": "Tierra Hielo Fuego Agua"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/6.jpg",
+            "pregunta": "¿Cual es su Habilidad Principal?",
+            "posiblesRespuestas": {
+              "a": "Jutsu: Reemplazo de Cuerpo",
+              "b": "Jutsu: Reemplazo de Alma",
+              "c": "Jutsu: Reemplazo de Vida",
+              "d": "Jutsu: Reemplazo de Cuerpe"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/7.jpg",
+            "pregunta": "¿Cual es su Habilidad Principal?",
+            "posiblesRespuestas": {
+              "a": "Tessenjutsu",
+              "b": "Taijutsu",
+              "c": "Kenjutsu",
+              "d": "Ninjutsu"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/9.jpg",
+            "pregunta": "¿Cual es su Habilidad Principal?",
+            "posiblesRespuestas": {
+              "a": "Liberación de 6 Puertas",
+              "b": "Liberación de 7 Puertas",
+              "c": "Liberación de 8 Puertas",
+              "d": "Liberación de 5 Puertas"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/10.jpg",
+            "pregunta": "¿Cual es su Habilidad Principal?",
+            "posiblesRespuestas": {
+              "a": "Byakugan",
+              "b": "Byakigan",
+              "c": "Byakugin",
+              "d": "Byayakugan"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/12.webp",
+            "pregunta": "¿Tipo de chacra?",
+            "posiblesRespuestas": {
+              "a": "Fuego Rayo",
+              "b": "Fuego Viento",
+              "c": "Rayo Tierra",
+              "d": "Agua Fuego"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/13.jpg",
+            "pregunta": "¿Cual era su clan?",
+            "posiblesRespuestas": {
+              "a": "Senju",
+              "b": "Uchiha",
+              "c": "Namikase",
+              "d": "Hyūga"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/15.webp",
+            "pregunta": "¿Cual era su rango?",
+            "posiblesRespuestas": {
+              "a": "Tercer Raikage",
+              "b": "Segundo Raikage",
+              "c": "Cuarto Raikage",
+              "d": "Primer Raikage"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/16.jpg",
+            "pregunta": "¿Cual es su Habilidad Principal?",
+            "posiblesRespuestas": {
+              "a": "Resurrección del Mundo Impuro",
+              "b": "Resurrección del Mundo Muerto",
+              "c": "Resurrección del Mundo Perfecto",
+              "d": "Resurrección del Mundo Puro"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/17.webp",
+            "pregunta": "¿Como se llama este Personaje?",
+            "posiblesRespuestas": {
+              "a": "Mū",
+              "b": "Bū",
+              "c": "Jū",
+              "d": "Nū"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/19.gif",
+            "pregunta": "¿Tipo de chacra?",
+            "posiblesRespuestas": {
+              "a": "Fuego Viento Tierra Agua Yin Yang",
+              "b": "Viento Tierra Agua Yin Yang Yung",
+              "c": "Fuego Viento Metal Agua Yin Yang",
+              "d": "Fuego Viento Tierra Agua Madera Yang"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/20.jpg",
+            "pregunta": "¿Cual es su Habilidad Principal?",
+            "posiblesRespuestas": {
+              "a": "Arte del Puño Suave",
+              "b": "Arte del Puño Rapido",
+              "c": "Arte del Puño Pesado",
+              "d": "Arte del Puño Ligero"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/22.png",
+            "pregunta": "¿Como se llama este Personaje?",
+            "posiblesRespuestas": {
+              "a": "Shino Aburame",
+              "b": "Chino Aburame",
+              "c": "Shino Aburrame",
+              "d": "Chino burame"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/26.png",
+            "pregunta": "¿Como se llama este Personaje?",
+            "posiblesRespuestas": {
+              "a": "Tayuya",
+              "b": "Tatuya",
+              "c": "Tabuya",
+              "d": "Tayuyu"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/27.png",
+            "pregunta": "¿Tipo de chacra?",
+            "posiblesRespuestas": {
+              "a": "Yang",
+              "b": "Ying",
+              "c": "Fuego",
+              "d": "Agua"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/28.webp",
+            "pregunta": "¿Como se llama este Personaje?",
+            "posiblesRespuestas": {
+              "a": "Kimimaro",
+              "b": "Kinimaro",
+              "c": "Kimimare",
+              "d": "Kimimiri"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/31.jpg",
+            "pregunta": "¿Tipo de chacra?",
+            "posiblesRespuestas": {
+              "a": "Fuego Tierra Ying",
+              "b": "Fuego Tierra Yin",
+              "c": "Yang Tierra Ying",
+              "d": "Agua Tierra Ying"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/32.webp",
+            "pregunta": "¿A que equipo pertenecio?",
+            "posiblesRespuestas": {
+              "a": "Doce Guardianes Ninja",
+              "b": "Doce Guardianes hoja",
+              "c": "Doce Guardianes Guerreros",
+              "d": "Doce Guardianes Fuego"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/33.png",
+            "pregunta": "¿Como se llama este Personaje?",
+            "posiblesRespuestas": {
+              "a": "Ibiki",
+              "b": "Ibiti",
+              "c": "Ibike",
+              "d": "Iciki"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/34.webp",
+            "pregunta": "¿Como se llama su Espada?",
+            "posiblesRespuestas": {
+              "a": "Kiba",
+              "b": "Kabutowari",
+              "c": "Shibuki",
+              "d": "Nuibari"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/39.png",
+            "pregunta": "¿Como se llama su Espada?",
+            "posiblesRespuestas": {
+              "a": "Hiramekarei",
+              "b": "Kiba",
+              "c": "Kabutowari",
+              "d": "Shibuki"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/40.png",
+            "pregunta": "¿Como se llama este Personaje?",
+            "posiblesRespuestas": {
+              "a": "Ameyuri",
+              "b": "Ameyubi",
+              "c": "Emeyury",
+              "d": "Emeyuri"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/90.jpg",
+            "pregunta": "¿Cual era su anillo?",
+            "posiblesRespuestas": {
+              "a": "Llevaba el anillo Gyoku",
+              "b": "Llevaba el anillo Trian",
+              "c": "Llevaba el anillo Auya",
+              "d": "Llevaba el anillo Dygo"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/42.jpg",
+            "pregunta": "¿Tipo de chacra?",
+            "posiblesRespuestas": {
+              "a": "Fuego Tierra Agua Yang",
+              "b": "Tierra Agua Yang Ying",
+              "c": "Fuego Hielo Agua Yang",
+              "d": "Fuego Tierra Fuego Yang"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/45.webp",
+            "pregunta": "¿Cual es su aldea?",
+            "posiblesRespuestas": {
+              "a": "Aldea de la Nube",
+              "b": "Aldea de la Arena",
+              "c": "Aldea de la Hoja",
+              "d": "Aldea de la Cascada"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/47.jpg",
+            "pregunta": "¿Cual es su aldea?",
+            "posiblesRespuestas": {
+              "a": "Aldea de la Roca",
+              "b": "Aldea de la Arena",
+              "c": "Aldea de la Cascada",
+              "d": "Aldea de la Nube"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/48.jpg",
+            "pregunta": "¿Tipo de chacra?",
+            "posiblesRespuestas": {
+              "a": "Fuego Agua Ebullicion",
+              "b": "Fuego Agua Polvo",
+              "c": "Fuego Agua Lava",
+              "d": "Fuego Agua Tierra"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/52.jpg",
+            "pregunta": "¿Tipo de chacra?",
+            "posiblesRespuestas": {
+              "a": "Fuego Agua Rayo Yang",
+              "b": "Fuego Lava Rayo Yang",
+              "c": "Rayo Agua Polvo Yang",
+              "d": "Agua Rayo Yang Yang"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/55.gif",
+            "pregunta": "¿Cual es su Habilidad Principal?",
+            "posiblesRespuestas": {
+              "a": "Jutsu Dios del Trueno Volador",
+              "b": "Jutsu Dios del Relampago Volador",
+              "c": "Jutsu Dios del Relampago Amarillo",
+              "d": "Jutsu Dios del Trueno Amarillo"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/58.webp",
+            "pregunta": "¿Cual es su Habilidad Principal?",
+            "posiblesRespuestas": {
+              "a": "Yuton / Jinton",
+              "b": "Mocuton / Raiton",
+              "c": "Shimon / Jinton",
+              "d": "Yuton / Keiton"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/75.png",
+            "pregunta": "¿Tipo de chacra?",
+            "posiblesRespuestas": {
+              "a": "Viento Tierra",
+              "b": "Tierra Agua",
+              "c": "Viento Fuego",
+              "d": "Rayo Tierra"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/76.png",
+            "pregunta": "¿Cual es su aldea?",
+            "posiblesRespuestas": {
+              "a": "Aldea de la Roca",
+              "b": "Aldea de la Arena",
+              "c": "Aldea de la Cascada",
+              "d": "Aldea de la Nube"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/77.jpg",
+            "pregunta": "¿Cual es su Habilidad Principal?",
+            "posiblesRespuestas": {
+              "a": "Cuerpo Estructurado  Jiongu",
+              "b": "Cuerpo Estructurado  Jiodnu",
+              "c": "Cuerpo Estructurado  Jongiu",
+              "d": "Cuerpo Estructurado  Jiunge"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/78.webp",
+            "pregunta": "¿Cual es su religion?",
+            "posiblesRespuestas": {
+              "a": "Culto a Jashin",
+              "b": "Culto a Kashin",
+              "c": "Culto a Dashin",
+              "d": "Culto a Tashin"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/79.png",
+            "pregunta": "¿Como se llama su Espada?",
+            "posiblesRespuestas": {
+              "a": "Samehada",
+              "b": "Ameyubi",
+              "c": "Emeyury",
+              "d": "Shibuki"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/80.gif",
+            "pregunta": "¿Tipo de chacra?",
+            "posiblesRespuestas": {
+              "a": "Fuego Viento Agua Yin Yang",
+              "b": "Tierra Viento Agua Yin Yang",
+              "c": "Fuego Rayo Agua Yin Yang",
+              "d": "Viento Agua Yin Yang Tierra"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/naruto/88.jpg",
+            "pregunta": "¿Cual de los caminos de pain es?",
+            "posiblesRespuestas": {
+              "a": "Camino Deva",
+              "b": "Camino Atrox",
+              "c": "Camino Daimon",
+              "d": "Camino Ashura"
+            },
+            "respuestaCorresta": "a"
+          }
+      
+    ]
+  }
+  

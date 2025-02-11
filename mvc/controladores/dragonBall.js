@@ -399,9 +399,9 @@ function destaparDificil(id) {
                     imageWidth: 200,
                     imageHeight: 200,
                     imageAlt: "Custom image",
-                  title: '¡Ganaste!',
-                  text: '¡Ya sabes qué tan fuertes son los Androides!', 
-                  draggable: true
+                    title: '¡Ganaste!',
+                    text: '¡Ya sabes qué tan fuertes son los Androides!', 
+                    draggable: true
                 });
             }
         } else {
@@ -542,9 +542,9 @@ function destaparExperto(id) {
                     imageWidth: 200,
                     imageHeight: 200,
                     imageAlt: "Custom image",
-                  title: '¡Ganaste!',
-                  text: '¡Ya sabes qué tan fuertes son los Super Saiyajin!',
-                  draggable: true
+                    title: '¡Ganaste!',
+                    text: '¡Ya sabes qué tan fuertes son los Super Saiyajin!',
+                    draggable: true
                 });
             }
         } else {
@@ -594,3 +594,27 @@ function reiniciarJuegoExperto() {
         clearInterval(tiempoRegresivoExpertoId);
     }
 }
+
+window.addEventListener('DOMContentLoaded', (event) => {
+    window.nivelFacilCargarPreguntas();
+    window.nivelMedioCargarPreguntas();
+    window.nivelDificilCargarPreguntas();
+  
+   
+  });
+  
+  
+  
+  
+  function reiniciarJuegoTfFacil() {
+    window.nivelFacilReiniciarJuego();
+  }
+  
+  function reiniciarJuegoTfMedio() {
+    window.nivelMedioReiniciarJuego();
+  }
+  
+  function reiniciarJuegoTfDificil() { 
+    window.nivelDificilReiniciarJuego();
+  }
+  

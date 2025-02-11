@@ -1,0 +1,445 @@
+{
+    "preguntasDragonFacil": [
+        {
+            "imagen": "../img/modalimg/goku/agl-ssj3-goku-goku.gif",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "40.000.000.000",
+              "b": "40.100.000.000",
+              "c": "40.000.010.000",
+              "d": "44.000.000.000"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/4cb02888cb2494dd9ab209527813c6b1.gif",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Cañón Galick",
+              "b": "Cañón Kalick",
+              "c": "Cañón Balick",
+              "d": "Cañón Dalick"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Gohan_Buu_Artwork.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "70.000.000.000",
+              "b": "50.000.000.000",
+              "c": "60.000.000.000",
+              "d": "80.000.000.000"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/36a7f5d13c6f1735e55d03f28c5cdac1.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Makankosappo",
+              "b": "Makankosyyio",
+              "c": "Makankasappo",
+              "d": "Makankooappo"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/file.jpg",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Kienzan",
+              "b": "Kiekzan",
+              "c": "Kiensan",
+              "d": "Kienzen"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/TienSemiPerfectCellSagaNV.webp",
+            "pregunta": "¿Cual es su estilo de Pelea?",
+            "posiblesRespuestas": {
+              "a": "kung-fu de la Grulla",
+              "b": "kung-fu de la Tortuga",
+              "c": "kung-fu de la Mantis",
+              "d": "kung-fu de la Serpiente"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Final_Yamcha.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "230.000",
+              "b": "250.000",
+              "c": "240.000",
+              "d": "230.230"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/dgfu5ni-225bdd4f-6c27-460f-84c7-00b78f035e27.png",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Donuts Galácticos",
+              "b": "Donuts Estelar",
+              "c": "Donuts Espaciales",
+              "d": "Donuts Intergalácticos"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Trunks_del_Futuro_DBZ_Render.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "1.850.000.000",
+              "b": "1.850.900.000",
+              "c": "1.950.000.000",
+              "d": "1.850.850.000"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Nappa_Artwork.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Bombardero DX",
+              "b": "Bombardero DZ",
+              "c": "Bombardero XX",
+              "d": "Bombardero TX"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Raditz_artwork_Dokkan.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "1.220",
+              "b": "1.320",
+              "c": "3.220",
+              "d": "2.220"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Saibaiman.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Ácido",
+              "b": "Rayo",
+              "c": "Morder",
+              "d": "Fuego"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Mr_Satan_Artwork.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "145",
+              "b": "146",
+              "c": "144",
+              "d": "147"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Dodoria_artwork_Broly.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Chou Makouhou",
+              "b": "Chou Makouhoo",
+              "c": "Shou Makiuhou",
+              "d": "Shou Makouhou"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Zarbon_Transformado_Artwork.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Rotura Monstruosa",
+              "b": "Forma Sapo",
+              "c": "Transformacion",
+              "d": "Cambio de Ser"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Ghurd_artwork_Broly.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "3.500",
+              "b": "3.550",
+              "c": "3.700",
+              "d": "3.600"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Reacoom_artwork_Broly.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Bombardeo Renegado",
+              "b": "Bombardeo Variado",
+              "c": "Bombardeo Solitario",
+              "d": "Bombardeo Activo"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Butta_artwork_Broly.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Cañón de Choque Continuo",
+              "b": "Cañón de Choque Aplastador",
+              "c": "Cañón de Choque Destructor",
+              "d": "Cañón de Choque Eterno"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Nail_Artwork.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "42.000",
+              "b": "44.000",
+              "c": "42.400",
+              "d": "42.500"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Primera_Forma_de_Freeza_en_Dragon_Ball_Super.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "530.000",
+              "b": "540.400",
+              "c": "530.300",
+              "d": "540.000"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Freezer_2da_forma_Artwork.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "1.060.000",
+              "b": "1.060.060",
+              "c": "1.070.000",
+              "d": "1.070.070"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Dr_Gero_Artwork.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Absorción de Energía",
+              "b": "Absorción de Kí",
+              "c": "Absorción de Poder",
+              "d": "Absorción de Vida"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/17_Artwork.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "300.000.000",
+              "b": "300.003.000",
+              "c": "300.300.000",
+              "d": "300.030.000"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Androide_18_Artwork.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": " Bala Infinita",
+              "b": " Bala Infinite",
+              "c": " Bala Recargable",
+              "d": " Bala de Energia"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/numero16.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Hikou",
+              "b": "Hakik",
+              "c": "Hiyou",
+              "d": "Hakou"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Cell_Segunda_Forma_Artwork.webp",
+            "pregunta": "¿En esta fase que habia Absorbido?",
+            "posiblesRespuestas": {
+              "a": "Absorción de numero 17",
+              "b": "Absorción de numero 16",
+              "c": "Absorción de numero 18",
+              "d": "Absorción de numero 19"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Cell_Perfecto_Dokkan.webp",
+            "pregunta": "¿En esta fase que habia Absorbido?",
+            "posiblesRespuestas": {
+              "a": "Absorción de numero 18",
+              "b": "Absorción de numero 17",
+              "c": "Absorción de numero 16",
+              "d": "Absorción de numero 19"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Kaio_del_Norte.webp",
+            "pregunta": "¿Cuales Galaxias Gobierna?",
+            "posiblesRespuestas": {
+              "a": "Galaxias del Norte",
+              "b": "Galaxias del Oeste",
+              "c": "Galaxias del Sur",
+              "d": "Galaxias del Este"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Kaio_Oeste_Trans.webp",
+            "pregunta": "¿Cuales Galaxias Gobierna?",
+            "posiblesRespuestas": {
+              "a": "Galaxias del Oeste",
+              "b": "Galaxias del Norte",
+              "c": "Galaxias del Este",
+              "d": "Galaxias del Sur"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Kaio_del_sur_cuerpo_completo.webp",
+            "pregunta": "¿Cuales Galaxias Gobierna?",
+            "posiblesRespuestas": {
+              "a": "Galaxias del Sur",
+              "b": "Galaxias del Oeste",
+              "c": "Galaxias del Norte",
+              "d": "Galaxias del Este"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/East_Kai.webp",
+            "pregunta": "¿Cuales Galaxias Gobierna?",
+            "posiblesRespuestas": {
+              "a": "Galaxias del Este",
+              "b": "Galaxias del Sur",
+              "c": "Galaxias del Oeste",
+              "d": "Galaxias del Norte"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Spopovich_Artwork.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "230",
+              "b": "220",
+              "c": "250",
+              "d": "240"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Yakon_Artwork.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Absorbiendo la luz",
+              "b": "Absorbiendo la Aura",
+              "c": "Absorbiendo la Gravedad",
+              "d": "Absorbiendo la Oscuridad"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Dabura_Artwork.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "4.000.000.000",
+              "b": "4.000.000.040",
+              "c": "4.000.040.000",
+              "d": "4.040.000.000"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Babidi_Artwork.webp",
+            "pregunta": "¿Planeta de Origen?",
+            "posiblesRespuestas": {
+              "a": "Madoshi",
+              "b": "Maokai",
+              "c": "Mamashe",
+              "d": "Machichu"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Majin-Boo_Inocente_Toriyama_Kanzenban.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "23.000.000.000",
+              "b": "24.000.000.000",
+              "c": "25.000.000.000",
+              "d": "26.000.000.000"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/lr-str-super-vegito-goku.gif",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Ataque Big Bang",
+              "b": "Ataque Meteoro",
+              "c": "Ataque Big Bong",
+              "d": "Ataque Galactico"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Kid_Buu_oficial_art.webp",
+            "pregunta": "¿Cual es esta Tansformacion?",
+            "posiblesRespuestas": {
+              "a": "Es la forma original",
+              "b": "tras la Absorción de Gohan",
+              "c": "tras la Absorción de Gotenks",
+              "d": "tras la Absorción de Piccolo"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Mecha_Freezer_Artwork.webp",
+            "pregunta": "¿Cual es su nivel de poder?",
+            "posiblesRespuestas": {
+              "a": "8.500.000",
+              "b": "9.590.000",
+              "c": "8.590.000",
+              "d": "9.500.000"
+            },
+            "respuestaCorresta": "a"
+          },
+          {
+            "imagen": "../img/modalimg/goku/Ghurd_artwork_Broly.webp",
+            "pregunta": "¿Cual es uno de sus poderes caracteristicos?",
+            "posiblesRespuestas": {
+              "a": "Espacio temporales",
+              "b": "Super velocidad",
+              "c": "Super fuerza",
+              "d": "Espacio gravedad "
+            },
+            "respuestaCorresta": "a"
+          }
+      
+    ]
+  }

@@ -206,13 +206,25 @@
   background-color: rgb(49, 14, 173);
 }
 .botonElegir:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
+  color: #fff;
+  background-color: rgb(49, 14, 173);
   
 }
 
 .hh1{
   font-family: anav;
-  text-align: center;
+  color: #fff;
+  display: inline;
+  background-color: rgb(49, 14, 173);
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  
+  border-radius: 5px;
 }
 
 @keyframes mover {
@@ -298,8 +310,7 @@
   margin-top: 10px;
 }
 
-.dificultadesMemorama,
-.reinicioBoton {
+.dificultadesMemorama{
   background-color: #fff;
   color: #333;
   padding: 7px 7px;
@@ -312,8 +323,7 @@
   border: 2px solid black;
 }
 
-.dificultadesMemorama:hover,
-.reinicioBoton:hover {
+.dificultadesMemorama:hover {
   background-color: rgb(49, 14, 173);
   transform: scale(1.1);
   color: white;
@@ -350,6 +360,100 @@
   text-align: center;
 }
 
+.seccionTriviaFacil,
+.seccionTriviaDificil,
+.seccionTriviaExperto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#question-imageFacil,
+#question-imageMedio,
+#question-imageDificil {
+    width: 250px; 
+    height: 250px;
+    margin: 10px auto;
+    object-fit: contain;
+    display: block;
+}
+
+#preguntaTFacil,
+#preguntaTMedio,
+#preguntaTDificil {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.answer-btn {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: calc(50% - 20px); 
+    box-sizing: border-box;
+}
+
+.answer-btn.correct {
+    background-color: green;
+    color: #fff;
+    border-color: green;
+}
+
+.answer-btn.incorrect {
+    background-color: red;
+    color: #fff;
+    border-color: red;
+}
+
+#stats-container,
+#stats-containerMedio,
+#stats-containerDificil {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.estadisticas {
+    margin: 5px 0; 
+}
+
+
+.reinicioBoton {
+    background-color: rgb(49, 14, 173);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: anav;
+}
+
+.reinicioBoton:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
 p {
   display: inline-block;
 }
@@ -362,6 +466,7 @@ p {
   border-radius: 10px;
   color: black;
   font-weight: bold;
+  background-color: #fff;
 }
 
 .tarjetasDificiles{
@@ -372,6 +477,7 @@ p {
   color: black;
   font-weight: bold;
   border-radius: 10px;
+  background-color: #fff;
 }
 
 .tarjetasFacil img{
@@ -386,7 +492,8 @@ p {
   
 }
 
-.tarjetasFacil:hover {
+.tarjetasFacil:hover ,
+.tarjetasDificiles:hover {
   cursor: pointer;
   box-shadow: 0 0 20px rgba(30, 253, 249, 0.7);
   transform: scale(1.1);

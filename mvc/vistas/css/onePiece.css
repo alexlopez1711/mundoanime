@@ -309,8 +309,7 @@
   margin-top: 10px;
 }
 
-.dificultadesMemorama,
-.reinicioBoton {
+.dificultadesMemorama {
   background-color: #fff;
   color: #333;
   padding: 7px 7px;
@@ -323,8 +322,7 @@
   border: 2px solid black;
 }
 
-.dificultadesMemorama:hover,
-.reinicioBoton:hover {
+.dificultadesMemorama:hover {
   background-color: #1bb435;
   transform: scale(1.2);
   color: white;
@@ -446,6 +444,7 @@ h3 {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: anav;
 }
 
 .reinicioBoton:hover {
@@ -465,6 +464,7 @@ p {
   border-radius: 10px;
   color: black;
   font-weight: bold;
+  background-color: #fff;
 }
 
 .tarjetasDificiles{
@@ -475,6 +475,7 @@ p {
   color: black;
   font-weight: bold;
   border-radius: 10px;
+  background-color: #fff;
 }
 
 .tarjetasFacil img{
@@ -489,7 +490,8 @@ p {
   
 }
 
-.tarjetasFacil:hover {
+.tarjetasFacil:hover,
+.tarjetasDificiles:hover {
   cursor: pointer;
   box-shadow: 0 0 20px rgba(30, 253, 249, 0.7);
   transform: scale(1.1);

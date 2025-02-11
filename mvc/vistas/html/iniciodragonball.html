@@ -231,46 +231,88 @@
         <section class="NivelFacilTrivia">
           <div class="seccionTriviaFacil">
               <h3>Dificultad Saiyajin</h3>
-              <p>Pregunta 1: ¿Qué es HTML?</p>
-              <ul>
-                  <li><button onclick="respuestaFacil(1, 'a')">a) Un lenguaje de programación</button></li>
-                  <li><button onclick="respuestaFacil(1, 'b')">b) Un lenguaje de marcado</button></li>
-                  <li><button onclick="respuestaFacil(1, 'c')">c) Un sistema operativo</button></li>
-                  <li><button onclick="respuestaFacil(1, 'd')">d) Un navegador web</button></li>
-              </ul>
-          </div>
-      </section>
-      
-      <section class="NivelDificilTrivia">
-          <div class="seccionTriviaDificil">
-              <h3>Dificultad Androide</h3>
-              <p>Pregunta 1: ¿Qué es CSS?</p>
-              <ul>
-                  <li><button onclick="respuestaDificil(1, 'a')">a) Cascading Style Sheets</button></li>
-                  <li><button onclick="respuestaDificil(1, 'b')">b) Central Style Sheets</button></li>
-                  <li><button onclick="respuestaDificil(1, 'c')">c) Cascading Simple Sheets</button></li>
-                  <li><button onclick="respuestaDificil(1, 'd')">d) Central Simple Sheets</button></li>
-              </ul>
-          </div>
-      </section>
-      
-      <section class="NivelExpertoTrivia">
+        
+              <div id="stats-container">
+                  <p id="preguntasTfacil" class="estadisticas"><b>Preguntas: 0/15</b></p>
+                  <p id="aciertosTfacil" class="estadisticas"><b>Aciertos: 0/15</b></p>
+                  <p id="tiempoTFacil" class="estadisticas"><b>Tiempo: 100 Segundos</b></p>
+              </div>
+        
+              
+              <img id="question-imageFacil" src="" alt="Imagen de la pregunta">
+              <h2 id="preguntaTFacil"></h2>
+              <div  class="btn-container">
+                  <button id="opcion1" class="answer-btn"></button>
+                  <button id="opcion2" class="answer-btn"></button>
+                  <button id="opcion3" class="answer-btn"></button>
+                  <button id="opcion4" class="answer-btn"></button>
+              </div>
+              
+              <button id="reiniciarTFacil" onclick="reiniciarJuegoTfFacil()" class="reinicioBoton">Reiniciar Juego</button>
+        
+        
+              </div>
+          
+        </section>
+        
+        
+        
+        
+        <section class="NivelDificilTrivia">
+            <div class="seccionTriviaDificil">
+                <h3>Dificultad Androide</h3>
+                <div id="stats-containerMedio">
+                  <p id="preguntasTMedio" class="estadisticas"><b>Preguntas: 0/20</b></p>
+                  <p id="aciertosTMedio" class="estadisticas"><b>Aciertos: 0/20</b></p>
+                  <p id="tiempoTMedio" class="estadisticas"><b>Tiempo: 140 Segundos</b></p>
+              </div>
+          
+              <img id="question-imageMedio" src="" alt="Imagen de la pregunta">
+              <h2 id="preguntaTMedio"></h2>
+              <div class="btn-container">
+                  <button id="opcionMedio1" class="answer-btn"></button>
+                  <button id="opcionMedio2" class="answer-btn"></button>
+                  <button id="opcionMedio3" class="answer-btn"></button>
+                  <button id="opcionMedio4" class="answer-btn"></button>
+              </div>
+              
+              <button id="reiniciarTMedio" onclick="reiniciarJuegoTfMedio()" class="reinicioBoton">Reiniciar Juego</button>
+              </div>
+          </section>
+          
+        
+        <section class="NivelExpertoTrivia">
           <div class="seccionTriviaExperto">
               <h3>Dificultad Súper saiyajin</h3>
-              <p>Pregunta 1: ¿Qué es JavaScript?</p>
-              <ul>
-                  <li><button onclick="respuestaExperto(1, 'a')">a) Un lenguaje de marcado</button></li>
-                  <li><button onclick="respuestaExperto(1, 'b')">b) Un lenguaje de programación</button></li>
-                  <li><button onclick="respuestaExperto(1, 'c')">c) Un sistema operativo</button></li>
-                  <li><button onclick="respuestaExperto(1, 'd')">d) Un navegador web</button></li>
-              </ul>
+               
+              <div id="stats-containerDificil">
+                <p id="preguntasTDificil" class="estadisticas"><b>Preguntas: 0/30</b></p>
+                <p id="aciertosTDificil" class="estadisticas"><b>Aciertos: 0/30</b></p>
+                <p id="tiempoTDificil" class="estadisticas"><b>Tiempo: 200 Segundos</b></p>
+            </div>
+        
+            <img id="question-imageDificil" src="" alt="Imagen de la pregunta">
+            <h2 id="preguntaTDificil"></h2>
+            <div class="btn-container">
+                <button id="opcionDificil1" class="answer-btn"></button>
+                <button id="opcionDificil2" class="answer-btn"></button>
+                <button id="opcionDificil3" class="answer-btn"></button>
+                <button id="opcionDificil4" class="answer-btn"></button>
+            </div>
+            
+            <button id="reiniciarTDificil" onclick="reiniciarJuegoTfDificil()" class="reinicioBoton">Reiniciar Juego</button>
+              
           </div>
-      </section>
+        </section>
 
         </main>
-    
+           
+          <script src="../../controladores/juegoDragonFacil.js"></script>
+          <script src="../../controladores/juegoDragonMedio.js"></script>
+          <script src="../../controladores/juegoDragonDificil.js"></script>
           <script src="../../controladores/dragonBall.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     </body>
 </html>
 

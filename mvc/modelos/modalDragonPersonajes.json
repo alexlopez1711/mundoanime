@@ -829,18 +829,6 @@
 },
 {
 
-  "nombre":"Super-Buu",
-  "apellidos": "魔人ブウ悪 ",
-  "imagen": "mvc/vistas/img/modalimg/goku/Super_Buu_Artwork.webp",
-  "Especie": "Majin (Planeta Kaishin)",
-  "Habilidad": "Combate magico y fisico",
-  "Transformacion": "es la reunificacion de la forma maldad e inocente de Majin-Boo",
-  "Nivel de Poder": "52.000.000.000",
-  "Poderes": "Curación / Clonación / Absorción / Rayo de Chocolate / Rayo de Desaparición"
-
-},
-{
-
   "nombre":"Super-Buu Piccolo",
   "apellidos": "魔人悪 ",
   "imagen": "mvc/vistas/img/modalimg/goku/Super_Buu_Piccolo_Absorbido.webp",
